@@ -1,0 +1,31 @@
+{
+  "input_file": "data\\processed\\qcew_cbsa_monthly_2010_2023.csv",
+  "panel_start": "2010-01-01",
+  "panel_end": "2023-12-01",
+  "training_cutoff": "2020-02-01",
+  "forecast_end": "2023-12-01",
+  "forecast_months": 46,
+  "validation_origins": [
+    "2016-12-01",
+    "2017-12-01",
+    "2018-12-01"
+  ],
+  "validation_horizon_months": 12,
+  "model_candidates": [
+    "seasonal_naive",
+    "seasonal_drift",
+    "trend_seasonal",
+    "ets_auto",
+    "sarima_auto"
+  ],
+  "selection_metric": "mean normalized MAE across 12-month pre-pandemic validation windows",
+  "cbsa_count": 926,
+  "random_seed": 2026,
+  "parallel_workers": 12,
+  "parallel_backend": "loky",
+  "python": "3.12.10",
+  "pandas": "3.0.6",
+  "numpy": "2.5.4",
+  "geography": "provisional 2023 CBSA delineation, 926 fully observed CBSAs",
+  "notes": "Pandemic observations excluded from Stage 1 fitting and model selection."
+}

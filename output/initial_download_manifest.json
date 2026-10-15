@@ -1,0 +1,119 @@
+{
+  "download_utc": "2026-10-15T16:01:25.837490+00:00",
+  "employment_panel": [
+    "2010-01",
+    "2023-12"
+  ],
+  "prepandemic_cutoff": "2020-02",
+  "geography_vintage": "July 2023 OMB CBSA",
+  "files": [
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2010_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2010/csv/2010_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2011_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2011/csv/2011_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2012_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2012/csv/2012_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2013_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2013/csv/2013_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2014_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2014/csv/2014_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2015_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2015/csv/2015_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2016_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2016/csv/2016_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2017_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2017/csv/2017_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2018_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2018/csv/2018_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2019_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2019/csv/2019_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2020_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2020/csv/2020_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2021_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2021/csv/2021_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2022_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2022/csv/2022_all_county_high_level.zip"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\qcew\\2023_all_county_high_level.zip",
+      "url": "https://data.bls.gov/cew/data/files/2023/csv/2023_all_county_high_level.zip"
+    },
+    {
+      "status": "downloaded",
+      "path": "data\\raw\\qcew\\2019_annual_by_area.zip",
+      "url": "https://data.bls.gov/cew/data/files/2019/csv/2019_annual_by_area.zip",
+      "bytes": 136841863,
+      "sha256": "9a5c91918ba321d7c66855e5b06331fae67ad6a82f4fd0e6e3bcdb70e828578a"
+    },
+    {
+      "status": "downloaded",
+      "path": "data\\raw\\geography\\list1_2023.xlsx",
+      "url": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+      "bytes": 143798,
+      "sha256": "952c4b1e78acbb54e6ec9412434b7602fedacbf021736351a63c181bdb753629"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\oes\\oesm19ma.zip",
+      "url": "https://www.bls.gov/oes/special-requests/oesm19ma.zip"
+    },
+    {
+      "status": "downloaded",
+      "path": "data\\raw\\acs\\acs5_2019_counties.json",
+      "url": "https://api.census.gov/data/2019/acs/acs5?get=NAME%2CB15003_001E%2CB15003_022E%2CB15003_023E%2CB15003_024E%2CB15003_025E%2CB19013_001E%2CB23025_001E%2CB23025_002E%2CB23025_003E%2CB23025_005E%2CB23025_007E&for=county%3A%2A",
+      "bytes": 8531,
+      "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5"
+    },
+    {
+      "status": "failed",
+      "path": "data\\raw\\laus\\laucnty19.xlsx",
+      "url": "https://www.bls.gov/lau/laucnty19.xlsx"
+    }
+  ],
+  "notes": [
+    "Raw files are retained unchanged. Data harmonization is a separate step.",
+    "OEWS metropolitan/nonmetropolitan geography is not equivalent to all micropolitan CBSAs.",
+    "A separate documented teleworkability-by-SOC crosswalk is needed before deriving that predictor.",
+    "QCEW county suppression, ownership, NAICS definitions, and Connecticut planning-region compatibility require audit.",
+    "Some agencies block automated requests; failed downloads are recorded and do not stop remaining jobs."
+  ]
+}

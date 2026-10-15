@@ -1,0 +1,10 @@
+cbsa_code,complete_months,mean_coverage,minimum_coverage,incomplete_months,reason
+14860,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch
+21220,165,0.9910714285714286,0.5,3,Incomplete constituent-county employment
+25540,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch
+27980,0,0.5,0.5,168,Incomplete constituent-county employment
+35300,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch
+35980,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch
+39480,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch
+45860,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch
+47930,0,0.0,0.0,168,2023 Connecticut planning-region geography mismatch

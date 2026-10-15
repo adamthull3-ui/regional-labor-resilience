@@ -1,0 +1,12 @@
+{
+  "source": "BLS QCEW quarterly by area",
+  "start": "2010-01",
+  "end": "2023-12",
+  "ownership_code": "0",
+  "industry_code": "10",
+  "geographic_codes": 3278,
+  "monthly_rows": 550704,
+  "missing_employment": 966,
+  "suppressed_rows": 90,
+  "generated_utc": "2026-10-15T16:46:05.432982+00:00"
+}
