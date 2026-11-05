@@ -1,0 +1,23 @@
+{
+  "retrieved_utc": "2026-11-05T15:26:38.629036+00:00",
+  "source_url": "https://api.census.gov/data/2018/acs/acs5",
+  "query_variables": [
+    "NAME",
+    "B01003_001E",
+    "B15003_001E",
+    "B15003_022E",
+    "B15003_023E",
+    "B15003_024E",
+    "B15003_025E",
+    "B17001_001E",
+    "B17001_002E",
+    "B23025_003E",
+    "B23025_005E",
+    "B28002_001E",
+    "B28002_004E"
+  ],
+  "geography": "county:* in state:*",
+  "first_released": "2019-12-19",
+  "uses_api_key": true,
+  "note": "Key itself deliberately omitted from public metadata."
+}

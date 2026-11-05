@@ -1,0 +1,23 @@
+{
+  "geography_vintage": "2018-09",
+  "information_cutoff": "2020-02-29",
+  "acs2018_5year_release": "2019-12-19",
+  "qcew2019q2_release": "2019-12-04",
+  "qcew_quarters_used": [
+    "2018-Q2",
+    "2019-Q2"
+  ],
+  "predictors_file": "data\\processed\\stage2_omb2018_pre2020_predictors.csv",
+  "predictors_sha256": "c6a0089379c2e3514f38fa45566e645b68ab3a76566188f2b3391c8b91603e34",
+  "geography_panel_sha256": "a90ff1d9048a804f86a81f9140de9f5bea262640a5f7302a5b9f1e3823efa5e6",
+  "qcew_industry_ownership": "5 (private-sector NAICS composition)",
+  "qcew_total_ownership": "0 (all covered employment)",
+  "industry_share_denominator": "2019 Q2 private-sector total employment",
+  "industry_coverage_audits": [
+    "output/stage2_omb2018_qcew_industry_coverage.csv",
+    "output/stage2_omb2018_qcew_sector_coverage_detail.csv"
+  ],
+  "historical_QCEW_vintage_verified": false,
+  "note": "QCEW ZIP data downloaded today may reflect post-release revisions; source observations are no later than 2019-Q2.",
+  "n_cbsa": 936
+}

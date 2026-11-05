@@ -1,0 +1,937 @@
+cbsa_code,model,specification,config_json,cv_normalized_mae,selected_cv_rank,training_end
+10100,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.006146255676372697,1,2019-06-01
+10140,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.008305629159462403,2,2019-06-01
+10180,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007707030857956344,1,2019-06-01
+10220,trend_seasonal,trend_seasonal_log,{},0.012059000328615765,1,2019-06-01
+10300,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.011906818316091342,1,2019-06-01
+10380,trend_seasonal,trend_seasonal_log,{},0.014668888990541626,1,2019-06-01
+10420,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.003703901170224648,1,2019-06-01
+10460,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.011086612062474572,1,2019-06-01
+10500,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.011841656360610764,1,2019-06-01
+10540,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004354467154191254,1,2019-06-01
+10580,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004609758053274204,1,2019-06-01
+10620,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007484832673249841,1,2019-06-01
+10660,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00649793724376031,1,2019-06-01
+10700,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.009103615126899556,1,2019-06-01
+10740,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.002543662274346187,1,2019-06-01
+10760,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.015737213343007043,1,2019-06-01
+10780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.007887673225207408,1,2019-06-01
+10820,trend_seasonal,trend_seasonal_log,{},0.0075961170263525,1,2019-06-01
+10860,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01456013038822413,1,2019-06-01
+10900,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0029581635833142218,1,2019-06-01
+10940,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01538768789655894,1,2019-06-01
+10980,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01617115533641923,1,2019-06-01
+11020,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.00267635432962216,1,2019-06-01
+11060,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.009056318084929552,1,2019-06-01
+11100,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0038423080326659364,1,2019-06-01
+11140,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0100411437475933,1,2019-06-01
+11180,seasonal_naive,seasonal_naive,{},0.006640282804817155,1,2019-06-01
+11220,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.013605472669162176,2,2019-06-01
+11260,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.005761893941969592,1,2019-06-01
+11380,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.030039511681271062,1,2019-06-01
+11420,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009739670739538816,1,2019-06-01
+11460,trend_seasonal,trend_seasonal_log,{},0.00468738177733939,1,2019-06-01
+11500,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.004951517986840524,1,2019-06-01
+11540,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004615919989983147,1,2019-06-01
+11580,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.026574941215653774,1,2019-06-01
+11620,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009113249611120222,1,2019-06-01
+11640,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.020580808955898672,1,2019-06-01
+11660,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.010184123514899017,1,2019-06-01
+11700,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006067934604008548,1,2019-06-01
+11740,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01202049056648978,1,2019-06-01
+11780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00620983867970768,1,2019-06-01
+11820,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0039754035657856715,1,2019-06-01
+11860,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01330945340272043,1,2019-06-01
+11900,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.01925910400320467,1,2019-06-01
+11940,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.015783972178621694,1,2019-06-01
+11980,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007838660400102676,1,2019-06-01
+12020,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.009210401785943567,1,2019-06-01
+12060,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.002940302659095975,1,2019-06-01
+12100,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01263776501337552,1,2019-06-01
+12120,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005470125528311338,1,2019-06-01
+12140,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.006033295625875428,1,2019-06-01
+12180,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.008746224013567982,2,2019-06-01
+12220,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.010709315699903105,1,2019-06-01
+12260,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0055684877990941585,2,2019-06-01
+12300,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0033472616257966344,1,2019-06-01
+12380,seasonal_naive,seasonal_naive,{},0.011888570825598502,1,2019-06-01
+12420,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.0025474094127429583,1,2019-06-01
+12460,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.019749233109947036,1,2019-06-01
+12540,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007869956642353149,1,2019-06-01
+12580,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.002849097936428066,1,2019-06-01
+12620,seasonal_drift,seasonal_drift,{},0.00515473055777758,1,2019-06-01
+12660,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.009409587750304236,2,2019-06-01
+12680,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.011908261032887201,1,2019-06-01
+12700,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005822363487137192,1,2019-06-01
+12740,trend_seasonal,trend_seasonal_log,{},0.006203832534738346,1,2019-06-01
+12780,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.014592091143115,1,2019-06-01
+12860,trend_seasonal,trend_seasonal_log,{},0.007986507848458611,1,2019-06-01
+12900,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.01139834663028016,2,2019-06-01
+12940,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0045376316399387846,1,2019-06-01
+12980,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.00826086346314152,1,2019-06-01
+13020,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.010140194095461625,1,2019-06-01
+13060,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.012078310154099617,1,2019-06-01
+13100,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007872299775736254,1,2019-06-01
+13140,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005134402975633418,1,2019-06-01
+13180,trend_seasonal,trend_seasonal_log,{},0.006493590141844121,1,2019-06-01
+13220,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00836514386244462,1,2019-06-01
+13260,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.014108280568073617,1,2019-06-01
+13300,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.006744505331902508,1,2019-06-01
+13340,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.01271517098879385,1,2019-06-01
+13380,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0046069967600129305,1,2019-06-01
+13420,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.007501012861175775,2,2019-06-01
+13460,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004377507789272672,1,2019-06-01
+13500,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.010892080090617347,1,2019-06-01
+13540,seasonal_drift,seasonal_drift,{},0.012629139632701264,2,2019-06-01
+13620,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005793963360152342,1,2019-06-01
+13660,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.015121307389043234,1,2019-06-01
+13700,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.014318037147483554,1,2019-06-01
+13720,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01598235853614737,1,2019-06-01
+13740,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.004748660889248037,1,2019-06-01
+13780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.004218750659262578,2,2019-06-01
+13820,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.002275601879222929,1,2019-06-01
+13900,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008369077725055067,1,2019-06-01
+13940,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.008021403194824762,2,2019-06-01
+13980,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005631069345554927,1,2019-06-01
+14010,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0044500598666488665,1,2019-06-01
+14020,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.010706152145398301,1,2019-06-01
+14100,seasonal_drift,seasonal_drift,{},0.005327410162778952,1,2019-06-01
+14140,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007024895178636568,2,2019-06-01
+14180,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.00958808969842207,1,2019-06-01
+14220,seasonal_naive,seasonal_naive,{},0.013027220747289632,1,2019-06-01
+14260,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.004739443553836068,1,2019-06-01
+14300,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.027107390026038593,1,2019-06-01
+14380,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.008415138047900235,1,2019-06-01
+14420,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.027906904043667167,1,2019-06-01
+14460,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0027083113031769798,1,2019-06-01
+14500,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.0030630969187079742,1,2019-06-01
+14540,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.009148222635460206,1,2019-06-01
+14580,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.005788101410941142,1,2019-06-01
+14620,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014112585294867674,1,2019-06-01
+14660,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00760742392222924,1,2019-06-01
+14700,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.022055013672854534,1,2019-06-01
+14720,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.00790898263586695,1,2019-06-01
+14740,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004188862994438169,1,2019-06-01
+14780,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.006357553729273863,1,2019-06-01
+14820,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.013662036230004027,1,2019-06-01
+14860,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.005560338652024546,1,2019-06-01
+15020,trend_seasonal,trend_seasonal_log,{},0.010023970911169473,1,2019-06-01
+15060,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.008774421910100494,1,2019-06-01
+15100,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009882641987746,1,2019-06-01
+15140,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.018766653468291816,1,2019-06-01
+15180,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.004857491335381086,1,2019-06-01
+15220,seasonal_naive,seasonal_naive,{},0.00724270572089145,1,2019-06-01
+15260,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.008552143127079926,1,2019-06-01
+15340,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.02030971365895662,1,2019-06-01
+15380,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.003115880023389018,1,2019-06-01
+15420,trend_seasonal,trend_seasonal_log,{},0.010982854720655877,1,2019-06-01
+15460,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.011215572489250224,1,2019-06-01
+15500,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.0051861094150737735,1,2019-06-01
+15540,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0047709131826458185,1,2019-06-01
+15580,seasonal_naive,seasonal_naive,{},0.005793181867140851,1,2019-06-01
+15620,seasonal_drift,seasonal_drift,{},0.013198561368711899,1,2019-06-01
+15660,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.02037576051868048,1,2019-06-01
+15680,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.004724254054291637,1,2019-06-01
+15700,trend_seasonal,trend_seasonal_log,{},0.016406890435094235,1,2019-06-01
+15740,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.008250812303213924,1,2019-06-01
+15780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008456475113662562,1,2019-06-01
+15820,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.02323590973958654,1,2019-06-01
+15860,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.007829995286253206,1,2019-06-01
+15940,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0031863127255729283,1,2019-06-01
+15980,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009404981890831672,1,2019-06-01
+16020,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006685679117746834,1,2019-06-01
+16060,seasonal_naive,seasonal_naive,{},0.008466170130865418,1,2019-06-01
+16100,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.03562994443019436,1,2019-06-01
+16140,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007309862272352526,1,2019-06-01
+16180,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.013930213388788302,1,2019-06-01
+16220,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007917066554332787,1,2019-06-01
+16260,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.011495346632579534,1,2019-06-01
+16300,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.003094724870023054,1,2019-06-01
+16340,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009043433085447,1,2019-06-01
+16380,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.012878985852794475,1,2019-06-01
+16420,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.025783094851943494,1,2019-06-01
+16460,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.005916481422389851,1,2019-06-01
+16500,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.005953547676823789,1,2019-06-01
+16540,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.008455944935951238,1,2019-06-01
+16580,trend_seasonal,trend_seasonal_log,{},0.005101652045670462,1,2019-06-01
+16620,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.013701589962153754,1,2019-06-01
+16660,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.010546182991674166,1,2019-06-01
+16700,trend_seasonal,trend_seasonal_log,{},0.00510581569812876,1,2019-06-01
+16740,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0041873494094194375,1,2019-06-01
+16820,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005881941323382731,1,2019-06-01
+16860,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.004311812974594293,1,2019-06-01
+16940,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.006407014859953326,1,2019-06-01
+16980,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0019122618443627492,1,2019-06-01
+17020,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.01267490133441723,1,2019-06-01
+17060,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.008263611038295862,1,2019-06-01
+17140,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0023785141532157565,1,2019-06-01
+17220,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.011686509998511724,1,2019-06-01
+17260,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.015546873286510656,1,2019-06-01
+17300,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.003418524343352438,2,2019-06-01
+17340,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.01020060886537492,1,2019-06-01
+17380,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.010923609129532169,1,2019-06-01
+17420,seasonal_drift,seasonal_drift,{},0.020105404009661487,1,2019-06-01
+17460,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.002230112178832719,1,2019-06-01
+17500,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.03420238863338043,2,2019-06-01
+17540,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008791268113227012,1,2019-06-01
+17580,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.00941430151156848,1,2019-06-01
+17620,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.04185331899897651,1,2019-06-01
+17640,trend_seasonal,trend_seasonal_log,{},0.046726591135943185,1,2019-06-01
+17660,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.00552494537362324,2,2019-06-01
+17700,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.024621558704823177,1,2019-06-01
+17740,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.028791772384664367,1,2019-06-01
+17780,trend_seasonal,trend_seasonal_log,{},0.008474161166083932,1,2019-06-01
+17820,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004442142291978894,1,2019-06-01
+17860,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004138598188935584,1,2019-06-01
+17900,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.006470436551953229,1,2019-06-01
+17980,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.005459773543597499,1,2019-06-01
+18020,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0051355585835023984,1,2019-06-01
+18060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.007051722394981614,1,2019-06-01
+18100,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.010150752879171623,1,2019-06-01
+18140,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004216752063249665,1,2019-06-01
+18180,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0034748559219651485,1,2019-06-01
+18220,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.01690210729141868,1,2019-06-01
+18260,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007750794888673664,1,2019-06-01
+18300,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.006639013819990811,1,2019-06-01
+18380,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014007376844571746,1,2019-06-01
+18420,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.008216862731421637,1,2019-06-01
+18460,seasonal_naive,seasonal_naive,{},0.014016985671070764,1,2019-06-01
+18500,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.003399471799955036,1,2019-06-01
+18580,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0059371285455377025,1,2019-06-01
+18620,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.014646728046691912,1,2019-06-01
+18660,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.006924734216787545,1,2019-06-01
+18700,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.011347998018678508,1,2019-06-01
+18740,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.008686397551949216,1,2019-06-01
+18780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.007855361908096407,1,2019-06-01
+18820,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0074649561592809955,1,2019-06-01
+18860,seasonal_drift,seasonal_drift,{},0.015867299257300443,1,2019-06-01
+18880,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0050357062526607925,1,2019-06-01
+18900,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009644904835469457,1,2019-06-01
+18980,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.004805260447051586,1,2019-06-01
+19000,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.015798808013691185,1,2019-06-01
+19060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.007095782760888771,1,2019-06-01
+19100,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.002171630978675927,1,2019-06-01
+19140,trend_seasonal,trend_seasonal_log,{},0.01617462732739912,1,2019-06-01
+19180,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004912776074122016,1,2019-06-01
+19220,seasonal_naive,seasonal_naive,{},0.01602078795266727,1,2019-06-01
+19260,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.010438096304010885,1,2019-06-01
+19300,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.005352199982411275,1,2019-06-01
+19340,seasonal_drift,seasonal_drift,{},0.004868270605798174,1,2019-06-01
+19420,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.02094862708025313,1,2019-06-01
+19430,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005102623117732071,1,2019-06-01
+19460,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.007593986477854468,1,2019-06-01
+19500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008469084670517947,1,2019-06-01
+19540,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.011613780702731598,1,2019-06-01
+19580,seasonal_naive,seasonal_naive,{},0.009894715046874886,1,2019-06-01
+19620,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.009147114729893858,1,2019-06-01
+19660,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006719418698945983,1,2019-06-01
+19700,seasonal_naive,seasonal_naive,{},0.019887786138318337,1,2019-06-01
+19740,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0030561960705682498,1,2019-06-01
+19760,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.018712374654790833,1,2019-06-01
+19780,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.005607833570607156,1,2019-06-01
+19820,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.003714815063813748,1,2019-06-01
+19860,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014802447813798886,1,2019-06-01
+19940,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.007602993534175195,1,2019-06-01
+19980,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.012434841025321094,1,2019-06-01
+20020,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.0056052659178673254,1,2019-06-01
+20060,trend_seasonal,trend_seasonal_log,{},0.011332275458909191,1,2019-06-01
+20100,seasonal_drift,seasonal_drift,{},0.007475901155341331,1,2019-06-01
+20140,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006272300113641792,1,2019-06-01
+20180,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007518645680707518,1,2019-06-01
+20220,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0049717358176566764,1,2019-06-01
+20260,seasonal_drift,seasonal_drift,{},0.0035526756898461615,1,2019-06-01
+20300,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.017257920697088796,1,2019-06-01
+20340,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.012477230862223217,1,2019-06-01
+20420,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.009456190027676345,1,2019-06-01
+20460,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.02782316649833017,1,2019-06-01
+20500,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.004136177141531136,1,2019-06-01
+20540,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.008979993264190989,1,2019-06-01
+20580,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006225896068634895,1,2019-06-01
+20660,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.012631432388950292,1,2019-06-01
+20700,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.00606924050117963,1,2019-06-01
+20740,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00419406794652879,1,2019-06-01
+20780,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.009142416923371288,1,2019-06-01
+20820,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01115999930930073,1,2019-06-01
+20900,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.009797027513650337,1,2019-06-01
+20940,seasonal_naive,seasonal_naive,{},0.015749109860396487,1,2019-06-01
+20980,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004741079852966557,1,2019-06-01
+21020,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.009978776594614972,1,2019-06-01
+21060,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.007417534457076502,1,2019-06-01
+21120,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.034194644299546,1,2019-06-01
+21140,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.019121539357992868,1,2019-06-01
+21180,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.009944989044004537,2,2019-06-01
+21260,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.013134771764596131,1,2019-06-01
+21300,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.00561952381140375,1,2019-06-01
+21340,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.004815540383467851,1,2019-06-01
+21380,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.008544766392640499,1,2019-06-01
+21420,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.013857336900653083,1,2019-06-01
+21460,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.016370542302247257,2,2019-06-01
+21500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0038686280916732526,1,2019-06-01
+21540,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008520532178616988,1,2019-06-01
+21580,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.00875703381896171,1,2019-06-01
+21640,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.007893898859597154,1,2019-06-01
+21660,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00412168212347833,1,2019-06-01
+21700,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006223995349064888,1,2019-06-01
+21740,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.00992650583475279,1,2019-06-01
+21780,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00503122978073665,1,2019-06-01
+21820,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.00673361745091262,1,2019-06-01
+21840,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.013784200666940985,1,2019-06-01
+21860,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.014009027818254124,1,2019-06-01
+21900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.01325336956661167,1,2019-06-01
+21980,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01981201500368115,1,2019-06-01
+22020,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007344923270988277,1,2019-06-01
+22060,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006428643018014439,1,2019-06-01
+22100,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.010116267522499453,1,2019-06-01
+22140,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.012183396298645498,1,2019-06-01
+22180,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.003992272265878228,1,2019-06-01
+22220,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0039524950231292775,1,2019-06-01
+22260,trend_seasonal,trend_seasonal_log,{},0.009341634027878,1,2019-06-01
+22280,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.01752649965801226,1,2019-06-01
+22300,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.006218744808067692,1,2019-06-01
+22340,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01787952421492378,1,2019-06-01
+22380,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.004696754518420503,1,2019-06-01
+22420,seasonal_drift,seasonal_drift,{},0.005505417238881525,1,2019-06-01
+22500,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009059503451105169,1,2019-06-01
+22520,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004034305281254834,1,2019-06-01
+22540,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005707450078220545,1,2019-06-01
+22580,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.01107575557095123,1,2019-06-01
+22620,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01538264946744509,1,2019-06-01
+22660,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0037683172875746657,1,2019-06-01
+22700,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.015856293549685027,1,2019-06-01
+22780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008834658056250754,1,2019-06-01
+22800,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01245191220228864,1,2019-06-01
+22820,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.010771388210600516,1,2019-06-01
+22840,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.015726592318096644,2,2019-06-01
+22860,trend_seasonal,trend_seasonal_log,{},0.011832928262222204,1,2019-06-01
+22900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.002792907213893949,1,2019-06-01
+23060,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.004151238123081719,1,2019-06-01
+23140,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00836557467023964,1,2019-06-01
+23180,seasonal_naive,seasonal_naive,{},0.00781379824503922,1,2019-06-01
+23240,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005023120273611246,1,2019-06-01
+23300,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.015177542787652326,1,2019-06-01
+23340,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.00917360394291981,1,2019-06-01
+23380,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007625366756966825,1,2019-06-01
+23420,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.006549069465567134,1,2019-06-01
+23460,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005102213240494992,1,2019-06-01
+23500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.026374520315462262,1,2019-06-01
+23540,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.005404552019014827,1,2019-06-01
+23580,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.01065040524097064,2,2019-06-01
+23620,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01663413671966459,1,2019-06-01
+23660,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.012526365523865815,1,2019-06-01
+23700,seasonal_naive,seasonal_naive,{},0.00878504932307773,1,2019-06-01
+23780,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.011528814136268635,1,2019-06-01
+23820,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008651281231290763,1,2019-06-01
+23860,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.012144590951352008,1,2019-06-01
+23900,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006430710435435429,1,2019-06-01
+23940,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.012085080276631998,1,2019-06-01
+23980,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.012688321951663951,1,2019-06-01
+24020,seasonal_naive,seasonal_naive,{},0.007754998242698187,1,2019-06-01
+24060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.007112630958500188,1,2019-06-01
+24100,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.00604407796097679,1,2019-06-01
+24140,trend_seasonal,trend_seasonal_log,{},0.004932122125190205,1,2019-06-01
+24180,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.0199640653085895,1,2019-06-01
+24220,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.00500268074923444,2,2019-06-01
+24260,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005911328654747819,1,2019-06-01
+24300,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.005106550209077913,1,2019-06-01
+24330,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009038074420546693,1,2019-06-01
+24340,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.010699883764596718,1,2019-06-01
+24380,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.01675683600579221,1,2019-06-01
+24420,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006183442431340514,1,2019-06-01
+24460,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.020576073423064358,1,2019-06-01
+24500,seasonal_drift,seasonal_drift,{},0.004143751920599243,1,2019-06-01
+24540,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.009045825253250223,1,2019-06-01
+24580,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007002233391265868,1,2019-06-01
+24620,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.011014228310901581,2,2019-06-01
+24660,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004752409499795435,1,2019-06-01
+24700,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.015053807129009758,1,2019-06-01
+24740,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01050889143204594,1,2019-06-01
+24780,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005107445552233387,1,2019-06-01
+24820,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.006859596760811382,1,2019-06-01
+24860,trend_seasonal,trend_seasonal_log,{},0.005895025019366028,1,2019-06-01
+24900,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.013094952269197097,1,2019-06-01
+24940,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008748231675333321,1,2019-06-01
+24980,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.012161242563136733,1,2019-06-01
+25020,trend_seasonal,trend_seasonal_log,{},0.02486222098763363,1,2019-06-01
+25060,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00402495316398081,1,2019-06-01
+25100,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.013491218815965064,1,2019-06-01
+25180,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006565323399757001,1,2019-06-01
+25200,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.015924140901181688,1,2019-06-01
+25220,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.011393072779037118,1,2019-06-01
+25260,trend_seasonal,trend_seasonal_log,{},0.009765724278111364,1,2019-06-01
+25300,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.007327942801315643,1,2019-06-01
+25420,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.002016036384061917,1,2019-06-01
+25460,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.011990781959716373,1,2019-06-01
+25500,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006503452513969555,1,2019-06-01
+25540,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.0020111128733447535,1,2019-06-01
+25580,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.006396411785131441,1,2019-06-01
+25620,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007021319339007878,1,2019-06-01
+25700,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.010999054514806011,1,2019-06-01
+25720,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.014579933835089735,1,2019-06-01
+25740,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004693354587752619,1,2019-06-01
+25760,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01037618502079734,1,2019-06-01
+25780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.010257916875820889,1,2019-06-01
+25820,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.011125744154880697,1,2019-06-01
+25840,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.010270001372148682,1,2019-06-01
+25860,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005801632049095398,1,2019-06-01
+25880,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.017762457832563226,1,2019-06-01
+25900,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006018462377036925,1,2019-06-01
+25940,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.010190125674803499,1,2019-06-01
+25980,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01634022300191273,1,2019-06-01
+26020,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.03578871894759006,1,2019-06-01
+26090,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00832947634306011,1,2019-06-01
+26140,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.005894089001895985,1,2019-06-01
+26220,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.020806982332206708,1,2019-06-01
+26260,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.0066103082471189656,1,2019-06-01
+26300,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.006880931004291348,1,2019-06-01
+26340,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.011704387082412823,1,2019-06-01
+26380,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.010323904149994996,1,2019-06-01
+26420,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.004429602489140964,1,2019-06-01
+26460,seasonal_naive,seasonal_naive,{},0.008843659389674855,1,2019-06-01
+26500,seasonal_naive,seasonal_naive,{},0.01288063453616345,1,2019-06-01
+26540,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.015716969342003256,1,2019-06-01
+26580,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0038603574503776558,1,2019-06-01
+26620,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.0051759802855239475,2,2019-06-01
+26660,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.008343379648570187,1,2019-06-01
+26700,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.007575864475309277,1,2019-06-01
+26740,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0082829730921077,1,2019-06-01
+26780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.016028129619210376,1,2019-06-01
+26820,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0037175755534453844,1,2019-06-01
+26860,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009905716582424047,1,2019-06-01
+26900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0042357182154843685,1,2019-06-01
+26940,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005941644184554629,1,2019-06-01
+26980,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008091446429761414,1,2019-06-01
+27020,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009563538575294914,1,2019-06-01
+27060,trend_seasonal,trend_seasonal_log,{},0.009594707705963044,1,2019-06-01
+27100,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005402488912132246,1,2019-06-01
+27140,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.003606798949354792,1,2019-06-01
+27160,trend_seasonal,trend_seasonal_log,{},0.011026586718991769,1,2019-06-01
+27180,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005758003110489886,1,2019-06-01
+27220,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.00865035584720211,1,2019-06-01
+27260,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005006370218351775,3,2019-06-01
+27300,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.00829170173136611,1,2019-06-01
+27340,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.008379932141177845,1,2019-06-01
+27380,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.010856226947798338,2,2019-06-01
+27420,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.01190601238006654,1,2019-06-01
+27460,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0055378592512894025,1,2019-06-01
+27500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00499270744655074,1,2019-06-01
+27530,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006247813639566825,1,2019-06-01
+27540,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.009191435762245978,1,2019-06-01
+27580,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.022703842785848027,1,2019-06-01
+27600,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.02282251927639584,1,2019-06-01
+27620,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0049592500235573055,1,2019-06-01
+27660,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.008339380345516125,1,2019-06-01
+27700,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.011647061123155708,1,2019-06-01
+27740,seasonal_drift,seasonal_drift,{},0.006309783710241904,1,2019-06-01
+27780,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.0030192840754253904,1,2019-06-01
+27860,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004778862036335172,1,2019-06-01
+27900,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004521768720882505,1,2019-06-01
+27940,seasonal_naive,seasonal_naive,{},0.008358466407363287,1,2019-06-01
+27980,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.00872491780252445,1,2019-06-01
+28020,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004049445020700631,1,2019-06-01
+28060,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.010432813268190596,1,2019-06-01
+28100,trend_seasonal,trend_seasonal_log,{},0.011666872963657845,1,2019-06-01
+28140,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.003293556064281934,1,2019-06-01
+28180,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.009850600425431786,1,2019-06-01
+28260,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.006649543706102215,1,2019-06-01
+28300,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.0033992097212418265,1,2019-06-01
+28340,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007484716855461059,1,2019-06-01
+28380,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.017519745022815263,1,2019-06-01
+28420,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.012111298296423212,1,2019-06-01
+28500,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01307837994653619,3,2019-06-01
+28540,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.010472153866376977,1,2019-06-01
+28580,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0336124164408509,1,2019-06-01
+28620,seasonal_drift,seasonal_drift,{},0.012753201090795552,1,2019-06-01
+28660,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007594395684710291,1,2019-06-01
+28700,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.003289109353541954,1,2019-06-01
+28740,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.006071007762079537,1,2019-06-01
+28780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014998173348541406,1,2019-06-01
+28820,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008831274347933947,1,2019-06-01
+28860,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.02296923833070359,1,2019-06-01
+28900,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007580441897579282,1,2019-06-01
+28940,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.003652348747833892,1,2019-06-01
+29020,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.012759065964675223,1,2019-06-01
+29060,seasonal_drift,seasonal_drift,{},0.004638993619674601,1,2019-06-01
+29100,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005626170698402207,1,2019-06-01
+29180,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.004704671857416745,1,2019-06-01
+29200,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007198552306252696,1,2019-06-01
+29260,seasonal_drift,seasonal_drift,{},0.006870129373989509,1,2019-06-01
+29300,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.013110369210543265,1,2019-06-01
+29340,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.023641362611072605,1,2019-06-01
+29380,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014328485233440274,1,2019-06-01
+29420,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009955140633201794,2,2019-06-01
+29460,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.010215077093244858,1,2019-06-01
+29500,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.01677662029572735,1,2019-06-01
+29540,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.004003227571641936,2,2019-06-01
+29620,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008206039306229226,1,2019-06-01
+29660,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01056085288379908,1,2019-06-01
+29700,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.005974753454989331,1,2019-06-01
+29740,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008891150857374776,1,2019-06-01
+29780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.010375631326751537,1,2019-06-01
+29820,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.003235798775112603,1,2019-06-01
+29860,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.007858728334269182,1,2019-06-01
+29900,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.007257818947531344,1,2019-06-01
+29940,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007071804704534865,1,2019-06-01
+29980,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.024147034503356674,1,2019-06-01
+30020,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005422351473228083,1,2019-06-01
+30060,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.015952362474507847,1,2019-06-01
+30100,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0027794609104189647,1,2019-06-01
+30140,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.00605915246532559,1,2019-06-01
+30220,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.015122027958426931,1,2019-06-01
+30260,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.011973469283941529,1,2019-06-01
+30280,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.05640894113515923,1,2019-06-01
+30300,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.011517672707252518,1,2019-06-01
+30340,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.004498390413501799,1,2019-06-01
+30380,sarima,SARIMA_110_011_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 1, 1, 12]}",0.005776274140871572,1,2019-06-01
+30420,seasonal_naive,seasonal_naive,{},0.004983990939966427,1,2019-06-01
+30460,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0061569531796940935,1,2019-06-01
+30580,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.014529925593924417,1,2019-06-01
+30620,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006832602508729177,1,2019-06-01
+30660,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00918398334898037,1,2019-06-01
+30700,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.005306466367702539,1,2019-06-01
+30780,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0019523389525814457,1,2019-06-01
+30820,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.009284748988993011,1,2019-06-01
+30860,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.0052201214934482305,2,2019-06-01
+30900,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.010321609726981621,1,2019-06-01
+30940,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.00851737253634578,1,2019-06-01
+30980,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004859184049699105,1,2019-06-01
+31020,trend_seasonal,trend_seasonal_log,{},0.009918845077181047,1,2019-06-01
+31060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.02144030121530274,1,2019-06-01
+31080,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0037854481457058075,1,2019-06-01
+31140,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.003538187942922655,1,2019-06-01
+31180,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.003431882382853866,1,2019-06-01
+31220,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.0107732480011272,2,2019-06-01
+31260,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.0076008874184710674,1,2019-06-01
+31300,trend_seasonal,trend_seasonal_log,{},0.008987538675519895,1,2019-06-01
+31340,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005861443820854277,3,2019-06-01
+31380,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.009235543450115166,1,2019-06-01
+31420,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004905009584290539,1,2019-06-01
+31460,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.012956029547544469,1,2019-06-01
+31500,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008377109870440182,1,2019-06-01
+31540,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0038414127871413445,1,2019-06-01
+31580,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.02019692063998251,1,2019-06-01
+31620,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.011587738199491208,1,2019-06-01
+31660,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.0076558772275537035,2,2019-06-01
+31680,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.011722143897618336,1,2019-06-01
+31700,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.003029830066603347,1,2019-06-01
+31740,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004949368456215109,1,2019-06-01
+31820,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0038344596210411323,1,2019-06-01
+31860,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.005070964181254266,1,2019-06-01
+31900,trend_seasonal,trend_seasonal_log,{},0.005632975802421204,1,2019-06-01
+31930,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.00428499086934752,1,2019-06-01
+31940,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008319448579250101,1,2019-06-01
+31980,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.005194699624747427,1,2019-06-01
+32000,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.011009124264378877,1,2019-06-01
+32020,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.011346178109090952,1,2019-06-01
+32100,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005360300248239239,1,2019-06-01
+32140,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.008647556947261237,1,2019-06-01
+32180,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.011328667879531467,1,2019-06-01
+32260,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.009256339123077079,1,2019-06-01
+32280,seasonal_drift,seasonal_drift,{},0.020415171571254765,1,2019-06-01
+32300,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.01094332204833554,1,2019-06-01
+32340,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00884851832744038,1,2019-06-01
+32380,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006440891257563394,1,2019-06-01
+32420,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.013406429378097306,1,2019-06-01
+32460,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.015932438627829306,1,2019-06-01
+32500,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.009475368226227188,2,2019-06-01
+32540,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.018142903246666644,2,2019-06-01
+32580,trend_seasonal,trend_seasonal_log,{},0.003944502277330214,1,2019-06-01
+32620,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004588881899591104,1,2019-06-01
+32660,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0194520221524748,1,2019-06-01
+32700,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.023129357010759386,1,2019-06-01
+32740,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.007168583795108089,1,2019-06-01
+32780,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.008239770674054972,1,2019-06-01
+32820,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.002351876522332045,1,2019-06-01
+32860,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00715488004105062,1,2019-06-01
+32900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.012075986113985115,1,2019-06-01
+32940,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.009111198663006111,1,2019-06-01
+33020,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.014471229109573843,1,2019-06-01
+33060,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.010185665766491638,1,2019-06-01
+33100,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004435823082580296,1,2019-06-01
+33140,seasonal_drift,seasonal_drift,{},0.004642525217950486,1,2019-06-01
+33180,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.010503958335275653,1,2019-06-01
+33220,sarima,SARIMA_110_011_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 1, 1, 12]}",0.007236120115522669,1,2019-06-01
+33260,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.0320556738229607,1,2019-06-01
+33300,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.013608662750186245,1,2019-06-01
+33340,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0038980322689194644,1,2019-06-01
+33380,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.011813423948222176,1,2019-06-01
+33420,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.010555374083306387,1,2019-06-01
+33460,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004375446172205449,1,2019-06-01
+33500,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00636256299327926,1,2019-06-01
+33540,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005570350502548685,1,2019-06-01
+33580,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008518037490112373,1,2019-06-01
+33620,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.011799923137439446,1,2019-06-01
+33660,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0055790214383112996,1,2019-06-01
+33700,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.005821423279230131,1,2019-06-01
+33740,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0043512620801172755,1,2019-06-01
+33780,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.009253156077320317,1,2019-06-01
+33860,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.0049553510938583145,1,2019-06-01
+33940,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.01361154521217533,1,2019-06-01
+33980,seasonal_drift,seasonal_drift,{},0.012448712566345776,1,2019-06-01
+34020,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.009752259038052375,1,2019-06-01
+34060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0071533799283552595,1,2019-06-01
+34100,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007857978015649277,1,2019-06-01
+34140,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.00682778009780109,1,2019-06-01
+34180,seasonal_naive,seasonal_naive,{},0.022031888745615184,1,2019-06-01
+34220,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.01722380565564942,1,2019-06-01
+34260,trend_seasonal,trend_seasonal_log,{},0.009898283244939507,1,2019-06-01
+34300,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.008416207669657923,1,2019-06-01
+34340,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.008695427503570137,1,2019-06-01
+34350,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014537215686639529,1,2019-06-01
+34380,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.0076819503602112045,1,2019-06-01
+34420,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.006590193846521236,1,2019-06-01
+34460,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.016156637649562485,1,2019-06-01
+34500,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.008106358933999634,1,2019-06-01
+34540,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.010757765073338135,1,2019-06-01
+34580,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.007019267494992556,1,2019-06-01
+34620,trend_seasonal,trend_seasonal_log,{},0.013024165396680542,1,2019-06-01
+34660,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.008859141874810217,1,2019-06-01
+34700,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.011358880398094162,1,2019-06-01
+34740,seasonal_naive,seasonal_naive,{},0.00869513053391432,1,2019-06-01
+34780,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.007926542895177115,1,2019-06-01
+34820,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.011801725132705686,1,2019-06-01
+34860,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0066232438735005636,1,2019-06-01
+34900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008300050493140088,1,2019-06-01
+34940,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0094366691587906,1,2019-06-01
+34980,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0044209660606280565,1,2019-06-01
+35020,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0074498122158694335,1,2019-06-01
+35060,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.010791585841864048,1,2019-06-01
+35100,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004801851319792172,1,2019-06-01
+35140,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.027250334004466335,1,2019-06-01
+35220,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01278656419643621,1,2019-06-01
+35260,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.008334929803029217,1,2019-06-01
+35300,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.002941526747157351,2,2019-06-01
+35380,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00449202441870049,1,2019-06-01
+35420,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.012249395640399037,1,2019-06-01
+35440,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007467478594126616,1,2019-06-01
+35460,trend_seasonal,trend_seasonal_log,{},0.013432200284051557,1,2019-06-01
+35580,trend_seasonal,trend_seasonal_log,{},0.008538498753815968,1,2019-06-01
+35620,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0020134272567688062,5,2019-06-01
+35660,seasonal_naive,seasonal_naive,{},0.01190634385334019,1,2019-06-01
+35700,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.014154512804298506,1,2019-06-01
+35740,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005540918219561992,1,2019-06-01
+35820,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.012277476468005167,1,2019-06-01
+35840,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006180624758160318,1,2019-06-01
+35860,seasonal_naive,seasonal_naive,{},0.02095728963813687,1,2019-06-01
+35900,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.018015069432025414,1,2019-06-01
+35940,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009260720455295624,1,2019-06-01
+35980,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.006074783041944411,1,2019-06-01
+36020,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.012813659415922237,1,2019-06-01
+36100,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006057552384268826,1,2019-06-01
+36140,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.01052889983808581,1,2019-06-01
+36220,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.021465154270400823,1,2019-06-01
+36260,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.0035657310617042254,1,2019-06-01
+36300,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.005890145285882401,1,2019-06-01
+36340,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0050162820033455326,1,2019-06-01
+36380,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.036302235863090386,1,2019-06-01
+36420,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004311243217588968,1,2019-06-01
+36460,seasonal_drift,seasonal_drift,{},0.00706257184091072,1,2019-06-01
+36500,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004227449672211374,1,2019-06-01
+36540,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0028837078107075494,1,2019-06-01
+36580,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.006637613899564242,1,2019-06-01
+36620,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.011122370804250414,1,2019-06-01
+36660,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.00816166173868341,1,2019-06-01
+36700,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.00861035322651878,1,2019-06-01
+36740,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0033136058974122533,1,2019-06-01
+36780,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006129525291921535,1,2019-06-01
+36820,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0131394170794624,1,2019-06-01
+36830,trend_seasonal,trend_seasonal_log,{},0.041719794172246936,1,2019-06-01
+36837,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.010000676950426262,2,2019-06-01
+36840,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009640144521928953,1,2019-06-01
+36900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.006254546016487467,1,2019-06-01
+36940,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.016867680551771118,1,2019-06-01
+36980,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01161054993363403,1,2019-06-01
+37060,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.015527412752448863,1,2019-06-01
+37100,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.003942787328065366,1,2019-06-01
+37120,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.005729690144799882,1,2019-06-01
+37140,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006029835459129869,1,2019-06-01
+37220,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.012436314850029292,1,2019-06-01
+37260,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.009822704676088269,1,2019-06-01
+37300,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.010016823828432662,1,2019-06-01
+37340,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.00548222043834674,1,2019-06-01
+37420,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009002710933086014,1,2019-06-01
+37460,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.02424405385695549,1,2019-06-01
+37500,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.008614421500707686,1,2019-06-01
+37540,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009847873367533845,1,2019-06-01
+37580,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.009734728564174814,1,2019-06-01
+37620,sarima,SARIMA_110_011_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 1, 1, 12]}",0.009462765424039963,1,2019-06-01
+37660,trend_seasonal,trend_seasonal_log,{},0.010742694054975716,1,2019-06-01
+37740,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.008405515211282348,1,2019-06-01
+37770,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.03623764624593832,1,2019-06-01
+37800,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.013261647092623037,1,2019-06-01
+37860,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.004495011355370955,1,2019-06-01
+37900,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0034933753288931297,1,2019-06-01
+37940,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009602846950282497,1,2019-06-01
+37980,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.002442756555218289,1,2019-06-01
+38060,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0029486008085663658,1,2019-06-01
+38100,trend_seasonal,trend_seasonal_log,{},0.014607830986280596,1,2019-06-01
+38180,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.00862403108585435,1,2019-06-01
+38220,seasonal_drift,seasonal_drift,{},0.005976965578635927,1,2019-06-01
+38240,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.010869126600261875,1,2019-06-01
+38260,trend_seasonal,trend_seasonal_log,{},0.00872979811927216,1,2019-06-01
+38300,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.002528634504411245,1,2019-06-01
+38340,seasonal_naive,seasonal_naive,{},0.006050725107047479,1,2019-06-01
+38380,seasonal_naive,seasonal_naive,{},0.011510068567103723,1,2019-06-01
+38420,seasonal_drift,seasonal_drift,{},0.004878172182492949,1,2019-06-01
+38460,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007422936819693567,1,2019-06-01
+38500,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.015174107387992915,1,2019-06-01
+38540,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.004139963874716209,1,2019-06-01
+38580,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.00875316174510586,1,2019-06-01
+38620,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.010660524234970542,1,2019-06-01
+38660,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.02128526729085802,1,2019-06-01
+38700,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.011256783694812459,1,2019-06-01
+38740,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.015259665901494551,3,2019-06-01
+38780,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0097981175605908,1,2019-06-01
+38820,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005794288904886566,2,2019-06-01
+38860,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.0029323264154798244,1,2019-06-01
+38900,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0038881377767155563,1,2019-06-01
+38920,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.04475127573896095,1,2019-06-01
+38940,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0065873727635504834,1,2019-06-01
+39020,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0068761217342148935,1,2019-06-01
+39060,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004979361466125786,1,2019-06-01
+39100,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.004294680781605626,1,2019-06-01
+39150,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.00908600435146859,1,2019-06-01
+39220,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01854433508286535,1,2019-06-01
+39260,trend_seasonal,trend_seasonal_log,{},0.021527980695805776,1,2019-06-01
+39300,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0028485599948581187,1,2019-06-01
+39340,trend_seasonal,trend_seasonal_log,{},0.010025604151992579,1,2019-06-01
+39380,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.003475259136155598,1,2019-06-01
+39420,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.006658721625001615,2,2019-06-01
+39460,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.00854202273466087,1,2019-06-01
+39500,trend_seasonal,trend_seasonal_log,{},0.010855529913362721,1,2019-06-01
+39540,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005228924715521824,1,2019-06-01
+39580,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.006049380969910257,1,2019-06-01
+39660,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005650001177063063,1,2019-06-01
+39700,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.029617521800743073,1,2019-06-01
+39740,trend_seasonal,trend_seasonal_log,{},0.003288470385950858,1,2019-06-01
+39780,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.013649960029650432,1,2019-06-01
+39820,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006924756063694244,1,2019-06-01
+39860,seasonal_naive,seasonal_naive,{},0.007222577979831078,1,2019-06-01
+39900,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.007594242204031126,1,2019-06-01
+39940,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.014800312775934752,1,2019-06-01
+39980,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.007087772219770974,1,2019-06-01
+40060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0044520135308550755,1,2019-06-01
+40080,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.012953821760184685,1,2019-06-01
+40100,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.013533448752754884,1,2019-06-01
+40140,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.0031445793475713504,1,2019-06-01
+40180,sarima,SARIMA_111_011_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00956639111289888,1,2019-06-01
+40220,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.00512440651961611,1,2019-06-01
+40260,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00800511147083739,1,2019-06-01
+40300,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.016193691698684114,1,2019-06-01
+40340,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.00401218190951847,1,2019-06-01
+40380,trend_seasonal,trend_seasonal_log,{},0.0021922315100550882,1,2019-06-01
+40420,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01048731330592746,1,2019-06-01
+40460,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.0076143474493258236,1,2019-06-01
+40530,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.058419773136376085,1,2019-06-01
+40540,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0061424680330906456,1,2019-06-01
+40580,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.009623074793926446,2,2019-06-01
+40620,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006353244935026682,1,2019-06-01
+40660,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.004828145876313168,1,2019-06-01
+40700,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.0038090209052270944,1,2019-06-01
+40740,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.008088361075662657,1,2019-06-01
+40760,seasonal_naive,seasonal_naive,{},0.012118797453031483,1,2019-06-01
+40780,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009895341351862576,2,2019-06-01
+40820,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.006599734286231688,1,2019-06-01
+40860,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.008407314703908961,1,2019-06-01
+40900,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0036935220263624013,1,2019-06-01
+40940,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.011516441372755213,2,2019-06-01
+40980,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0033597244150526833,1,2019-06-01
+41060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.00799254841467865,1,2019-06-01
+41100,trend_seasonal,trend_seasonal_log,{},0.021478643468995393,1,2019-06-01
+41140,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006419371077522755,1,2019-06-01
+41180,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0022835647259309864,1,2019-06-01
+41220,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.010978813913616785,1,2019-06-01
+41260,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.0056164962518021775,1,2019-06-01
+41400,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.006026659831984913,1,2019-06-01
+41420,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.006468400968635692,1,2019-06-01
+41460,seasonal_naive,seasonal_naive,{},0.005441472025956508,1,2019-06-01
+41500,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.008767666947678653,1,2019-06-01
+41540,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.004244517372915026,1,2019-06-01
+41620,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.002538340064260627,1,2019-06-01
+41660,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.005505090419149559,1,2019-06-01
+41700,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0040829846968730545,1,2019-06-01
+41740,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0027333708368731204,1,2019-06-01
+41760,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.012757857864988287,1,2019-06-01
+41780,sarima,SARIMA_111_110_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.01069001550038891,1,2019-06-01
+41820,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.013148163398606942,1,2019-06-01
+41860,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.003996705532365039,1,2019-06-01
+41900,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.019365947125953326,1,2019-06-01
+41940,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.0033496285160383396,1,2019-06-01
+41980,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.011655447052960862,1,2019-06-01
+42020,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.00875482620358023,1,2019-06-01
+42100,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.008169185070078471,1,2019-06-01
+42140,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.006517596584966354,1,2019-06-01
+42180,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.07943191942652904,1,2019-06-01
+42200,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.006174203233745098,1,2019-06-01
+42220,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0078115443579300356,1,2019-06-01
+42300,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.01235971444642639,1,2019-06-01
+42340,trend_seasonal,trend_seasonal_log,{},0.0064712721651248375,1,2019-06-01
+42380,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.005787986458702137,1,2019-06-01
+42420,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01633862938013294,1,2019-06-01
+42460,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.010531097302958058,1,2019-06-01
+42500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.019927072521944155,1,2019-06-01
+42540,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0043207301216402465,1,2019-06-01
+42620,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.0054600757174662895,1,2019-06-01
+42660,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.002846987534694283,1,2019-06-01
+42680,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.005554193892558683,1,2019-06-01
+42700,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.015663789483883955,1,2019-06-01
+42740,seasonal_naive,seasonal_naive,{},0.009266416588482913,1,2019-06-01
+42780,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.014457430238544436,1,2019-06-01
+42820,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.010378775660985272,2,2019-06-01
+42860,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.013533333677057455,1,2019-06-01
+42900,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.02336935928516771,1,2019-06-01
+42940,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.007505205515624248,1,2019-06-01
+42980,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.009513714645778314,2,2019-06-01
+43020,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005408286949123588,1,2019-06-01
+43060,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009835614772442654,1,2019-06-01
+43100,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005596503220791035,1,2019-06-01
+43140,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.005142217723750124,1,2019-06-01
+43180,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.025197698018628475,1,2019-06-01
+43220,trend_seasonal,trend_seasonal_log,{},0.011216629122733517,1,2019-06-01
+43260,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.006465985023860118,1,2019-06-01
+43300,trend_seasonal,trend_seasonal_log,{},0.006022307611821283,1,2019-06-01
+43320,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.016806115890492735,1,2019-06-01
+43340,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005772257710479934,1,2019-06-01
+43380,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.006402727153734285,1,2019-06-01
+43420,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.012278741245234875,1,2019-06-01
+43460,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.007913292006698231,1,2019-06-01
+43500,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.012127265497884883,1,2019-06-01
+43580,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.013631864959232612,1,2019-06-01
+43620,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0028844109385044252,1,2019-06-01
+43660,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.016623029757913247,1,2019-06-01
+43700,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.018115449698961932,1,2019-06-01
+43740,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.007811524134399513,1,2019-06-01
+43760,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.007458381840374224,1,2019-06-01
+43780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00496840039452331,1,2019-06-01
+43900,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006656103758442188,1,2019-06-01
+43940,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.006809442697374487,1,2019-06-01
+43980,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.013111753595397638,1,2019-06-01
+44020,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.017326680346126427,1,2019-06-01
+44060,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0033076070930385414,1,2019-06-01
+44100,trend_seasonal,trend_seasonal_log,{},0.004923153657504621,1,2019-06-01
+44140,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005673202720392047,1,2019-06-01
+44180,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.003876200808333104,1,2019-06-01
+44220,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005516781953655067,1,2019-06-01
+44260,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006463202963470215,1,2019-06-01
+44300,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.00949571615960517,1,2019-06-01
+44340,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.010635165806066367,1,2019-06-01
+44420,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005852055893250027,1,2019-06-01
+44460,trend_seasonal,trend_seasonal_log,{},0.01308166891302844,1,2019-06-01
+44500,seasonal_drift,seasonal_drift,{},0.020094159281788215,1,2019-06-01
+44540,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005189120102616012,1,2019-06-01
+44580,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.00987410193660598,1,2019-06-01
+44620,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0055289375770052815,1,2019-06-01
+44660,seasonal_naive,seasonal_naive,{},0.009963518976324411,1,2019-06-01
+44700,sarima,SARIMA_110_111_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 1, 12]}",0.006122148974311203,1,2019-06-01
+44740,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.007030787790172696,1,2019-06-01
+44780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.014467660163918095,1,2019-06-01
+44860,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008211956274539195,1,2019-06-01
+44900,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.01408965230477618,1,2019-06-01
+44940,trend_seasonal,trend_seasonal_log,{},0.006807882986056534,1,2019-06-01
+44980,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.009888613243004033,1,2019-06-01
+45000,trend_seasonal,trend_seasonal_log,{},0.020526100698539742,1,2019-06-01
+45020,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.015183847729928831,1,2019-06-01
+45060,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0040957321553639235,2,2019-06-01
+45140,trend_seasonal,trend_seasonal_log,{},0.010046078369258542,1,2019-06-01
+45180,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.01154157889003928,1,2019-06-01
+45220,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004659298894020472,1,2019-06-01
+45300,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.004611634294827423,1,2019-06-01
+45340,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.012644468626256072,1,2019-06-01
+45380,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.010653963017814726,1,2019-06-01
+45460,seasonal_drift,seasonal_drift,{},0.005680490584114251,1,2019-06-01
+45500,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.007588433305343883,1,2019-06-01
+45520,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.03894576862268264,1,2019-06-01
+45540,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.008982317693779203,1,2019-06-01
+45580,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.010145068711616235,1,2019-06-01
+45620,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.01093839415719494,1,2019-06-01
+45660,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006072637365417038,1,2019-06-01
+45700,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.016109738623952177,2,2019-06-01
+45740,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.009802657029242079,1,2019-06-01
+45780,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.00793096669069764,1,2019-06-01
+45820,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005069127365293399,1,2019-06-01
+45860,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.0066433390683570724,1,2019-06-01
+45900,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008848856284289537,1,2019-06-01
+45940,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005689524240984002,1,2019-06-01
+45980,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.01267258222826502,1,2019-06-01
+46020,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.005878506166318599,1,2019-06-01
+46060,sarima,SARIMA_110_011_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 1, 1, 12]}",0.004469982900055494,1,2019-06-01
+46100,seasonal_naive,seasonal_naive,{},0.008113619947458723,1,2019-06-01
+46140,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.002916280784763457,1,2019-06-01
+46180,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.006987478460642578,1,2019-06-01
+46220,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.007715544936293592,1,2019-06-01
+46300,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.006243200447017497,1,2019-06-01
+46340,sarima,SARIMA_110_001_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 0, 1, 12]}",0.007678154127195802,1,2019-06-01
+46380,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009258191758298845,1,2019-06-01
+46420,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.025152720807971162,1,2019-06-01
+46460,sarima,SARIMA_110_011_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 1, 1, 12]}",0.031572030791838304,1,2019-06-01
+46500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008169176013664068,1,2019-06-01
+46520,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005678692780804936,1,2019-06-01
+46540,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005392526577064133,1,2019-06-01
+46620,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.01059831169876998,1,2019-06-01
+46660,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.008243292961256933,1,2019-06-01
+46700,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.0037998197871684705,1,2019-06-01
+46780,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.016109020238282184,1,2019-06-01
+46820,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.010082164804861697,1,2019-06-01
+46860,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.011834128845102319,1,2019-06-01
+46900,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.010271869512148214,1,2019-06-01
+46980,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.005842475135174901,1,2019-06-01
+47020,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.009172026536501874,1,2019-06-01
+47080,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.010894474389149098,1,2019-06-01
+47180,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.010143326276521423,1,2019-06-01
+47220,seasonal_naive,seasonal_naive,{},0.006508642649481182,1,2019-06-01
+47240,seasonal_drift,seasonal_drift,{},0.013017307763830721,1,2019-06-01
+47260,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.004779320425788669,1,2019-06-01
+47300,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.013868636561734113,1,2019-06-01
+47340,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.011213475250715624,1,2019-06-01
+47380,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008625583143411405,1,2019-06-01
+47420,sarima,SARIMA_011_111_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.009905423804113482,1,2019-06-01
+47460,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.011721210726640854,1,2019-06-01
+47540,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009048198504514842,1,2019-06-01
+47580,sarima,SARIMA_011_001_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.010204249376963325,1,2019-06-01
+47620,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006331799678521943,1,2019-06-01
+47660,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.014066670269689363,1,2019-06-01
+47700,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.0076694304933044325,1,2019-06-01
+47780,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.009519727403025896,1,2019-06-01
+47820,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.010976426462852499,1,2019-06-01
+47900,sarima,SARIMA_110_011_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [0, 1, 1, 12]}",0.0029327585862361422,2,2019-06-01
+47920,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.01616224484492332,1,2019-06-01
+47940,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.005498951110038254,1,2019-06-01
+47980,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.006867269402650088,1,2019-06-01
+48020,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009463755974266188,1,2019-06-01
+48060,trend_seasonal,trend_seasonal_log,{},0.005391555772686779,1,2019-06-01
+48100,seasonal_naive,seasonal_naive,{},0.025796468048096127,1,2019-06-01
+48140,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.003221283223115569,1,2019-06-01
+48180,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.006239018783225125,1,2019-06-01
+48220,sarima,SARIMA_111_001_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [0, 0, 1, 12]}",0.017875672659147235,1,2019-06-01
+48260,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.006541341318099557,1,2019-06-01
+48300,trend_seasonal,trend_seasonal_log,{},0.024074584488750814,1,2019-06-01
+48460,sarima,SARIMA_011_110_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 1, 0, 12]}",0.014671588765166966,1,2019-06-01
+48500,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.009705514444823267,1,2019-06-01
+48540,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.012292222818389327,1,2019-06-01
+48580,sarima,SARIMA_111_111_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 1, 1, 12]}",0.006433562057486555,1,2019-06-01
+48620,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.007329908274270919,1,2019-06-01
+48660,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.007407003058227305,1,2019-06-01
+48700,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.0027970561239733416,1,2019-06-01
+48780,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.018292925683240844,1,2019-06-01
+48820,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.014014678928296812,1,2019-06-01
+48900,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.007805849233978692,1,2019-06-01
+48940,sarima,SARIMA_011_100_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.012196904063414895,2,2019-06-01
+48980,ets,ETS_trend-add_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": ""add""}",0.008468721459848649,1,2019-06-01
+49020,trend_seasonal,trend_seasonal_log,{},0.005110684241537468,1,2019-06-01
+49060,sarima,SARIMA_110_100_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 0, 0, 12]}",0.011691579202120354,2,2019-06-01
+49080,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.011390038778463398,1,2019-06-01
+49100,sarima,SARIMA_111_100_s12_log,"{""order"": [1, 1, 1], ""seasonal_order"": [1, 0, 0, 12]}",0.004500315611979231,1,2019-06-01
+49180,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.004114306835962432,1,2019-06-01
+49220,sarima,SARIMA_110_110_s12_log,"{""order"": [1, 1, 0], ""seasonal_order"": [1, 1, 0, 12]}",0.008945114907169751,1,2019-06-01
+49260,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.007870497157640412,1,2019-06-01
+49300,ets,ETS_trend-add_season-mul_damped-1,"{""damped_trend"": true, ""seasonal"": ""mul"", ""trend"": ""add""}",0.005919584563993221,1,2019-06-01
+49340,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.002722190204224243,1,2019-06-01
+49380,trend_seasonal,trend_seasonal_log,{},0.009174508457860506,1,2019-06-01
+49420,trend_seasonal,trend_seasonal_log,{},0.020563726986572498,1,2019-06-01
+49460,ets,ETS_trend-none_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": null}",0.009384589298699675,1,2019-06-01
+49500,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.023296345189969744,1,2019-06-01
+49620,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.005326951444437259,2,2019-06-01
+49660,ets,ETS_trend-add_season-add_damped-1,"{""damped_trend"": true, ""seasonal"": ""add"", ""trend"": ""add""}",0.008794894514365992,1,2019-06-01
+49700,sarima,SARIMA_011_011_s12_log,"{""order"": [0, 1, 1], ""seasonal_order"": [0, 1, 1, 12]}",0.010291428963828753,1,2019-06-01
+49740,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.015721807048512147,1,2019-06-01
+49780,ets,ETS_trend-add_season-add_damped-0,"{""damped_trend"": false, ""seasonal"": ""add"", ""trend"": ""add""}",0.009113715197031838,1,2019-06-01
+49820,ets,ETS_trend-none_season-mul_damped-0,"{""damped_trend"": false, ""seasonal"": ""mul"", ""trend"": null}",0.0241859991343932,1,2019-06-01

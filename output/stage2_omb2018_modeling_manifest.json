@@ -1,0 +1,16 @@
+{
+  "geography_vintage": "2018-09",
+  "information_cutoff": "2020-02-29",
+  "forecast_training_cutoff": "2019-06-01",
+  "outcome_window": "2020-03 through 2023-12",
+  "modeling_cbsa_count": 936,
+  "predictors_sha256": "c6a0089379c2e3514f38fa45566e645b68ab3a76566188f2b3391c8b91603e34",
+  "outcomes_sha256": "ac32cebe86ef5e7d0676986fea2055253d588895ac404e5cdda8b6f2f4e758a6",
+  "limitations": [
+    "Later downloaded QCEW archives may include revisions not published by February 2020.",
+    "Counterfactuals are extrapolations, not identified causal COVID effects.",
+    "Missing QCEW industry shares are left missing upstream; training-only imputation used.",
+    "Recovery duration is right-censored when not achieved by December 2023.",
+    "2018 OMB delineations held constant across all years."
+  ]
+}

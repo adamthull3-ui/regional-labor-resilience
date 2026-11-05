@@ -1,0 +1,45 @@
+{
+  "geography_vintage": "2018-09",
+  "input_panel_sha256": "a90ff1d9048a804f86a81f9140de9f5bea262640a5f7302a5b9f1e3823efa5e6",
+  "information_cutoff": "2020-02-29",
+  "model_training_cutoff": "2019-06-01",
+  "rolling_validation_origins": [
+    "2016-06-01",
+    "2017-06-01",
+    "2018-06-01"
+  ],
+  "validation_horizon_months": 12,
+  "forecast_window": "2019-07 through 2023-12",
+  "outcome_window": "2020-03 through 2023-12",
+  "model_candidates": [
+    "ets",
+    "sarima",
+    "seasonal_drift",
+    "seasonal_naive",
+    "trend_seasonal"
+  ],
+  "candidate_specification_count": 24,
+  "ets_grid": "standard",
+  "sarima_grid": "standard",
+  "sarima_maxiter": 80,
+  "cbsa_count": 936,
+  "all_regions_included": true,
+  "selected_model_count": 936,
+  "total_validation_rows": 57802,
+  "total_failed_fit_attempts": 9646,
+  "selected_model_families": {
+    "ets": 503,
+    "sarima": 321,
+    "trend_seasonal": 56,
+    "seasonal_naive": 32,
+    "seasonal_drift": 24
+  },
+  "historical_release_vintage_verified": false,
+  "note": "QCEW historical downloads may contain revisions after the real-time information cutoff. Model selection is CBSA-specific, and candidate-level cross-validation scores are not independent accuracy estimates.",
+  "selected_models_sha256": "839bde1c24c9939eb363eb5b32d8ee19738c77e47e77179867ac057346f29eb9",
+  "candidate_scores_sha256": "6473b5e528e2c062ea5b3368c1083817e31bc048a74d0aa16c7a7eba077d35f5",
+  "outcomes_sha256": "ac32cebe86ef5e7d0676986fea2055253d588895ac404e5cdda8b6f2f4e758a6",
+  "completed_utc": "2026-11-05T15:03:17.843232+00:00",
+  "python_version": "3.12.10",
+  "pandas_version": "3.0.6"
+}

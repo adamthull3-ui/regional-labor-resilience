@@ -1,0 +1,10 @@
+target,winner,feature_set,outer_divisions_selected
+c12,hgb_combined,combined,4
+c12,ridge_combined,combined,6
+c24,hgb_combined,combined,5
+c24,ridge_combined,combined,5
+c46,hgb_combined,combined,6
+c46,log_ridge_combined,combined,1
+c46,ridge_combined,combined,3
+signed46,hgb_combined,combined,4
+signed46,ridge_combined,combined,6
