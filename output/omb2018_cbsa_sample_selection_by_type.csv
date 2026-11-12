@@ -1,0 +1,5 @@
+cbsa_type,pre_cutoff_eligible,full_history_included,n_cbsa,median_employment_june2019,mean_missing_months
+Metropolitan Statistical Area,True,True,392,105820.5,0.0
+Micropolitan Statistical Area,False,False,1,9818.0,3.0
+Micropolitan Statistical Area,True,False,1,27406.0,3.0
+Micropolitan Statistical Area,True,True,544,16612.5,0.0

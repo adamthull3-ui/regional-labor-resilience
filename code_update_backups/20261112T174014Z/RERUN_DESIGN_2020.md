@@ -1,0 +1,52 @@
+# Rerun the aligned pre-pandemic design in VS Code
+
+These revisions are code changes, not new empirical results. The model was not rerun. September 2018 OMB delineations remain fixed. Only predictor reference-period releases available by February 29, 2020 are requested. Later employment records are outcome/diagnostic data only.
+
+## Run order
+
+1. Open this repository in VS Code. Use Python 3.12 and install `requirements.txt` into its virtual environment. `openpyxl==3.1.5` is now included for BLS Excel files. The exact environment is exported when notebook 04 finishes.
+2. Set `CENSUS_API_KEY` privately in the kernel environment if Census requires it. Do not paste the key into a saved code cell. Example: `import getpass, os; os.environ['CENSUS_API_KEY'] = getpass.getpass('Census API key: ')`.
+3. Notebook 00 may be reused if the existing geography/panel manifest is intact. It is unchanged. Otherwise rerun it. Its current balanced-panel sample rule remains a documented limitation; no historical interpolation was introduced.
+4. Restart kernel and run revised **01**. This changes selection to normalized RMSE, with normalized MAE as tie-breaker, using December 2015, 2016 and 2017 origins. December 2018 plus a full year would require unreleased validation observations at the cutoff, so it is excluded. Training still ends June 2019. The primary no-pandemic forecast is not updated with later employment. Fixed common ETS and January-2013-start sensitivities are added. Historical stress diagnostics remain; the retrospective 2019-selected-spec comparison is disabled.
+5. Restart kernel and run revised **02**. It downloads additional ACS 2018 counts, 2018 annual LAUS, May 2018 OES/area definitions, and November 2019 O*NET 24.1. It reuses 2015/2018 county QCEW for annual growth and size. It exports coverage, exact-geography, task-proxy, and source manifests. The expanded ACS request uses a new variable-hashed cache, so the old smaller cache is not silently mistaken for complete input.
+6. Restart kernel and run revised **03**. It adds peak resistance, recovery fractions and fixed-horizon persistence to the retained original sensitivity measures. It refuses old-design Stage 1/predictor inputs. The prior single-split exploratory fitting cell is replaced by a pointer to the aligned notebook 04.
+7. Restart kernel and run revised **04**. Every planned model is evaluated separately: mean/median, OLS, Elastic Net, Random Forest and gradient boosting. It performs training-only preprocessing and tuning, development nested geographic validation and a revised approximately 20% group holdout. Final results are under `output/design2020_*`. Old `stage2_geographic04_*` results are not revised results.
+8. Run new **05** for the documented sensitivities. It repeats full model fitting for expanded predictors, occupational supplements, no-growth features, deterministic counterfactuals and historical stress targets, plus alternative blocks. It can take much longer than notebook 04. Outputs are isolated under `output/design2020_sensitivities/`.
+
+Set `RL_N_JOBS` to the desired worker count (default 2 for Stage 2). Keep all code modules alongside the notebooks. This workflow adds no automatic launcher.
+
+## Download failures
+
+BLS blocked automated retrieval of the small workbook samples in this editing session. Live source parsing therefore still needs verification in your rerun. Download functions keep TLS verification enabled, reject empty/non-Excel/non-ZIP content, use atomic caches, and stop on missing schemas rather than silently omit source domains. If BLS blocks the kernel, download the official files manually and place them at:
+
+| File | Cache location relative to repository | Official source |
+|---|---|---|
+| LAUS 2018 county annual estimates | `data/raw/laus/laucnty18.xlsx` | https://www.bls.gov/lau/laucnty18.xlsx |
+| OES May 2018 metro/nonmetro occupations | `data/raw/oes/oesm18ma.zip` | https://www.bls.gov/oes/special.requests/oesm18ma.zip |
+| OES county definitions | `data/raw/oes/area_definitions_m2018.xlsx` | https://www.bls.gov/oes/2018/may/area_definitions_m2018.xlsx |
+| O*NET 24.1 text database | `data/raw/onet/db_24_1_text.zip` | https://www.onetcenter.org/dl_files/database/db_24_1_text.zip |
+
+Do not substitute a current workbook or newer O*NET version. OES was released March 29, 2019; the O*NET archive identifies 24.1 as November 2019. ACS 2014--2018 estimates were released December 19, 2019. LAUS 2018 annual data use a conservative end-2019 eligibility bound, rather than claiming a particular exact first-release date. Current BLS historical tables can contain later revisions; release eligibility does not certify a frozen real-time vintage.
+
+## Important specification details
+
+- **Outcomes:** resistance is the maximum Apr--Jun 2020 positive deficit. Recovery at months 12/24/46 is `(initial_peak_deficit + signed_gap_at_horizon) / initial_peak_deficit`; it is undefined for zero initial peak, and is not clipped to [0,1]. Persistence is the positive deficit at the specified month. C46 remains the primary cumulative target. Existing recovery-episode eligibility, start, confirmation and censoring columns remain descriptive.
+- **Income:** the added variable is an approximate median from aggregated county B19001 household income distributions in 2018 dollars. It is not the sum/average of county medians and is not an exact published CBSA median. Open-ended median bins remain missing. This is an explicit approximation needed to preserve fixed county geography.
+- **Task feasibility:** the code recreates the published Dingel--Neiman task-exclusion rules using pre-cutoff O*NET 24.1 inputs, weighted by detailed OES employment only for exact county-set matches and >=90% classified employment coverage. The later paper supplies the analytic rule, not a predictor dataset. No later score file, survey responses, or employment weights are imported. Because the authors used O*NET 24.2, the recreated 24.1 score is explicitly labeled a task proxy rather than their published score, and does not measure actual teleworking. Rule reference: https://github.com/jdingel/DingelNeiman-workathome/blob/master/occ_onet_scores/code/onet_characteristics.do . Missing required task items remain missing rather than being assumed feasible.
+- **OES coverage:** unmatched CBSAs, including micropolitan areas without exact OES coverage, retain missing values. No nonmetropolitan-area estimate is allocated mechanically to individual micropolitan CBSAs. Broad ACS occupation shares provide an additional county-aggregated domain. Exact geography and coverage audits are required before interpreting supplements.
+- **Coverage rule:** predictors require >=80% availability within each training fold. Consequently OES/task-proxy and diversification features may be excluded from full-population folds. Their download does not imply eligibility for the primary regression. Do not weaken the threshold after observing scores. The occupational supplement retains the same threshold; broad ACS shares can contribute even where detailed OES cannot.
+- **Imputation:** pooled training medians are replaced by metro/micro training medians when at least 20 observed values are available; >=5% training missingness adds an indicator. Imputation and standardization are refit within inner folds.
+- **Geography:** existing Census-division state blocks plus Puerto Rico are retained. Cross-division CBSAs are now assigned using their largest county by 2019 Q2 employment, an operational principal-county rule, not an asserted official OMB principal-county designation. A four-region-plus-Puerto-Rico block sensitivity is provided without an additional final split because five groups cannot sustain that split plus four inner training groups.
+- **Holdout honesty:** earlier outputs already used the CBSAs. The new deterministic final split chooses whole geographic blocks whose combined CBSA count is nearest 20%, using membership counts without target values. It is called `revised_final_holdout`, not untouched or prospective confirmation. Its results must not feed further tuning. All sensitivity designs are fixed experiments, not a menu for choosing favorable test performance.
+
+## What these changes do not establish
+
+Calibrated propagation of forecasting/parameter/model-selection uncertainty remains open. The three historical stress paths are retained and now reevaluated with the aligned models, but they are not confidence intervals. The design does not infer causal COVID effects or prove that frozen release-vintage values have been recovered. A block bootstrap over saved Stage 2 predictions remains conditional on constructed outcomes.
+
+Historical interpolation, exact published CBSA median income, direct published pre-cutoff teleworkability scores, and formal spatial-autocorrelation testing are not silently claimed as implemented. The current sample-selection audit remains applicable. These limitations should be distinguished from completed predictor/model/outcome corrections.
+
+## Verification and outputs
+
+Notebook code cells and modules were parsed for syntax. Focused offline tests cover cutoff guards, county aggregation with missing values, recovery definitions, imputation isolation, and source-layout handling using fixtures. They do not certify live downloads or empirical model performance. No source dataset, saved prediction table or fitted empirical model was regenerated by this edit.
+
+The old synthetic tests under `tests/` describe the previous notebook layout; use `tests/test_design_2020.py` for the revised functions. It runs without nbformat. The principal result file is `output/design2020_scores.csv`, stratified by phase, target, named algorithm, CBSA type and weighting. Supporting files include geographic partitions, inner decisions, coefficients, held-out permutation importance and descriptive group-bootstrap intervals. Review all feature coverage and source audits before interpreting results.

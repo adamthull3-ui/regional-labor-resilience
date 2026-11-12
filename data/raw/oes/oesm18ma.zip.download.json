@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://www.bls.gov/oes/special.requests/oesm18ma.zip",
+  "resolved_url": "https://www.bls.gov/oes/special.requests/oesm18ma.zip",
+  "retrieved_utc": "2026-11-12T17:54:35.987430+00:00",
+  "bytes": 31193526,
+  "sha256": "4bbd692ab65c13cd2048a98f6cd2dccf5ecc58ba9e5ac2882c52cf2a1f2fc6b0",
+  "transport": "urllib with verified system TLS",
+  "historical_release_vintage_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "code/02_Download_PreFeb2020_Predictors.ipynb": {
+    "previous_sha256": "8f1d87dc893a22ef5f3c6f0be29339d1e1fae0e5ad26930d0e5767be0d86ce32",
+    "new_sha256": "63522a324e6a34a8438043b61b3f87466fbc2abb9c640b2f106742400cba6aa6"
+  },
+  "code/design_predictors.py": {
+    "previous_sha256": "fb4072c6c594e29f545358c8a9ddb52053d22361f937567f2ca75c97e01473e2",
+    "new_sha256": "1a37f6318165235a80590e4a00dafb745a6f0a7e4d6f446c383cc5ac69263f32"
+  },
+  "tests/test_download_recovery.py": {
+    "previous_sha256": null,
+    "new_sha256": "409b278f9ffe0ed9aac3045186f51ab3cba922d5b0c4e7dc82ba30fdc6d22845"
+  },
+  "DOWNLOAD_FIX.md": {
+    "previous_sha256": null,
+    "new_sha256": "39bad051b037c19621a3fbe5f804535c8d5a89798e9e6fe01ccffd84ac6ee047"
+  }
+}

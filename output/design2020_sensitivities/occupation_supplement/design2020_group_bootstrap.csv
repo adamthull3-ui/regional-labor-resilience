@@ -1,0 +1,8 @@
+phase,target,model,point_mae_improvement,p2_5,p97_5,n_groups,interpretation
+development,c46,elasticnet,1.695188770016871,-4.817731624931759,13.281519068826277,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,gradient_boosting,1.1990102483407348,-8.064512255708104,14.454736830083657,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,inner_selected,1.1557590620020355,-7.171722079920065,12.965392492458001,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,mean,-1.9461835808975338,-7.21496583656745,6.470720085007979,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,median,0.0,0.0,0.0,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,ols,2.1581735430632745,-6.030587094788027,16.16432524637395,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,random_forest,4.0980512877292785,-4.888447886138842,16.136225428279186,8,descriptive; conditional on estimated counterfactual and fitted outer models

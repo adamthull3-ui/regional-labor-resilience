@@ -1,0 +1,18 @@
+{
+  "geography_vintage": "2018-09",
+  "information_cutoff": "2020-02-29",
+  "latest_QCEW_full_data_available_as_of_cutoff": "2019-Q2 (released 2019-12-04)",
+  "qcew_forecasting_training_end": "2019-06-01",
+  "later_QCEW_records_use": "outcome_and_diagnostics_only",
+  "historical_vintage_limitation": "Current BLS QCEW downloadable archives may include subsequent revisions",
+  "crosswalk_csv": "data\\processed\\county_cbsa_crosswalk_sep2018.csv",
+  "crosswalk_sha256": "70b01f13b4dfe2146d9b880799edf8884215adc4319b397058eef51cc3fecce0",
+  "county_csv": "data\\processed\\qcew_county_monthly_2010_2023.csv",
+  "county_sha256": "a102a6f2d269241faf24c67f0cade0a5a4104375822c90be704bd2bc8dbd8ad2",
+  "panel_csv": "data\\processed\\qcew_cbsa_monthly_2010_2023_omb2018.csv",
+  "panel_sha256": "a90ff1d9048a804f86a81f9140de9f5bea262640a5f7302a5b9f1e3823efa5e6",
+  "n_cbsa": 936,
+  "ct_cbsa_count_in_crosswalk": 6,
+  "ct_cbsa_count_in_panel": 6,
+  "generated_utc": "2026-11-05T14:23:51.849914+00:00"
+}

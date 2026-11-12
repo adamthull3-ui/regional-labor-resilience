@@ -1,0 +1,11 @@
+target,skill_vs_median_positive,pooled_oos_r2_vs_train_mean_positive,positive_skill_in_majority_divisions,bootstrap_lower_bound_positive,meets_all_criteria
+resistance,True,True,True,True,True
+recovery,True,True,True,False,False
+persistence,True,False,True,False,False
+c12,True,True,True,True,True
+c24,True,True,True,True,True
+c46,True,True,True,False,False
+stress_2013_06,True,True,True,True,True
+stress_2014_06,False,False,False,False,False
+stress_2014_12,False,False,False,False,False
+signed46,True,True,True,False,False

@@ -1,0 +1,939 @@
+cbsa_code,complete_months,missing_months,pre_cutoff_complete_months,pre_cutoff_required_months,pre_cutoff_eligible,full_history_included,excluded_only_due_to_post_cutoff,cbsa_type,employment_june2019,audit_division
+10100,168,0,114,114,True,True,False,Micropolitan Statistical Area,22097.0,West North Central
+10140,168,0,114,114,True,True,False,Micropolitan Statistical Area,23693.0,Pacific
+10180,168,0,114,114,True,True,False,Metropolitan Statistical Area,69830.0,West South Central
+10220,168,0,114,114,True,True,False,Micropolitan Statistical Area,18929.0,West South Central
+10300,168,0,114,114,True,True,False,Micropolitan Statistical Area,26503.0,East North Central
+10380,168,0,114,114,True,True,False,Metropolitan Statistical Area,51564.0,Puerto Rico
+10420,168,0,114,114,True,True,False,Metropolitan Statistical Area,323927.0,East North Central
+10460,168,0,114,114,True,True,False,Micropolitan Statistical Area,17510.0,Mountain
+10500,168,0,114,114,True,True,False,Metropolitan Statistical Area,60267.0,South Atlantic
+10540,168,0,114,114,True,True,False,Metropolitan Statistical Area,48240.0,Pacific
+10580,168,0,114,114,True,True,False,Metropolitan Statistical Area,456578.0,Middle Atlantic
+10620,168,0,114,114,True,True,False,Micropolitan Statistical Area,19588.0,South Atlantic
+10660,168,0,114,114,True,True,False,Micropolitan Statistical Area,12372.0,West North Central
+10700,168,0,114,114,True,True,False,Micropolitan Statistical Area,38390.0,East South Central
+10740,168,0,114,114,True,True,False,Metropolitan Statistical Area,382401.0,Mountain
+10760,168,0,114,114,True,True,False,Micropolitan Statistical Area,15111.0,East South Central
+10780,168,0,114,114,True,True,False,Metropolitan Statistical Area,60245.0,West South Central
+10820,168,0,114,114,True,True,False,Micropolitan Statistical Area,20338.0,West North Central
+10860,168,0,114,114,True,True,False,Micropolitan Statistical Area,20353.0,West South Central
+10900,168,0,114,114,True,True,False,Metropolitan Statistical Area,367183.0,Middle Atlantic
+10940,168,0,114,114,True,True,False,Micropolitan Statistical Area,13414.0,East North Central
+10980,168,0,114,114,True,True,False,Micropolitan Statistical Area,11344.0,East North Central
+11020,168,0,114,114,True,True,False,Metropolitan Statistical Area,59166.0,Middle Atlantic
+11060,168,0,114,114,True,True,False,Micropolitan Statistical Area,9599.0,West South Central
+11100,168,0,114,114,True,True,False,Metropolitan Statistical Area,116439.0,West South Central
+11140,168,0,114,114,True,True,False,Micropolitan Statistical Area,12263.0,South Atlantic
+11180,168,0,114,114,True,True,False,Metropolitan Statistical Area,56398.0,West North Central
+11220,168,0,114,114,True,True,False,Micropolitan Statistical Area,19800.0,Middle Atlantic
+11260,168,0,114,114,True,True,False,Metropolitan Statistical Area,175925.0,Pacific
+11380,168,0,114,114,True,True,False,Micropolitan Statistical Area,8098.0,West South Central
+11420,168,0,114,114,True,True,False,Micropolitan Statistical Area,16386.0,East North Central
+11460,168,0,114,114,True,True,False,Metropolitan Statistical Area,215228.0,East North Central
+11500,168,0,114,114,True,True,False,Metropolitan Statistical Area,44797.0,East South Central
+11540,168,0,114,114,True,True,False,Metropolitan Statistical Area,126465.0,East North Central
+11580,168,0,114,114,True,True,False,Micropolitan Statistical Area,8973.0,South Atlantic
+11620,168,0,114,114,True,True,False,Micropolitan Statistical Area,29723.0,West South Central
+11640,168,0,114,114,True,True,False,Metropolitan Statistical Area,35057.0,Puerto Rico
+11660,168,0,114,114,True,True,False,Micropolitan Statistical Area,9043.0,West South Central
+11700,168,0,114,114,True,True,False,Metropolitan Statistical Area,197092.0,South Atlantic
+11740,168,0,114,114,True,True,False,Micropolitan Statistical Area,19753.0,East North Central
+11780,168,0,114,114,True,True,False,Micropolitan Statistical Area,31135.0,East North Central
+11820,168,0,114,114,True,True,False,Micropolitan Statistical Area,19754.0,Pacific
+11860,168,0,114,114,True,True,False,Micropolitan Statistical Area,5593.0,West North Central
+11900,168,0,114,114,True,True,False,Micropolitan Statistical Area,20231.0,East North Central
+11940,168,0,114,114,True,True,False,Micropolitan Statistical Area,19292.0,East South Central
+11980,168,0,114,114,True,True,False,Micropolitan Statistical Area,17718.0,West South Central
+12020,168,0,114,114,True,True,False,Metropolitan Statistical Area,87827.0,South Atlantic
+12060,168,0,114,114,True,True,False,Metropolitan Statistical Area,2695192.0,South Atlantic
+12100,168,0,114,114,True,True,False,Metropolitan Statistical Area,137157.0,Middle Atlantic
+12120,168,0,114,114,True,True,False,Micropolitan Statistical Area,12922.0,East South Central
+12140,168,0,114,114,True,True,False,Micropolitan Statistical Area,22412.0,East North Central
+12180,168,0,114,114,True,True,False,Micropolitan Statistical Area,26294.0,Middle Atlantic
+12220,168,0,114,114,True,True,False,Metropolitan Statistical Area,59883.0,East South Central
+12260,168,0,114,114,True,True,False,Metropolitan Statistical Area,229729.0,South Atlantic
+12300,168,0,114,114,True,True,False,Micropolitan Statistical Area,62024.0,New England
+12380,168,0,114,114,True,True,False,Micropolitan Statistical Area,16576.0,West North Central
+12420,168,0,114,114,True,True,False,Metropolitan Statistical Area,1064688.0,West South Central
+12460,168,0,114,114,True,True,False,Micropolitan Statistical Area,8966.0,South Atlantic
+12540,168,0,114,114,True,True,False,Metropolitan Statistical Area,335553.0,Pacific
+12580,168,0,114,114,True,True,False,Metropolitan Statistical Area,1356818.0,South Atlantic
+12620,168,0,114,114,True,True,False,Metropolitan Statistical Area,71743.0,New England
+12660,168,0,114,114,True,True,False,Micropolitan Statistical Area,39336.0,East North Central
+12680,168,0,114,114,True,True,False,Micropolitan Statistical Area,16654.0,East South Central
+12700,168,0,114,114,True,True,False,Metropolitan Statistical Area,108607.0,New England
+12740,168,0,114,114,True,True,False,Micropolitan Statistical Area,34011.0,New England
+12780,168,0,114,114,True,True,False,Micropolitan Statistical Area,19092.0,West South Central
+12860,168,0,114,114,True,True,False,Micropolitan Statistical Area,24778.0,Middle Atlantic
+12900,168,0,114,114,True,True,False,Micropolitan Statistical Area,19821.0,West South Central
+12940,168,0,114,114,True,True,False,Metropolitan Statistical Area,386191.0,West South Central
+12980,168,0,114,114,True,True,False,Metropolitan Statistical Area,54988.0,East North Central
+13020,168,0,114,114,True,True,False,Metropolitan Statistical Area,35116.0,East North Central
+13060,168,0,114,114,True,True,False,Micropolitan Statistical Area,10813.0,West South Central
+13100,168,0,114,114,True,True,False,Micropolitan Statistical Area,9283.0,West North Central
+13140,168,0,114,114,True,True,False,Metropolitan Statistical Area,158567.0,West South Central
+13180,168,0,114,114,True,True,False,Micropolitan Statistical Area,36601.0,East North Central
+13220,168,0,114,114,True,True,False,Metropolitan Statistical Area,43681.0,South Atlantic
+13260,168,0,114,114,True,True,False,Micropolitan Statistical Area,13542.0,East North Central
+13300,168,0,114,114,True,True,False,Micropolitan Statistical Area,8904.0,West South Central
+13340,168,0,114,114,True,True,False,Micropolitan Statistical Area,19474.0,East North Central
+13380,168,0,114,114,True,True,False,Metropolitan Statistical Area,93374.0,Pacific
+13420,168,0,114,114,True,True,False,Micropolitan Statistical Area,20491.0,West North Central
+13460,168,0,114,114,True,True,False,Metropolitan Statistical Area,87502.0,Pacific
+13500,168,0,114,114,True,True,False,Micropolitan Statistical Area,6851.0,South Atlantic
+13540,168,0,114,114,True,True,False,Micropolitan Statistical Area,17564.0,New England
+13620,168,0,114,114,True,True,False,Micropolitan Statistical Area,12557.0,New England
+13660,168,0,114,114,True,True,False,Micropolitan Statistical Area,12509.0,East North Central
+13700,168,0,114,114,True,True,False,Micropolitan Statistical Area,13770.0,West South Central
+13720,168,0,114,114,True,True,False,Micropolitan Statistical Area,15265.0,South Atlantic
+13740,168,0,114,114,True,True,False,Metropolitan Statistical Area,89191.0,Mountain
+13780,168,0,114,114,True,True,False,Metropolitan Statistical Area,101667.0,Middle Atlantic
+13820,168,0,114,114,True,True,False,Metropolitan Statistical Area,484651.0,East South Central
+13900,168,0,114,114,True,True,False,Metropolitan Statistical Area,70074.0,West North Central
+13940,168,0,114,114,True,True,False,Micropolitan Statistical Area,15782.0,Mountain
+13980,168,0,114,114,True,True,False,Metropolitan Statistical Area,66886.0,South Atlantic
+14010,168,0,114,114,True,True,False,Metropolitan Statistical Area,82517.0,East North Central
+14020,168,0,114,114,True,True,False,Metropolitan Statistical Area,69550.0,East North Central
+14100,168,0,114,114,True,True,False,Metropolitan Statistical Area,40639.0,Middle Atlantic
+14140,168,0,114,114,True,True,False,Micropolitan Statistical Area,36052.0,South Atlantic
+14180,168,0,114,114,True,True,False,Micropolitan Statistical Area,17659.0,West South Central
+14220,168,0,114,114,True,True,False,Micropolitan Statistical Area,10304.0,West South Central
+14260,168,0,114,114,True,True,False,Metropolitan Statistical Area,336305.0,Mountain
+14300,168,0,114,114,True,True,False,Micropolitan Statistical Area,8522.0,West South Central
+14380,168,0,114,114,True,True,False,Micropolitan Statistical Area,23842.0,South Atlantic
+14420,168,0,114,114,True,True,False,Micropolitan Statistical Area,8206.0,West South Central
+14460,168,0,114,114,True,True,False,Metropolitan Statistical Area,2766110.0,New England
+14500,168,0,114,114,True,True,False,Metropolitan Statistical Area,190300.0,Mountain
+14540,168,0,114,114,True,True,False,Metropolitan Statistical Area,74336.0,East South Central
+14580,168,0,114,114,True,True,False,Micropolitan Statistical Area,61939.0,Mountain
+14620,168,0,114,114,True,True,False,Micropolitan Statistical Area,14928.0,Middle Atlantic
+14660,168,0,114,114,True,True,False,Micropolitan Statistical Area,43483.0,West North Central
+14700,168,0,114,114,True,True,False,Micropolitan Statistical Area,32725.0,West North Central
+14720,168,0,114,114,True,True,False,Micropolitan Statistical Area,20699.0,Mountain
+14740,168,0,114,114,True,True,False,Metropolitan Statistical Area,92650.0,Pacific
+14780,168,0,114,114,True,True,False,Micropolitan Statistical Area,15145.0,West South Central
+14820,168,0,114,114,True,True,False,Micropolitan Statistical Area,9820.0,South Atlantic
+14860,168,0,114,114,True,True,False,Metropolitan Statistical Area,425025.0,New England
+15020,168,0,114,114,True,True,False,Micropolitan Statistical Area,12182.0,East South Central
+15060,168,0,114,114,True,True,False,Micropolitan Statistical Area,6919.0,Pacific
+15100,168,0,114,114,True,True,False,Micropolitan Statistical Area,18796.0,West North Central
+15140,168,0,114,114,True,True,False,Micropolitan Statistical Area,4896.0,East South Central
+15180,168,0,114,114,True,True,False,Metropolitan Statistical Area,141973.0,West South Central
+15220,168,0,114,114,True,True,False,Micropolitan Statistical Area,15333.0,West South Central
+15260,168,0,114,114,True,True,False,Metropolitan Statistical Area,43580.0,South Atlantic
+15340,168,0,114,114,True,True,False,Micropolitan Statistical Area,13054.0,East North Central
+15380,168,0,114,114,True,True,False,Metropolitan Statistical Area,552782.0,Middle Atlantic
+15420,168,0,114,114,True,True,False,Micropolitan Statistical Area,20186.0,Mountain
+15460,168,0,114,114,True,True,False,Micropolitan Statistical Area,23048.0,East North Central
+15500,168,0,114,114,True,True,False,Metropolitan Statistical Area,62192.0,South Atlantic
+15540,168,0,114,114,True,True,False,Metropolitan Statistical Area,123952.0,New England
+15580,168,0,114,114,True,True,False,Micropolitan Statistical Area,16141.0,Mountain
+15620,168,0,114,114,True,True,False,Micropolitan Statistical Area,17898.0,East North Central
+15660,168,0,114,114,True,True,False,Micropolitan Statistical Area,23640.0,South Atlantic
+15680,168,0,114,114,True,True,False,Metropolitan Statistical Area,46226.0,South Atlantic
+15700,168,0,114,114,True,True,False,Micropolitan Statistical Area,11625.0,South Atlantic
+15740,168,0,114,114,True,True,False,Micropolitan Statistical Area,15392.0,East North Central
+15780,168,0,114,114,True,True,False,Micropolitan Statistical Area,10103.0,West South Central
+15820,168,0,114,114,True,True,False,Micropolitan Statistical Area,13439.0,East South Central
+15860,168,0,114,114,True,True,False,Micropolitan Statistical Area,14327.0,Mountain
+15940,168,0,114,114,True,True,False,Metropolitan Statistical Area,167116.0,East North Central
+15980,168,0,114,114,True,True,False,Metropolitan Statistical Area,259739.0,South Atlantic
+16020,168,0,114,114,True,True,False,Metropolitan Statistical Area,44688.0,West North Central
+16060,168,0,114,114,True,True,False,Metropolitan Statistical Area,55395.0,East North Central
+16100,168,0,114,114,True,True,False,Micropolitan Statistical Area,33356.0,Mountain
+16140,168,0,114,114,True,True,False,Micropolitan Statistical Area,11757.0,West North Central
+16180,168,0,114,114,True,True,False,Metropolitan Statistical Area,31076.0,Mountain
+16220,168,0,114,114,True,True,False,Metropolitan Statistical Area,39804.0,Mountain
+16260,168,0,114,114,True,True,False,Micropolitan Statistical Area,19136.0,Mountain
+16300,168,0,114,114,True,True,False,Metropolitan Statistical Area,145809.0,West North Central
+16340,168,0,114,114,True,True,False,Micropolitan Statistical Area,11360.0,South Atlantic
+16380,168,0,114,114,True,True,False,Micropolitan Statistical Area,20905.0,East North Central
+16420,168,0,114,114,True,True,False,Micropolitan Statistical Area,8226.0,East South Central
+16460,168,0,114,114,True,True,False,Micropolitan Statistical Area,12942.0,East North Central
+16500,168,0,114,114,True,True,False,Micropolitan Statistical Area,27157.0,Pacific
+16540,168,0,114,114,True,True,False,Metropolitan Statistical Area,60056.0,Middle Atlantic
+16580,168,0,114,114,True,True,False,Metropolitan Statistical Area,95377.0,East North Central
+16620,168,0,114,114,True,True,False,Metropolitan Statistical Area,115404.0,South Atlantic
+16660,168,0,114,114,True,True,False,Micropolitan Statistical Area,26038.0,East North Central
+16700,168,0,114,114,True,True,False,Metropolitan Statistical Area,354477.0,South Atlantic
+16740,168,0,114,114,True,True,False,Metropolitan Statistical Area,1227288.0,South Atlantic
+16820,168,0,114,114,True,True,False,Metropolitan Statistical Area,112749.0,South Atlantic
+16860,168,0,114,114,True,True,False,Metropolitan Statistical Area,251700.0,East South Central
+16940,168,0,114,114,True,True,False,Metropolitan Statistical Area,47275.0,Mountain
+16980,168,0,114,114,True,True,False,Metropolitan Statistical Area,4619513.0,East North Central
+17020,168,0,114,114,True,True,False,Metropolitan Statistical Area,81236.0,Pacific
+17060,168,0,114,114,True,True,False,Micropolitan Statistical Area,29827.0,East North Central
+17140,168,0,114,114,True,True,False,Metropolitan Statistical Area,1080640.0,East North Central
+17220,168,0,114,114,True,True,False,Micropolitan Statistical Area,42471.0,South Atlantic
+17260,168,0,114,114,True,True,False,Micropolitan Statistical Area,7618.0,East South Central
+17300,168,0,114,114,True,True,False,Metropolitan Statistical Area,93003.0,East South Central
+17340,168,0,114,114,True,True,False,Micropolitan Statistical Area,17261.0,Pacific
+17380,168,0,114,114,True,True,False,Micropolitan Statistical Area,10818.0,East South Central
+17420,168,0,114,114,True,True,False,Metropolitan Statistical Area,46002.0,East South Central
+17460,168,0,114,114,True,True,False,Metropolitan Statistical Area,1039149.0,East North Central
+17500,168,0,114,114,True,True,False,Micropolitan Statistical Area,10721.0,South Atlantic
+17540,168,0,114,114,True,True,False,Micropolitan Statistical Area,20651.0,West North Central
+17580,168,0,114,114,True,True,False,Micropolitan Statistical Area,16846.0,Mountain
+17620,168,0,114,114,True,True,False,Micropolitan Statistical Area,3234.0,Puerto Rico
+17640,168,0,114,114,True,True,False,Micropolitan Statistical Area,3567.0,Puerto Rico
+17660,168,0,114,114,True,True,False,Metropolitan Statistical Area,66500.0,Mountain
+17700,168,0,114,114,True,True,False,Micropolitan Statistical Area,14867.0,West North Central
+17740,168,0,114,114,True,True,False,Micropolitan Statistical Area,14393.0,East North Central
+17780,168,0,114,114,True,True,False,Metropolitan Statistical Area,112839.0,West South Central
+17820,168,0,114,114,True,True,False,Metropolitan Statistical Area,293545.0,Mountain
+17860,168,0,114,114,True,True,False,Metropolitan Statistical Area,101623.0,West North Central
+17900,168,0,114,114,True,True,False,Metropolitan Statistical Area,377416.0,South Atlantic
+17980,168,0,114,114,True,True,False,Metropolitan Statistical Area,119486.0,South Atlantic
+18020,168,0,114,114,True,True,False,Metropolitan Statistical Area,52013.0,East North Central
+18060,168,0,114,114,True,True,False,Micropolitan Statistical Area,25096.0,East South Central
+18100,168,0,114,114,True,True,False,Micropolitan Statistical Area,19509.0,West North Central
+18140,168,0,114,114,True,True,False,Metropolitan Statistical Area,1050400.0,East North Central
+18180,168,0,114,114,True,True,False,Micropolitan Statistical Area,78932.0,New England
+18220,168,0,114,114,True,True,False,Micropolitan Statistical Area,6136.0,East North Central
+18260,168,0,114,114,True,True,False,Micropolitan Statistical Area,43173.0,East South Central
+18300,168,0,114,114,True,True,False,Micropolitan Statistical Area,23769.0,Pacific
+18380,168,0,114,114,True,True,False,Micropolitan Statistical Area,8516.0,South Atlantic
+18420,168,0,114,114,True,True,False,Micropolitan Statistical Area,14244.0,East South Central
+18460,168,0,114,114,True,True,False,Micropolitan Statistical Area,14512.0,South Atlantic
+18500,168,0,114,114,True,True,False,Micropolitan Statistical Area,38343.0,Middle Atlantic
+18580,168,0,114,114,True,True,False,Metropolitan Statistical Area,184064.0,West South Central
+18620,168,0,114,114,True,True,False,Micropolitan Statistical Area,17263.0,West South Central
+18660,168,0,114,114,True,True,False,Micropolitan Statistical Area,18057.0,Middle Atlantic
+18700,168,0,114,114,True,True,False,Metropolitan Statistical Area,38822.0,Pacific
+18740,168,0,114,114,True,True,False,Micropolitan Statistical Area,10200.0,East North Central
+18780,168,0,114,114,True,True,False,Micropolitan Statistical Area,4843.0,Mountain
+18820,168,0,114,114,True,True,False,Micropolitan Statistical Area,14930.0,East North Central
+18860,168,0,114,114,True,True,False,Micropolitan Statistical Area,8460.0,Pacific
+18880,168,0,114,114,True,True,False,Metropolitan Statistical Area,114099.0,South Atlantic
+18900,168,0,114,114,True,True,False,Micropolitan Statistical Area,17980.0,East South Central
+18980,168,0,114,114,True,True,False,Micropolitan Statistical Area,29024.0,East South Central
+19000,168,0,114,114,True,True,False,Micropolitan Statistical Area,24828.0,South Atlantic
+19060,168,0,114,114,True,True,False,Metropolitan Statistical Area,37388.0,South Atlantic
+19100,168,0,114,114,True,True,False,Metropolitan Statistical Area,3604809.0,West South Central
+19140,168,0,114,114,True,True,False,Metropolitan Statistical Area,64456.0,South Atlantic
+19180,168,0,114,114,True,True,False,Metropolitan Statistical Area,26580.0,East North Central
+19220,168,0,114,114,True,True,False,Micropolitan Statistical Area,18391.0,East South Central
+19260,168,0,114,114,True,True,False,Micropolitan Statistical Area,37644.0,South Atlantic
+19300,168,0,114,114,True,True,False,Metropolitan Statistical Area,79276.0,East South Central
+19340,168,0,114,114,True,True,False,Metropolitan Statistical Area,185486.0,East North Central
+19420,168,0,114,114,True,True,False,Micropolitan Statistical Area,10629.0,East South Central
+19430,168,0,114,114,True,True,False,Metropolitan Statistical Area,374763.0,East North Central
+19460,168,0,114,114,True,True,False,Metropolitan Statistical Area,55220.0,East South Central
+19500,168,0,114,114,True,True,False,Metropolitan Statistical Area,48927.0,East North Central
+19540,168,0,114,114,True,True,False,Micropolitan Statistical Area,13771.0,East North Central
+19580,168,0,114,114,True,True,False,Micropolitan Statistical Area,15466.0,East North Central
+19620,168,0,114,114,True,True,False,Micropolitan Statistical Area,18794.0,West South Central
+19660,168,0,114,114,True,True,False,Metropolitan Statistical Area,196380.0,South Atlantic
+19700,168,0,114,114,True,True,False,Micropolitan Statistical Area,8154.0,Mountain
+19740,168,0,114,114,True,True,False,Metropolitan Statistical Area,1534661.0,Mountain
+19760,168,0,114,114,True,True,False,Micropolitan Statistical Area,8236.0,West South Central
+19780,168,0,114,114,True,True,False,Metropolitan Statistical Area,386550.0,West North Central
+19820,168,0,114,114,True,True,False,Metropolitan Statistical Area,1966997.0,East North Central
+19860,168,0,114,114,True,True,False,Micropolitan Statistical Area,21416.0,West North Central
+19940,168,0,114,114,True,True,False,Micropolitan Statistical Area,12967.0,East North Central
+19980,168,0,114,114,True,True,False,Micropolitan Statistical Area,16562.0,West North Central
+20020,168,0,114,114,True,True,False,Metropolitan Statistical Area,57605.0,East South Central
+20060,168,0,114,114,True,True,False,Micropolitan Statistical Area,20634.0,South Atlantic
+20100,168,0,114,114,True,True,False,Metropolitan Statistical Area,67992.0,South Atlantic
+20140,168,0,114,114,True,True,False,Micropolitan Statistical Area,21360.0,South Atlantic
+20180,168,0,114,114,True,True,False,Micropolitan Statistical Area,30473.0,Middle Atlantic
+20220,168,0,114,114,True,True,False,Metropolitan Statistical Area,59876.0,West North Central
+20260,168,0,114,114,True,True,False,Metropolitan Statistical Area,135180.0,West North Central
+20300,168,0,114,114,True,True,False,Micropolitan Statistical Area,11476.0,West South Central
+20340,168,0,114,114,True,True,False,Micropolitan Statistical Area,14645.0,West South Central
+20420,168,0,114,114,True,True,False,Micropolitan Statistical Area,27016.0,Mountain
+20460,168,0,114,114,True,True,False,Micropolitan Statistical Area,19602.0,West South Central
+20500,168,0,114,114,True,True,False,Metropolitan Statistical Area,332844.0,South Atlantic
+20540,168,0,114,114,True,True,False,Micropolitan Statistical Area,15224.0,East South Central
+20580,168,0,114,114,True,True,False,Micropolitan Statistical Area,18478.0,West South Central
+20660,168,0,114,114,True,True,False,Micropolitan Statistical Area,19225.0,South Atlantic
+20700,168,0,114,114,True,True,False,Metropolitan Statistical Area,58452.0,Middle Atlantic
+20740,168,0,114,114,True,True,False,Metropolitan Statistical Area,83604.0,East North Central
+20780,168,0,114,114,True,True,False,Micropolitan Statistical Area,33117.0,Mountain
+20820,168,0,114,114,True,True,False,Micropolitan Statistical Area,22352.0,East North Central
+20900,168,0,114,114,True,True,False,Micropolitan Statistical Area,16484.0,West South Central
+20940,168,0,114,114,True,True,False,Metropolitan Statistical Area,65411.0,Pacific
+20980,168,0,114,114,True,True,False,Micropolitan Statistical Area,17315.0,West South Central
+21020,168,0,114,114,True,True,False,Micropolitan Statistical Area,17226.0,South Atlantic
+21060,168,0,114,114,True,True,False,Metropolitan Statistical Area,55515.0,East South Central
+21120,168,0,114,114,True,True,False,Micropolitan Statistical Area,9695.0,West South Central
+21140,168,0,114,114,True,True,False,Metropolitan Statistical Area,135630.0,East North Central
+21180,168,0,114,114,True,True,False,Micropolitan Statistical Area,11410.0,South Atlantic
+21220,165,3,114,114,True,False,True,Micropolitan Statistical Area,27406.0,Mountain
+21260,168,0,114,114,True,True,False,Micropolitan Statistical Area,16042.0,Pacific
+21300,168,0,114,114,True,True,False,Metropolitan Statistical Area,35369.0,Middle Atlantic
+21340,168,0,114,114,True,True,False,Metropolitan Statistical Area,310241.0,West South Central
+21380,168,0,114,114,True,True,False,Micropolitan Statistical Area,16380.0,West North Central
+21420,168,0,114,114,True,True,False,Metropolitan Statistical Area,24455.0,West South Central
+21460,168,0,114,114,True,True,False,Micropolitan Statistical Area,16649.0,East South Central
+21500,168,0,114,114,True,True,False,Metropolitan Statistical Area,123574.0,Middle Atlantic
+21540,168,0,114,114,True,True,False,Micropolitan Statistical Area,14373.0,East North Central
+21580,168,0,114,114,True,True,False,Micropolitan Statistical Area,10011.0,Mountain
+21640,168,0,114,114,True,True,False,Micropolitan Statistical Area,8514.0,East South Central
+21660,168,0,114,114,True,True,False,Metropolitan Statistical Area,159439.0,Pacific
+21700,168,0,114,114,True,True,False,Micropolitan Statistical Area,51450.0,Pacific
+21740,168,0,114,114,True,True,False,Micropolitan Statistical Area,8545.0,Mountain
+21780,168,0,114,114,True,True,False,Metropolitan Statistical Area,154631.0,East North Central
+21820,168,0,114,114,True,True,False,Metropolitan Statistical Area,37374.0,Pacific
+21840,168,0,114,114,True,True,False,Micropolitan Statistical Area,7850.0,West North Central
+21860,168,0,114,114,True,True,False,Micropolitan Statistical Area,8793.0,West North Central
+21900,168,0,114,114,True,True,False,Micropolitan Statistical Area,17712.0,South Atlantic
+21980,168,0,114,114,True,True,False,Micropolitan Statistical Area,8493.0,Mountain
+22020,168,0,114,114,True,True,False,Metropolitan Statistical Area,141062.0,West North Central
+22060,168,0,114,114,True,True,False,Micropolitan Statistical Area,26377.0,West North Central
+22100,168,0,114,114,True,True,False,Micropolitan Statistical Area,23697.0,West North Central
+22140,168,0,114,114,True,True,False,Metropolitan Statistical Area,46688.0,Mountain
+22180,168,0,114,114,True,True,False,Metropolitan Statistical Area,155125.0,South Atlantic
+22220,168,0,114,114,True,True,False,Metropolitan Statistical Area,235672.0,West South Central
+22260,168,0,114,114,True,True,False,Micropolitan Statistical Area,24212.0,West North Central
+22280,168,0,114,114,True,True,False,Micropolitan Statistical Area,12884.0,Mountain
+22300,168,0,114,114,True,True,False,Micropolitan Statistical Area,46700.0,East North Central
+22340,168,0,114,114,True,True,False,Micropolitan Statistical Area,5465.0,South Atlantic
+22380,168,0,114,114,True,True,False,Metropolitan Statistical Area,62741.0,Mountain
+22420,168,0,114,114,True,True,False,Metropolitan Statistical Area,137997.0,East North Central
+22500,168,0,114,114,True,True,False,Metropolitan Statistical Area,87201.0,South Atlantic
+22520,168,0,114,114,True,True,False,Metropolitan Statistical Area,53814.0,East South Central
+22540,168,0,114,114,True,True,False,Metropolitan Statistical Area,49005.0,East North Central
+22580,168,0,114,114,True,True,False,Micropolitan Statistical Area,18806.0,South Atlantic
+22620,168,0,114,114,True,True,False,Micropolitan Statistical Area,7374.0,West South Central
+22660,168,0,114,114,True,True,False,Metropolitan Statistical Area,168105.0,Mountain
+22700,168,0,114,114,True,True,False,Micropolitan Statistical Area,18546.0,West North Central
+22780,168,0,114,114,True,True,False,Micropolitan Statistical Area,13201.0,West North Central
+22800,168,0,114,114,True,True,False,Micropolitan Statistical Area,21299.0,West North Central
+22820,168,0,114,114,True,True,False,Micropolitan Statistical Area,12794.0,Mountain
+22840,168,0,114,114,True,True,False,Micropolitan Statistical Area,22561.0,East South Central
+22860,168,0,114,114,True,True,False,Micropolitan Statistical Area,12846.0,West South Central
+22900,168,0,114,114,True,True,False,Metropolitan Statistical Area,98994.0,West South Central
+23060,168,0,114,114,True,True,False,Metropolitan Statistical Area,205992.0,East North Central
+23140,168,0,114,114,True,True,False,Micropolitan Statistical Area,11041.0,East North Central
+23180,168,0,114,114,True,True,False,Micropolitan Statistical Area,37319.0,East South Central
+23240,168,0,114,114,True,True,False,Micropolitan Statistical Area,11264.0,West South Central
+23300,168,0,114,114,True,True,False,Micropolitan Statistical Area,17918.0,East North Central
+23340,168,0,114,114,True,True,False,Micropolitan Statistical Area,17358.0,West North Central
+23380,168,0,114,114,True,True,False,Micropolitan Statistical Area,25896.0,East North Central
+23420,168,0,114,114,True,True,False,Metropolitan Statistical Area,406731.0,Pacific
+23460,168,0,114,114,True,True,False,Metropolitan Statistical Area,35898.0,East South Central
+23500,168,0,114,114,True,True,False,Micropolitan Statistical Area,21265.0,South Atlantic
+23540,168,0,114,114,True,True,False,Metropolitan Statistical Area,143886.0,South Atlantic
+23580,168,0,114,114,True,True,False,Metropolitan Statistical Area,89175.0,South Atlantic
+23620,168,0,114,114,True,True,False,Micropolitan Statistical Area,15454.0,West South Central
+23660,168,0,114,114,True,True,False,Micropolitan Statistical Area,17893.0,East North Central
+23700,168,0,114,114,True,True,False,Micropolitan Statistical Area,20762.0,Mountain
+23780,168,0,114,114,True,True,False,Micropolitan Statistical Area,21353.0,West North Central
+23820,168,0,114,114,True,True,False,Micropolitan Statistical Area,20197.0,Mountain
+23860,168,0,114,114,True,True,False,Micropolitan Statistical Area,25117.0,South Atlantic
+23900,168,0,114,114,True,True,False,Metropolitan Statistical Area,35233.0,Middle Atlantic
+23940,168,0,114,114,True,True,False,Micropolitan Statistical Area,30948.0,Mountain
+23980,168,0,114,114,True,True,False,Micropolitan Statistical Area,18411.0,East South Central
+24020,168,0,114,114,True,True,False,Metropolitan Statistical Area,56730.0,Middle Atlantic
+24060,168,0,114,114,True,True,False,Micropolitan Statistical Area,43644.0,Mountain
+24100,168,0,114,114,True,True,False,Micropolitan Statistical Area,17320.0,Middle Atlantic
+24140,168,0,114,114,True,True,False,Metropolitan Statistical Area,41860.0,South Atlantic
+24180,168,0,114,114,True,True,False,Micropolitan Statistical Area,17080.0,West South Central
+24220,168,0,114,114,True,True,False,Metropolitan Statistical Area,52898.0,West North Central
+24260,168,0,114,114,True,True,False,Metropolitan Statistical Area,39009.0,West North Central
+24300,168,0,114,114,True,True,False,Metropolitan Statistical Area,63903.0,Mountain
+24330,168,0,114,114,True,True,False,Micropolitan Statistical Area,16949.0,West North Central
+24340,168,0,114,114,True,True,False,Metropolitan Statistical Area,582841.0,East North Central
+24380,168,0,114,114,True,True,False,Micropolitan Statistical Area,7674.0,Mountain
+24420,168,0,114,114,True,True,False,Metropolitan Statistical Area,29315.0,Pacific
+24460,168,0,114,114,True,True,False,Micropolitan Statistical Area,12145.0,West North Central
+24500,168,0,114,114,True,True,False,Metropolitan Statistical Area,36175.0,Mountain
+24540,168,0,114,114,True,True,False,Metropolitan Statistical Area,115024.0,Mountain
+24580,168,0,114,114,True,True,False,Metropolitan Statistical Area,177205.0,East North Central
+24620,168,0,114,114,True,True,False,Micropolitan Statistical Area,25375.0,East South Central
+24660,168,0,114,114,True,True,False,Metropolitan Statistical Area,354827.0,South Atlantic
+24700,168,0,114,114,True,True,False,Micropolitan Statistical Area,15042.0,East North Central
+24740,168,0,114,114,True,True,False,Micropolitan Statistical Area,16397.0,East South Central
+24780,168,0,114,114,True,True,False,Metropolitan Statistical Area,77037.0,South Atlantic
+24820,168,0,114,114,True,True,False,Micropolitan Statistical Area,18738.0,East North Central
+24860,168,0,114,114,True,True,False,Metropolitan Statistical Area,405804.0,South Atlantic
+24900,168,0,114,114,True,True,False,Micropolitan Statistical Area,15854.0,East South Central
+24940,168,0,114,114,True,True,False,Micropolitan Statistical Area,29160.0,South Atlantic
+24980,168,0,114,114,True,True,False,Micropolitan Statistical Area,10809.0,East South Central
+25020,168,0,114,114,True,True,False,Metropolitan Statistical Area,13353.0,Puerto Rico
+25060,168,0,114,114,True,True,False,Metropolitan Statistical Area,154927.0,East South Central
+25100,168,0,114,114,True,True,False,Micropolitan Statistical Area,9661.0,West South Central
+25180,168,0,114,114,True,True,False,Metropolitan Statistical Area,104599.0,South Atlantic
+25200,168,0,114,114,True,True,False,Micropolitan Statistical Area,13686.0,Mountain
+25220,168,0,114,114,True,True,False,Metropolitan Statistical Area,43158.0,West South Central
+25260,168,0,114,114,True,True,False,Metropolitan Statistical Area,49271.0,Pacific
+25300,168,0,114,114,True,True,False,Micropolitan Statistical Area,17038.0,West North Central
+25420,168,0,114,114,True,True,False,Metropolitan Statistical Area,335218.0,Middle Atlantic
+25460,168,0,114,114,True,True,False,Micropolitan Statistical Area,15465.0,West South Central
+25500,168,0,114,114,True,True,False,Metropolitan Statistical Area,65178.0,South Atlantic
+25540,168,0,114,114,True,True,False,Metropolitan Statistical Area,629315.0,New England
+25580,168,0,114,114,True,True,False,Micropolitan Statistical Area,15712.0,West North Central
+25620,168,0,114,114,True,True,False,Metropolitan Statistical Area,67251.0,East South Central
+25700,168,0,114,114,True,True,False,Micropolitan Statistical Area,15598.0,West North Central
+25720,168,0,114,114,True,True,False,Micropolitan Statistical Area,37585.0,Mountain
+25740,168,0,114,114,True,True,False,Micropolitan Statistical Area,39487.0,Mountain
+25760,168,0,114,114,True,True,False,Micropolitan Statistical Area,5427.0,West South Central
+25780,168,0,114,114,True,True,False,Micropolitan Statistical Area,14757.0,South Atlantic
+25820,168,0,114,114,True,True,False,Micropolitan Statistical Area,7804.0,West South Central
+25840,168,0,114,114,True,True,False,Micropolitan Statistical Area,39536.0,Pacific
+25860,168,0,114,114,True,True,False,Metropolitan Statistical Area,153270.0,South Atlantic
+25880,168,0,114,114,True,True,False,Micropolitan Statistical Area,12929.0,East North Central
+25900,168,0,114,114,True,True,False,Micropolitan Statistical Area,72041.0,Pacific
+25940,168,0,114,114,True,True,False,Metropolitan Statistical Area,81055.0,South Atlantic
+25980,168,0,114,114,True,True,False,Metropolitan Statistical Area,20117.0,South Atlantic
+26020,168,0,114,114,True,True,False,Micropolitan Statistical Area,32893.0,Mountain
+26090,168,0,114,114,True,True,False,Micropolitan Statistical Area,41648.0,East North Central
+26140,168,0,114,114,True,True,False,Metropolitan Statistical Area,32253.0,South Atlantic
+26220,168,0,114,114,True,True,False,Micropolitan Statistical Area,14569.0,Pacific
+26260,168,0,114,114,True,True,False,Micropolitan Statistical Area,10325.0,West South Central
+26300,168,0,114,114,True,True,False,Metropolitan Statistical Area,38176.0,West South Central
+26340,168,0,114,114,True,True,False,Micropolitan Statistical Area,11869.0,East North Central
+26380,168,0,114,114,True,True,False,Metropolitan Statistical Area,84537.0,West South Central
+26420,168,0,114,114,True,True,False,Metropolitan Statistical Area,3039717.0,West South Central
+26460,168,0,114,114,True,True,False,Micropolitan Statistical Area,22849.0,Middle Atlantic
+26500,168,0,114,114,True,True,False,Micropolitan Statistical Area,13055.0,Middle Atlantic
+26540,168,0,114,114,True,True,False,Micropolitan Statistical Area,13506.0,East North Central
+26580,168,0,114,114,True,True,False,Metropolitan Statistical Area,131743.0,East South Central
+26620,168,0,114,114,True,True,False,Metropolitan Statistical Area,230442.0,East South Central
+26660,168,0,114,114,True,True,False,Micropolitan Statistical Area,24954.0,West South Central
+26700,168,0,114,114,True,True,False,Micropolitan Statistical Area,10543.0,West North Central
+26740,168,0,114,114,True,True,False,Micropolitan Statistical Area,27141.0,West North Central
+26780,168,0,114,114,True,True,False,Micropolitan Statistical Area,16414.0,West North Central
+26820,168,0,114,114,True,True,False,Metropolitan Statistical Area,69986.0,Mountain
+26860,168,0,114,114,True,True,False,Micropolitan Statistical Area,29520.0,Middle Atlantic
+26900,168,0,114,114,True,True,False,Metropolitan Statistical Area,1033947.0,East North Central
+26940,168,0,114,114,True,True,False,Micropolitan Statistical Area,8172.0,East South Central
+26980,168,0,114,114,True,True,False,Metropolitan Statistical Area,92232.0,West North Central
+27020,168,0,114,114,True,True,False,Micropolitan Statistical Area,15095.0,East North Central
+27060,168,0,114,114,True,True,False,Metropolitan Statistical Area,50059.0,Middle Atlantic
+27100,168,0,114,114,True,True,False,Metropolitan Statistical Area,57980.0,East North Central
+27140,168,0,114,114,True,True,False,Metropolitan Statistical Area,263933.0,East South Central
+27160,168,0,114,114,True,True,False,Micropolitan Statistical Area,10088.0,East North Central
+27180,168,0,114,114,True,True,False,Metropolitan Statistical Area,81685.0,East South Central
+27220,168,0,114,114,True,True,False,Micropolitan Statistical Area,28091.0,Mountain
+27260,168,0,114,114,True,True,False,Metropolitan Statistical Area,681855.0,South Atlantic
+27300,168,0,114,114,True,True,False,Micropolitan Statistical Area,15251.0,East North Central
+27340,168,0,114,114,True,True,False,Metropolitan Statistical Area,49093.0,South Atlantic
+27380,168,0,114,114,True,True,False,Micropolitan Statistical Area,14725.0,West South Central
+27420,168,0,114,114,True,True,False,Micropolitan Statistical Area,11031.0,West North Central
+27460,168,0,114,114,True,True,False,Micropolitan Statistical Area,49757.0,Middle Atlantic
+27500,168,0,114,114,True,True,False,Metropolitan Statistical Area,69306.0,East North Central
+27530,168,0,114,114,True,True,False,Micropolitan Statistical Area,18515.0,East South Central
+27540,168,0,114,114,True,True,False,Micropolitan Statistical Area,32189.0,East North Central
+27580,168,0,114,114,True,True,False,Micropolitan Statistical Area,2703.0,Puerto Rico
+27600,168,0,114,114,True,True,False,Micropolitan Statistical Area,27946.0,South Atlantic
+27620,168,0,114,114,True,True,False,Metropolitan Statistical Area,76584.0,West North Central
+27660,168,0,114,114,True,True,False,Micropolitan Statistical Area,8387.0,West South Central
+27700,168,0,114,114,True,True,False,Micropolitan Statistical Area,8245.0,South Atlantic
+27740,168,0,114,114,True,True,False,Metropolitan Statistical Area,77612.0,East South Central
+27780,168,0,114,114,True,True,False,Metropolitan Statistical Area,50975.0,Middle Atlantic
+27860,168,0,114,114,True,True,False,Metropolitan Statistical Area,57418.0,West South Central
+27900,168,0,114,114,True,True,False,Metropolitan Statistical Area,78840.0,West North Central
+27940,168,0,114,114,True,True,False,Micropolitan Statistical Area,18628.0,Pacific
+27980,168,0,114,114,True,True,False,Metropolitan Statistical Area,80831.0,Pacific
+28020,168,0,114,114,True,True,False,Metropolitan Statistical Area,122624.0,East North Central
+28060,168,0,114,114,True,True,False,Micropolitan Statistical Area,46421.0,Mountain
+28100,168,0,114,114,True,True,False,Metropolitan Statistical Area,45901.0,East North Central
+28140,168,0,114,114,True,True,False,Metropolitan Statistical Area,1062568.0,West North Central
+28180,168,0,114,114,True,True,False,Micropolitan Statistical Area,34325.0,Pacific
+28260,168,0,114,114,True,True,False,Micropolitan Statistical Area,29462.0,West North Central
+28300,168,0,114,114,True,True,False,Micropolitan Statistical Area,32012.0,New England
+28340,168,0,114,114,True,True,False,Micropolitan Statistical Area,18834.0,East North Central
+28380,168,0,114,114,True,True,False,Micropolitan Statistical Area,9051.0,West North Central
+28420,168,0,114,114,True,True,False,Metropolitan Statistical Area,135930.0,Pacific
+28500,168,0,114,114,True,True,False,Micropolitan Statistical Area,18883.0,West South Central
+28540,168,0,114,114,True,True,False,Micropolitan Statistical Area,8289.0,Pacific
+28580,168,0,114,114,True,True,False,Micropolitan Statistical Area,41108.0,South Atlantic
+28620,168,0,114,114,True,True,False,Micropolitan Statistical Area,23325.0,South Atlantic
+28660,168,0,114,114,True,True,False,Metropolitan Statistical Area,141802.0,West South Central
+28700,168,0,114,114,True,True,False,Metropolitan Statistical Area,115185.0,South Atlantic
+28740,168,0,114,114,True,True,False,Metropolitan Statistical Area,61800.0,Middle Atlantic
+28780,168,0,114,114,True,True,False,Micropolitan Statistical Area,12315.0,West South Central
+28820,168,0,114,114,True,True,False,Micropolitan Statistical Area,28905.0,South Atlantic
+28860,168,0,114,114,True,True,False,Micropolitan Statistical Area,10389.0,West North Central
+28900,168,0,114,114,True,True,False,Micropolitan Statistical Area,24000.0,Pacific
+28940,168,0,114,114,True,True,False,Metropolitan Statistical Area,381476.0,East South Central
+29020,168,0,114,114,True,True,False,Metropolitan Statistical Area,38047.0,East North Central
+29060,168,0,114,114,True,True,False,Micropolitan Statistical Area,27539.0,New England
+29100,168,0,114,114,True,True,False,Metropolitan Statistical Area,75351.0,East North Central
+29180,168,0,114,114,True,True,False,Metropolitan Statistical Area,197162.0,West South Central
+29200,168,0,114,114,True,True,False,Metropolitan Statistical Area,94387.0,East North Central
+29260,168,0,114,114,True,True,False,Micropolitan Statistical Area,10537.0,Pacific
+29300,168,0,114,114,True,True,False,Micropolitan Statistical Area,49229.0,East South Central
+29340,168,0,114,114,True,True,False,Metropolitan Statistical Area,112184.0,West South Central
+29380,168,0,114,114,True,True,False,Micropolitan Statistical Area,24554.0,South Atlantic
+29420,168,0,114,114,True,True,False,Metropolitan Statistical Area,51062.0,Mountain
+29460,168,0,114,114,True,True,False,Metropolitan Statistical Area,221412.0,South Atlantic
+29500,168,0,114,114,True,True,False,Micropolitan Statistical Area,4326.0,West South Central
+29540,168,0,114,114,True,True,False,Metropolitan Statistical Area,247782.0,Middle Atlantic
+29620,168,0,114,114,True,True,False,Metropolitan Statistical Area,228841.0,East North Central
+29660,168,0,114,114,True,True,False,Micropolitan Statistical Area,16056.0,Mountain
+29700,168,0,114,114,True,True,False,Metropolitan Statistical Area,104288.0,West South Central
+29740,168,0,114,114,True,True,False,Metropolitan Statistical Area,73204.0,Mountain
+29780,168,0,114,114,True,True,False,Micropolitan Statistical Area,8598.0,Mountain
+29820,168,0,114,114,True,True,False,Metropolitan Statistical Area,1023161.0,Mountain
+29860,168,0,114,114,True,True,False,Micropolitan Statistical Area,32121.0,East South Central
+29900,168,0,114,114,True,True,False,Micropolitan Statistical Area,11892.0,South Atlantic
+29940,168,0,114,114,True,True,False,Metropolitan Statistical Area,49635.0,West North Central
+29980,168,0,114,114,True,True,False,Micropolitan Statistical Area,11169.0,East South Central
+30020,168,0,114,114,True,True,False,Metropolitan Statistical Area,43678.0,West South Central
+30060,168,0,114,114,True,True,False,Micropolitan Statistical Area,14295.0,West North Central
+30100,168,0,114,114,True,True,False,Micropolitan Statistical Area,100984.0,New England
+30140,168,0,114,114,True,True,False,Metropolitan Statistical Area,52087.0,Middle Atlantic
+30220,168,0,114,114,True,True,False,Micropolitan Statistical Area,9806.0,West South Central
+30260,168,0,114,114,True,True,False,Micropolitan Statistical Area,17777.0,Middle Atlantic
+30280,168,0,114,114,True,True,False,Micropolitan Statistical Area,9899.0,East South Central
+30300,168,0,114,114,True,True,False,Metropolitan Statistical Area,27693.0,Mountain
+30340,168,0,114,114,True,True,False,Metropolitan Statistical Area,50451.0,New England
+30380,168,0,114,114,True,True,False,Micropolitan Statistical Area,16246.0,Middle Atlantic
+30420,168,0,114,114,True,True,False,Micropolitan Statistical Area,12176.0,West North Central
+30460,168,0,114,114,True,True,False,Metropolitan Statistical Area,270993.0,East South Central
+30580,168,0,114,114,True,True,False,Micropolitan Statistical Area,10469.0,West North Central
+30620,168,0,114,114,True,True,False,Metropolitan Statistical Area,50484.0,East North Central
+30660,168,0,114,114,True,True,False,Micropolitan Statistical Area,8876.0,East North Central
+30700,168,0,114,114,True,True,False,Metropolitan Statistical Area,178113.0,West North Central
+30780,168,0,114,114,True,True,False,Metropolitan Statistical Area,340028.0,West South Central
+30820,168,0,114,114,True,True,False,Micropolitan Statistical Area,13437.0,Middle Atlantic
+30860,168,0,114,114,True,True,False,Metropolitan Statistical Area,61004.0,Mountain
+30900,168,0,114,114,True,True,False,Micropolitan Statistical Area,15397.0,East North Central
+30940,168,0,114,114,True,True,False,Micropolitan Statistical Area,50756.0,East South Central
+30980,168,0,114,114,True,True,False,Metropolitan Statistical Area,120285.0,West South Central
+31020,168,0,114,114,True,True,False,Metropolitan Statistical Area,39673.0,Pacific
+31060,168,0,114,114,True,True,False,Micropolitan Statistical Area,17505.0,Mountain
+31080,168,0,114,114,True,True,False,Metropolitan Statistical Area,6157327.0,Pacific
+31140,168,0,114,114,True,True,False,Metropolitan Statistical Area,639509.0,East South Central
+31180,168,0,114,114,True,True,False,Metropolitan Statistical Area,144177.0,West South Central
+31220,168,0,114,114,True,True,False,Micropolitan Statistical Area,10912.0,East North Central
+31260,168,0,114,114,True,True,False,Micropolitan Statistical Area,35262.0,West South Central
+31300,168,0,114,114,True,True,False,Micropolitan Statistical Area,39482.0,South Atlantic
+31340,168,0,114,114,True,True,False,Metropolitan Statistical Area,99743.0,South Atlantic
+31380,168,0,114,114,True,True,False,Micropolitan Statistical Area,10861.0,East North Central
+31420,168,0,114,114,True,True,False,Metropolitan Statistical Area,98797.0,South Atlantic
+31460,168,0,114,114,True,True,False,Metropolitan Statistical Area,52490.0,Pacific
+31500,168,0,114,114,True,True,False,Micropolitan Statistical Area,12378.0,East North Central
+31540,168,0,114,114,True,True,False,Metropolitan Statistical Area,399427.0,East North Central
+31580,168,0,114,114,True,True,False,Micropolitan Statistical Area,16839.0,East South Central
+31620,168,0,114,114,True,True,False,Micropolitan Statistical Area,8097.0,West South Central
+31660,168,0,114,114,True,True,False,Micropolitan Statistical Area,18454.0,Middle Atlantic
+31680,168,0,114,114,True,True,False,Micropolitan Statistical Area,8281.0,West South Central
+31700,168,0,114,114,True,True,False,Metropolitan Statistical Area,208358.0,New England
+31740,168,0,114,114,True,True,False,Metropolitan Statistical Area,52444.0,West North Central
+31820,168,0,114,114,True,True,False,Micropolitan Statistical Area,34335.0,East North Central
+31860,168,0,114,114,True,True,False,Metropolitan Statistical Area,55597.0,West North Central
+31900,168,0,114,114,True,True,False,Metropolitan Statistical Area,50673.0,East North Central
+31930,168,0,114,114,True,True,False,Micropolitan Statistical Area,25829.0,East North Central
+31940,168,0,114,114,True,True,False,Micropolitan Statistical Area,26588.0,East North Central
+31980,168,0,114,114,True,True,False,Micropolitan Statistical Area,27039.0,East North Central
+32000,168,0,114,114,True,True,False,Micropolitan Statistical Area,15924.0,South Atlantic
+32020,168,0,114,114,True,True,False,Micropolitan Statistical Area,24993.0,East North Central
+32100,168,0,114,114,True,True,False,Micropolitan Statistical Area,26963.0,East North Central
+32140,168,0,114,114,True,True,False,Micropolitan Statistical Area,14486.0,West North Central
+32180,168,0,114,114,True,True,False,Micropolitan Statistical Area,8847.0,West North Central
+32260,168,0,114,114,True,True,False,Micropolitan Statistical Area,16865.0,West North Central
+32280,168,0,114,114,True,True,False,Micropolitan Statistical Area,10828.0,East South Central
+32300,168,0,114,114,True,True,False,Micropolitan Statistical Area,25317.0,South Atlantic
+32340,168,0,114,114,True,True,False,Micropolitan Statistical Area,7786.0,West North Central
+32380,168,0,114,114,True,True,False,Micropolitan Statistical Area,27922.0,West North Central
+32420,168,0,114,114,True,True,False,Metropolitan Statistical Area,32281.0,Puerto Rico
+32460,168,0,114,114,True,True,False,Micropolitan Statistical Area,11609.0,East South Central
+32500,168,0,114,114,True,True,False,Micropolitan Statistical Area,8320.0,East South Central
+32540,168,0,114,114,True,True,False,Micropolitan Statistical Area,16161.0,West South Central
+32580,168,0,114,114,True,True,False,Metropolitan Statistical Area,265391.0,West South Central
+32620,168,0,114,114,True,True,False,Micropolitan Statistical Area,14844.0,East South Central
+32660,168,0,114,114,True,True,False,Micropolitan Statistical Area,12783.0,East South Central
+32700,168,0,114,114,True,True,False,Micropolitan Statistical Area,15850.0,West North Central
+32740,168,0,114,114,True,True,False,Micropolitan Statistical Area,30541.0,Middle Atlantic
+32780,168,0,114,114,True,True,False,Metropolitan Statistical Area,90815.0,Pacific
+32820,168,0,114,114,True,True,False,Metropolitan Statistical Area,623526.0,East South Central
+32860,168,0,114,114,True,True,False,Micropolitan Statistical Area,17418.0,East North Central
+32900,168,0,114,114,True,True,False,Metropolitan Statistical Area,82475.0,Pacific
+32940,168,0,114,114,True,True,False,Micropolitan Statistical Area,37378.0,East South Central
+33020,168,0,114,114,True,True,False,Micropolitan Statistical Area,8970.0,West North Central
+33060,168,0,114,114,True,True,False,Micropolitan Statistical Area,12159.0,West South Central
+33100,168,0,114,114,True,True,False,Metropolitan Statistical Area,2564895.0,South Atlantic
+33140,168,0,114,114,True,True,False,Metropolitan Statistical Area,40830.0,East North Central
+33180,168,0,114,114,True,True,False,Micropolitan Statistical Area,8176.0,East South Central
+33220,168,0,114,114,True,True,False,Metropolitan Statistical Area,38247.0,East North Central
+33260,168,0,114,114,True,True,False,Metropolitan Statistical Area,111808.0,West South Central
+33300,168,0,114,114,True,True,False,Micropolitan Statistical Area,17031.0,South Atlantic
+33340,168,0,114,114,True,True,False,Metropolitan Statistical Area,845602.0,East North Central
+33380,168,0,114,114,True,True,False,Micropolitan Statistical Area,11865.0,West South Central
+33420,168,0,114,114,True,True,False,Micropolitan Statistical Area,8960.0,West South Central
+33460,168,0,114,114,True,True,False,Metropolitan Statistical Area,1964853.0,West North Central
+33500,168,0,114,114,True,True,False,Micropolitan Statistical Area,34495.0,West North Central
+33540,168,0,114,114,True,True,False,Metropolitan Statistical Area,62788.0,Mountain
+33580,168,0,114,114,True,True,False,Micropolitan Statistical Area,13088.0,West North Central
+33620,168,0,114,114,True,True,False,Micropolitan Statistical Area,9593.0,West North Central
+33660,168,0,114,114,True,True,False,Metropolitan Statistical Area,175315.0,East South Central
+33700,168,0,114,114,True,True,False,Metropolitan Statistical Area,194812.0,Pacific
+33740,168,0,114,114,True,True,False,Metropolitan Statistical Area,82267.0,West South Central
+33780,168,0,114,114,True,True,False,Metropolitan Statistical Area,40633.0,East North Central
+33860,168,0,114,114,True,True,False,Metropolitan Statistical Area,165311.0,East South Central
+33940,168,0,114,114,True,True,False,Micropolitan Statistical Area,18068.0,Mountain
+33980,168,0,114,114,True,True,False,Micropolitan Statistical Area,24975.0,South Atlantic
+34020,168,0,114,114,True,True,False,Micropolitan Statistical Area,21471.0,West South Central
+34060,168,0,114,114,True,True,False,Metropolitan Statistical Area,63718.0,South Atlantic
+34100,168,0,114,114,True,True,False,Metropolitan Statistical Area,50057.0,East South Central
+34140,168,0,114,114,True,True,False,Micropolitan Statistical Area,14222.0,Mountain
+34180,168,0,114,114,True,True,False,Micropolitan Statistical Area,43753.0,Pacific
+34220,168,0,114,114,True,True,False,Micropolitan Statistical Area,15008.0,South Atlantic
+34260,168,0,114,114,True,True,False,Micropolitan Statistical Area,15008.0,West South Central
+34300,168,0,114,114,True,True,False,Micropolitan Statistical Area,7209.0,Mountain
+34340,168,0,114,114,True,True,False,Micropolitan Statistical Area,29169.0,South Atlantic
+34350,168,0,114,114,True,True,False,Micropolitan Statistical Area,10392.0,South Atlantic
+34380,168,0,114,114,True,True,False,Micropolitan Statistical Area,28493.0,East North Central
+34420,168,0,114,114,True,True,False,Micropolitan Statistical Area,20088.0,West South Central
+34460,168,0,114,114,True,True,False,Micropolitan Statistical Area,13290.0,East South Central
+34500,168,0,114,114,True,True,False,Micropolitan Statistical Area,19911.0,East North Central
+34540,168,0,114,114,True,True,False,Micropolitan Statistical Area,20582.0,East North Central
+34580,168,0,114,114,True,True,False,Metropolitan Statistical Area,54077.0,Pacific
+34620,168,0,114,114,True,True,False,Metropolitan Statistical Area,44262.0,East North Central
+34660,168,0,114,114,True,True,False,Micropolitan Statistical Area,16236.0,East South Central
+34700,168,0,114,114,True,True,False,Micropolitan Statistical Area,23597.0,West North Central
+34740,168,0,114,114,True,True,False,Metropolitan Statistical Area,64201.0,East North Central
+34780,168,0,114,114,True,True,False,Micropolitan Statistical Area,30159.0,West South Central
+34820,168,0,114,114,True,True,False,Metropolitan Statistical Area,175565.0,South Atlantic
+34860,168,0,114,114,True,True,False,Micropolitan Statistical Area,22069.0,West South Central
+34900,168,0,114,114,True,True,False,Metropolitan Statistical Area,82434.0,Pacific
+34940,168,0,114,114,True,True,False,Metropolitan Statistical Area,142582.0,South Atlantic
+34980,168,0,114,114,True,True,False,Metropolitan Statistical Area,996807.0,East South Central
+35020,168,0,114,114,True,True,False,Micropolitan Statistical Area,16016.0,East South Central
+35060,168,0,114,114,True,True,False,Micropolitan Statistical Area,13186.0,West South Central
+35100,168,0,114,114,True,True,False,Metropolitan Statistical Area,45167.0,South Atlantic
+35140,168,0,114,114,True,True,False,Micropolitan Statistical Area,14775.0,South Atlantic
+35220,168,0,114,114,True,True,False,Micropolitan Statistical Area,13240.0,East North Central
+35260,168,0,114,114,True,True,False,Micropolitan Statistical Area,29330.0,Middle Atlantic
+35300,168,0,114,114,True,True,False,Metropolitan Statistical Area,369519.0,New England
+35380,168,0,114,114,True,True,False,Metropolitan Statistical Area,550391.0,West South Central
+35420,168,0,114,114,True,True,False,Micropolitan Statistical Area,37800.0,East North Central
+35440,168,0,114,114,True,True,False,Micropolitan Statistical Area,19690.0,Pacific
+35460,168,0,114,114,True,True,False,Micropolitan Statistical Area,7985.0,East South Central
+35580,168,0,114,114,True,True,False,Micropolitan Statistical Area,14269.0,West North Central
+35620,168,0,114,114,True,True,False,Metropolitan Statistical Area,9415533.0,Middle Atlantic
+35660,168,0,114,114,True,True,False,Metropolitan Statistical Area,62993.0,East North Central
+35700,168,0,114,114,True,True,False,Micropolitan Statistical Area,13711.0,Mountain
+35740,168,0,114,114,True,True,False,Micropolitan Statistical Area,25574.0,West North Central
+35820,168,0,114,114,True,True,False,Micropolitan Statistical Area,14816.0,West North Central
+35840,168,0,114,114,True,True,False,Metropolitan Statistical Area,293140.0,South Atlantic
+35860,168,0,114,114,True,True,False,Micropolitan Statistical Area,7660.0,East North Central
+35900,168,0,114,114,True,True,False,Micropolitan Statistical Area,21016.0,South Atlantic
+35940,168,0,114,114,True,True,False,Micropolitan Statistical Area,21839.0,East North Central
+35980,168,0,114,114,True,True,False,Metropolitan Statistical Area,125321.0,New England
+36020,168,0,114,114,True,True,False,Micropolitan Statistical Area,17205.0,Pacific
+36100,168,0,114,114,True,True,False,Metropolitan Statistical Area,104503.0,South Atlantic
+36140,168,0,114,114,True,True,False,Metropolitan Statistical Area,53180.0,Middle Atlantic
+36220,168,0,114,114,True,True,False,Metropolitan Statistical Area,80607.0,West South Central
+36260,168,0,114,114,True,True,False,Metropolitan Statistical Area,267029.0,Mountain
+36300,168,0,114,114,True,True,False,Micropolitan Statistical Area,36160.0,Middle Atlantic
+36340,168,0,114,114,True,True,False,Micropolitan Statistical Area,18069.0,Middle Atlantic
+36380,168,0,114,114,True,True,False,Micropolitan Statistical Area,10920.0,South Atlantic
+36420,168,0,114,114,True,True,False,Metropolitan Statistical Area,621967.0,West South Central
+36460,168,0,114,114,True,True,False,Micropolitan Statistical Area,29066.0,Middle Atlantic
+36500,168,0,114,114,True,True,False,Metropolitan Statistical Area,118837.0,Pacific
+36540,168,0,114,114,True,True,False,Metropolitan Statistical Area,485644.0,West North Central
+36580,168,0,114,114,True,True,False,Micropolitan Statistical Area,24686.0,Middle Atlantic
+36620,168,0,114,114,True,True,False,Micropolitan Statistical Area,19617.0,Mountain
+36660,168,0,114,114,True,True,False,Micropolitan Statistical Area,24072.0,West South Central
+36700,168,0,114,114,True,True,False,Micropolitan Statistical Area,29088.0,South Atlantic
+36740,168,0,114,114,True,True,False,Metropolitan Statistical Area,1251517.0,South Atlantic
+36780,168,0,114,114,True,True,False,Metropolitan Statistical Area,94027.0,East North Central
+36820,168,0,114,114,True,True,False,Micropolitan Statistical Area,8088.0,West North Central
+36830,168,0,114,114,True,True,False,Micropolitan Statistical Area,10332.0,Pacific
+36837,168,0,114,114,True,True,False,Micropolitan Statistical Area,56275.0,East North Central
+36840,168,0,114,114,True,True,False,Micropolitan Statistical Area,9329.0,West North Central
+36900,168,0,114,114,True,True,False,Micropolitan Statistical Area,16195.0,West North Central
+36940,168,0,114,114,True,True,False,Micropolitan Statistical Area,22090.0,West North Central
+36980,168,0,114,114,True,True,False,Metropolitan Statistical Area,52374.0,East South Central
+37060,168,0,114,114,True,True,False,Micropolitan Statistical Area,23929.0,East South Central
+37100,168,0,114,114,True,True,False,Metropolitan Statistical Area,335034.0,Pacific
+37120,168,0,114,114,True,True,False,Micropolitan Statistical Area,17278.0,East South Central
+37140,168,0,114,114,True,True,False,Micropolitan Statistical Area,46393.0,East South Central
+37220,168,0,114,114,True,True,False,Micropolitan Statistical Area,12823.0,Mountain
+37260,168,0,114,114,True,True,False,Micropolitan Statistical Area,15802.0,South Atlantic
+37300,168,0,114,114,True,True,False,Micropolitan Statistical Area,20456.0,West South Central
+37340,168,0,114,114,True,True,False,Metropolitan Statistical Area,221519.0,South Atlantic
+37420,168,0,114,114,True,True,False,Micropolitan Statistical Area,8084.0,West South Central
+37460,168,0,114,114,True,True,False,Metropolitan Statistical Area,75807.0,South Atlantic
+37500,168,0,114,114,True,True,False,Micropolitan Statistical Area,15665.0,West South Central
+37540,168,0,114,114,True,True,False,Micropolitan Statistical Area,11631.0,East South Central
+37580,168,0,114,114,True,True,False,Micropolitan Statistical Area,21829.0,West South Central
+37620,168,0,114,114,True,True,False,Metropolitan Statistical Area,36514.0,South Atlantic
+37660,168,0,114,114,True,True,False,Micropolitan Statistical Area,8960.0,West North Central
+37740,168,0,114,114,True,True,False,Micropolitan Statistical Area,15148.0,Mountain
+37770,168,0,114,114,True,True,False,Micropolitan Statistical Area,7728.0,West South Central
+37780,165,3,111,114,False,False,False,Micropolitan Statistical Area,9818.0,West South Central
+37800,168,0,114,114,True,True,False,Micropolitan Statistical Area,18611.0,West North Central
+37860,168,0,114,114,True,True,False,Metropolitan Statistical Area,176880.0,South Atlantic
+37900,168,0,114,114,True,True,False,Metropolitan Statistical Area,176869.0,East North Central
+37940,168,0,114,114,True,True,False,Micropolitan Statistical Area,9398.0,East North Central
+37980,168,0,114,114,True,True,False,Metropolitan Statistical Area,2847506.0,Middle Atlantic
+38060,168,0,114,114,True,True,False,Metropolitan Statistical Area,2082038.0,Mountain
+38100,168,0,114,114,True,True,False,Micropolitan Statistical Area,10683.0,East South Central
+38180,168,0,114,114,True,True,False,Micropolitan Statistical Area,12304.0,West North Central
+38220,168,0,114,114,True,True,False,Metropolitan Statistical Area,30706.0,West South Central
+38240,168,0,114,114,True,True,False,Micropolitan Statistical Area,37250.0,South Atlantic
+38260,168,0,114,114,True,True,False,Micropolitan Statistical Area,17168.0,West North Central
+38300,168,0,114,114,True,True,False,Metropolitan Statistical Area,1140925.0,Middle Atlantic
+38340,168,0,114,114,True,True,False,Metropolitan Statistical Area,63604.0,New England
+38380,168,0,114,114,True,True,False,Micropolitan Statistical Area,11645.0,West South Central
+38420,168,0,114,114,True,True,False,Micropolitan Statistical Area,18149.0,East North Central
+38460,168,0,114,114,True,True,False,Micropolitan Statistical Area,35098.0,Middle Atlantic
+38500,168,0,114,114,True,True,False,Micropolitan Statistical Area,18899.0,East North Central
+38540,168,0,114,114,True,True,False,Metropolitan Statistical Area,38659.0,Mountain
+38580,168,0,114,114,True,True,False,Micropolitan Statistical Area,16336.0,East North Central
+38620,168,0,114,114,True,True,False,Micropolitan Statistical Area,17773.0,West South Central
+38660,168,0,114,114,True,True,False,Metropolitan Statistical Area,56160.0,Puerto Rico
+38700,168,0,114,114,True,True,False,Micropolitan Statistical Area,14043.0,East North Central
+38740,168,0,114,114,True,True,False,Micropolitan Statistical Area,20693.0,West North Central
+38780,168,0,114,114,True,True,False,Micropolitan Statistical Area,5603.0,Mountain
+38820,168,0,114,114,True,True,False,Micropolitan Statistical Area,23797.0,Pacific
+38860,168,0,114,114,True,True,False,Metropolitan Statistical Area,288274.0,New England
+38900,168,0,114,114,True,True,False,Metropolitan Statistical Area,1216722.0,Pacific
+38920,168,0,114,114,True,True,False,Micropolitan Statistical Area,13158.0,West South Central
+38940,168,0,114,114,True,True,False,Metropolitan Statistical Area,145136.0,South Atlantic
+39020,168,0,114,114,True,True,False,Micropolitan Statistical Area,23203.0,East North Central
+39060,168,0,114,114,True,True,False,Micropolitan Statistical Area,50637.0,Middle Atlantic
+39100,168,0,114,114,True,True,False,Metropolitan Statistical Area,266249.0,Middle Atlantic
+39150,168,0,114,114,True,True,False,Metropolitan Statistical Area,64996.0,Mountain
+39220,168,0,114,114,True,True,False,Micropolitan Statistical Area,8710.0,Mountain
+39260,168,0,114,114,True,True,False,Micropolitan Statistical Area,6415.0,Pacific
+39300,168,0,114,114,True,True,False,Metropolitan Statistical Area,717478.0,New England
+39340,168,0,114,114,True,True,False,Metropolitan Statistical Area,253349.0,Mountain
+39380,168,0,114,114,True,True,False,Metropolitan Statistical Area,62618.0,Mountain
+39420,168,0,114,114,True,True,False,Micropolitan Statistical Area,19636.0,Pacific
+39460,168,0,114,114,True,True,False,Metropolitan Statistical Area,47170.0,South Atlantic
+39500,168,0,114,114,True,True,False,Micropolitan Statistical Area,35730.0,East North Central
+39540,168,0,114,114,True,True,False,Metropolitan Statistical Area,77280.0,East North Central
+39580,168,0,114,114,True,True,False,Metropolitan Statistical Area,643942.0,South Atlantic
+39660,168,0,114,114,True,True,False,Metropolitan Statistical Area,67456.0,West North Central
+39700,168,0,114,114,True,True,False,Micropolitan Statistical Area,3724.0,West South Central
+39740,168,0,114,114,True,True,False,Metropolitan Statistical Area,177143.0,Middle Atlantic
+39780,168,0,114,114,True,True,False,Micropolitan Statistical Area,19368.0,Pacific
+39820,168,0,114,114,True,True,False,Metropolitan Statistical Area,68810.0,Pacific
+39860,168,0,114,114,True,True,False,Micropolitan Statistical Area,22249.0,West North Central
+39900,168,0,114,114,True,True,False,Metropolitan Statistical Area,244994.0,Mountain
+39940,168,0,114,114,True,True,False,Micropolitan Statistical Area,19543.0,Mountain
+39980,168,0,114,114,True,True,False,Micropolitan Statistical Area,30484.0,East North Central
+40060,168,0,114,114,True,True,False,Metropolitan Statistical Area,646326.0,South Atlantic
+40080,168,0,114,114,True,True,False,Micropolitan Statistical Area,36881.0,East South Central
+40100,168,0,114,114,True,True,False,Micropolitan Statistical Area,15101.0,West South Central
+40140,168,0,114,114,True,True,False,Metropolitan Statistical Area,1531838.0,Pacific
+40180,168,0,114,114,True,True,False,Micropolitan Statistical Area,15653.0,Mountain
+40220,168,0,114,114,True,True,False,Metropolitan Statistical Area,152593.0,South Atlantic
+40260,168,0,114,114,True,True,False,Micropolitan Statistical Area,21437.0,South Atlantic
+40300,168,0,114,114,True,True,False,Micropolitan Statistical Area,15937.0,East North Central
+40340,168,0,114,114,True,True,False,Metropolitan Statistical Area,121116.0,West North Central
+40380,168,0,114,114,True,True,False,Metropolitan Statistical Area,521775.0,Middle Atlantic
+40420,168,0,114,114,True,True,False,Metropolitan Statistical Area,145494.0,East North Central
+40460,168,0,114,114,True,True,False,Micropolitan Statistical Area,13519.0,South Atlantic
+40530,168,0,114,114,True,True,False,Micropolitan Statistical Area,5624.0,West South Central
+40540,168,0,114,114,True,True,False,Micropolitan Statistical Area,22791.0,Mountain
+40580,168,0,114,114,True,True,False,Metropolitan Statistical Area,55892.0,South Atlantic
+40620,168,0,114,114,True,True,False,Micropolitan Statistical Area,18190.0,West North Central
+40660,168,0,114,114,True,True,False,Metropolitan Statistical Area,39925.0,South Atlantic
+40700,168,0,114,114,True,True,False,Micropolitan Statistical Area,39487.0,Pacific
+40740,168,0,114,114,True,True,False,Micropolitan Statistical Area,21112.0,Mountain
+40760,168,0,114,114,True,True,False,Micropolitan Statistical Area,7027.0,Mountain
+40780,168,0,114,114,True,True,False,Micropolitan Statistical Area,32079.0,West South Central
+40820,168,0,114,114,True,True,False,Micropolitan Statistical Area,19246.0,West South Central
+40860,168,0,114,114,True,True,False,Micropolitan Statistical Area,26765.0,New England
+40900,168,0,114,114,True,True,False,Metropolitan Statistical Area,1019955.0,Pacific
+40940,168,0,114,114,True,True,False,Micropolitan Statistical Area,9234.0,Mountain
+40980,168,0,114,114,True,True,False,Metropolitan Statistical Area,85014.0,East North Central
+41060,168,0,114,114,True,True,False,Metropolitan Statistical Area,106550.0,West North Central
+41100,168,0,114,114,True,True,False,Metropolitan Statistical Area,68610.0,Mountain
+41140,168,0,114,114,True,True,False,Metropolitan Statistical Area,55249.0,West North Central
+41180,168,0,114,114,True,True,False,Metropolitan Statistical Area,1337187.0,East North Central
+41220,168,0,114,114,True,True,False,Micropolitan Statistical Area,14564.0,South Atlantic
+41260,168,0,114,114,True,True,False,Micropolitan Statistical Area,14908.0,Middle Atlantic
+41400,168,0,114,114,True,True,False,Micropolitan Statistical Area,29917.0,East North Central
+41420,168,0,114,114,True,True,False,Metropolitan Statistical Area,183748.0,Pacific
+41460,168,0,114,114,True,True,False,Micropolitan Statistical Area,31060.0,West North Central
+41500,168,0,114,114,True,True,False,Metropolitan Statistical Area,214639.0,Pacific
+41540,168,0,114,114,True,True,False,Metropolitan Statistical Area,172903.0,South Atlantic
+41620,168,0,114,114,True,True,False,Metropolitan Statistical Area,737858.0,Mountain
+41660,168,0,114,114,True,True,False,Metropolitan Statistical Area,49430.0,West South Central
+41700,168,0,114,114,True,True,False,Metropolitan Statistical Area,1038663.0,West South Central
+41740,168,0,114,114,True,True,False,Metropolitan Statistical Area,1492516.0,Pacific
+41760,168,0,114,114,True,True,False,Micropolitan Statistical Area,14911.0,Mountain
+41780,168,0,114,114,True,True,False,Micropolitan Statistical Area,39797.0,East North Central
+41820,168,0,114,114,True,True,False,Micropolitan Statistical Area,25618.0,South Atlantic
+41860,168,0,114,114,True,True,False,Metropolitan Statistical Area,2463736.0,Pacific
+41900,168,0,114,114,True,True,False,Metropolitan Statistical Area,19572.0,Puerto Rico
+41940,168,0,114,114,True,True,False,Metropolitan Statistical Area,1140029.0,Pacific
+41980,168,0,114,114,True,True,False,Metropolitan Statistical Area,624853.0,Puerto Rico
+42020,168,0,114,114,True,True,False,Metropolitan Statistical Area,122328.0,Pacific
+42100,168,0,114,114,True,True,False,Metropolitan Statistical Area,111413.0,Pacific
+42140,168,0,114,114,True,True,False,Metropolitan Statistical Area,62322.0,Mountain
+42180,168,0,114,114,True,True,False,Micropolitan Statistical Area,6280.0,Puerto Rico
+42200,168,0,114,114,True,True,False,Metropolitan Statistical Area,210261.0,Pacific
+42220,168,0,114,114,True,True,False,Metropolitan Statistical Area,212340.0,Pacific
+42300,168,0,114,114,True,True,False,Micropolitan Statistical Area,12531.0,East North Central
+42340,168,0,114,114,True,True,False,Metropolitan Statistical Area,178860.0,South Atlantic
+42380,168,0,114,114,True,True,False,Micropolitan Statistical Area,23285.0,Middle Atlantic
+42420,168,0,114,114,True,True,False,Micropolitan Statistical Area,16764.0,West North Central
+42460,168,0,114,114,True,True,False,Micropolitan Statistical Area,15839.0,East South Central
+42500,168,0,114,114,True,True,False,Micropolitan Statistical Area,8253.0,East North Central
+42540,168,0,114,114,True,True,False,Metropolitan Statistical Area,253572.0,Middle Atlantic
+42620,168,0,114,114,True,True,False,Micropolitan Statistical Area,23859.0,West South Central
+42660,168,0,114,114,True,True,False,Metropolitan Statistical Area,2057472.0,Pacific
+42680,168,0,114,114,True,True,False,Metropolitan Statistical Area,51763.0,South Atlantic
+42700,168,0,114,114,True,True,False,Metropolitan Statistical Area,27419.0,South Atlantic
+42740,168,0,114,114,True,True,False,Micropolitan Statistical Area,19573.0,West North Central
+42780,168,0,114,114,True,True,False,Micropolitan Statistical Area,15492.0,Middle Atlantic
+42820,168,0,114,114,True,True,False,Micropolitan Statistical Area,12175.0,East South Central
+42860,168,0,114,114,True,True,False,Micropolitan Statistical Area,24447.0,South Atlantic
+42900,168,0,114,114,True,True,False,Micropolitan Statistical Area,12968.0,Middle Atlantic
+42940,168,0,114,114,True,True,False,Micropolitan Statistical Area,51982.0,East South Central
+42980,168,0,114,114,True,True,False,Micropolitan Statistical Area,21999.0,East North Central
+43020,168,0,114,114,True,True,False,Micropolitan Statistical Area,15206.0,East North Central
+43060,168,0,114,114,True,True,False,Micropolitan Statistical Area,22417.0,West South Central
+43100,168,0,114,114,True,True,False,Metropolitan Statistical Area,63592.0,East North Central
+43140,168,0,114,114,True,True,False,Micropolitan Statistical Area,35412.0,South Atlantic
+43180,168,0,114,114,True,True,False,Micropolitan Statistical Area,16221.0,East South Central
+43220,168,0,114,114,True,True,False,Micropolitan Statistical Area,14503.0,Pacific
+43260,168,0,114,114,True,True,False,Micropolitan Statistical Area,13954.0,Mountain
+43300,168,0,114,114,True,True,False,Metropolitan Statistical Area,47847.0,West South Central
+43320,168,0,114,114,True,True,False,Micropolitan Statistical Area,27213.0,Mountain
+43340,168,0,114,114,True,True,False,Metropolitan Statistical Area,162267.0,West South Central
+43380,168,0,114,114,True,True,False,Micropolitan Statistical Area,28121.0,East North Central
+43420,168,0,114,114,True,True,False,Metropolitan Statistical Area,33823.0,Mountain
+43460,168,0,114,114,True,True,False,Micropolitan Statistical Area,15592.0,West North Central
+43500,168,0,114,114,True,True,False,Micropolitan Statistical Area,9256.0,Mountain
+43580,168,0,114,114,True,True,False,Metropolitan Statistical Area,76742.0,West North Central
+43620,168,0,114,114,True,True,False,Metropolitan Statistical Area,158248.0,West North Central
+43660,168,0,114,114,True,True,False,Micropolitan Statistical Area,6622.0,West South Central
+43700,168,0,114,114,True,True,False,Micropolitan Statistical Area,26286.0,East South Central
+43740,168,0,114,114,True,True,False,Micropolitan Statistical Area,24429.0,Middle Atlantic
+43760,168,0,114,114,True,True,False,Micropolitan Statistical Area,18044.0,Pacific
+43780,168,0,114,114,True,True,False,Metropolitan Statistical Area,135276.0,East North Central
+43900,168,0,114,114,True,True,False,Metropolitan Statistical Area,147749.0,South Atlantic
+43940,168,0,114,114,True,True,False,Micropolitan Statistical Area,12473.0,West North Central
+43980,168,0,114,114,True,True,False,Micropolitan Statistical Area,8720.0,West North Central
+44020,168,0,114,114,True,True,False,Micropolitan Statistical Area,11167.0,West North Central
+44060,168,0,114,114,True,True,False,Metropolitan Statistical Area,242487.0,Pacific
+44100,168,0,114,114,True,True,False,Metropolitan Statistical Area,134069.0,East North Central
+44140,168,0,114,114,True,True,False,Metropolitan Statistical Area,309124.0,New England
+44180,168,0,114,114,True,True,False,Metropolitan Statistical Area,207832.0,West North Central
+44220,168,0,114,114,True,True,False,Metropolitan Statistical Area,48064.0,East North Central
+44260,168,0,114,114,True,True,False,Micropolitan Statistical Area,22526.0,East South Central
+44300,168,0,114,114,True,True,False,Metropolitan Statistical Area,67282.0,Middle Atlantic
+44340,168,0,114,114,True,True,False,Micropolitan Statistical Area,25267.0,South Atlantic
+44420,168,0,114,114,True,True,False,Metropolitan Statistical Area,49658.0,South Atlantic
+44460,168,0,114,114,True,True,False,Micropolitan Statistical Area,15383.0,Mountain
+44500,168,0,114,114,True,True,False,Micropolitan Statistical Area,16802.0,West South Central
+44540,168,0,114,114,True,True,False,Micropolitan Statistical Area,7968.0,Mountain
+44580,168,0,114,114,True,True,False,Micropolitan Statistical Area,21866.0,East North Central
+44620,168,0,114,114,True,True,False,Micropolitan Statistical Area,34089.0,East North Central
+44660,168,0,114,114,True,True,False,Micropolitan Statistical Area,33033.0,West South Central
+44700,168,0,114,114,True,True,False,Metropolitan Statistical Area,260221.0,Pacific
+44740,168,0,114,114,True,True,False,Micropolitan Statistical Area,11172.0,West North Central
+44780,168,0,114,114,True,True,False,Micropolitan Statistical Area,23827.0,East North Central
+44860,168,0,114,114,True,True,False,Micropolitan Statistical Area,13021.0,West South Central
+44900,168,0,114,114,True,True,False,Micropolitan Statistical Area,6041.0,South Atlantic
+44940,168,0,114,114,True,True,False,Metropolitan Statistical Area,44544.0,South Atlantic
+44980,168,0,114,114,True,True,False,Micropolitan Statistical Area,28907.0,Middle Atlantic
+45000,168,0,114,114,True,True,False,Micropolitan Statistical Area,10005.0,Pacific
+45020,168,0,114,114,True,True,False,Micropolitan Statistical Area,6395.0,West South Central
+45060,168,0,114,114,True,True,False,Metropolitan Statistical Area,309631.0,Middle Atlantic
+45140,168,0,114,114,True,True,False,Micropolitan Statistical Area,15673.0,West South Central
+45180,168,0,114,114,True,True,False,Micropolitan Statistical Area,29948.0,East South Central
+45220,168,0,114,114,True,True,False,Metropolitan Statistical Area,174011.0,South Atlantic
+45300,168,0,114,114,True,True,False,Metropolitan Statistical Area,1292785.0,South Atlantic
+45340,168,0,114,114,True,True,False,Micropolitan Statistical Area,10893.0,Mountain
+45380,168,0,114,114,True,True,False,Micropolitan Statistical Area,10273.0,East North Central
+45460,168,0,114,114,True,True,False,Metropolitan Statistical Area,69061.0,East North Central
+45500,168,0,114,114,True,True,False,Metropolitan Statistical Area,59259.0,West South Central
+45520,168,0,114,114,True,True,False,Micropolitan Statistical Area,14158.0,Pacific
+45540,168,0,114,114,True,True,False,Metropolitan Statistical Area,30640.0,South Atlantic
+45580,168,0,114,114,True,True,False,Micropolitan Statistical Area,6718.0,South Atlantic
+45620,168,0,114,114,True,True,False,Micropolitan Statistical Area,19835.0,South Atlantic
+45660,168,0,114,114,True,True,False,Micropolitan Statistical Area,19638.0,East North Central
+45700,168,0,114,114,True,True,False,Micropolitan Statistical Area,20894.0,South Atlantic
+45740,168,0,114,114,True,True,False,Micropolitan Statistical Area,9014.0,South Atlantic
+45780,168,0,114,114,True,True,False,Metropolitan Statistical Area,313347.0,East North Central
+45820,168,0,114,114,True,True,False,Metropolitan Statistical Area,109323.0,West North Central
+45860,168,0,114,114,True,True,False,Micropolitan Statistical Area,63051.0,New England
+45900,168,0,114,114,True,True,False,Micropolitan Statistical Area,69900.0,East North Central
+45940,168,0,114,114,True,True,False,Metropolitan Statistical Area,263323.0,Middle Atlantic
+45980,168,0,114,114,True,True,False,Micropolitan Statistical Area,14190.0,East South Central
+46020,168,0,114,114,True,True,False,Micropolitan Statistical Area,32432.0,Pacific
+46060,168,0,114,114,True,True,False,Metropolitan Statistical Area,371251.0,Mountain
+46100,168,0,114,114,True,True,False,Micropolitan Statistical Area,40663.0,East South Central
+46140,168,0,114,114,True,True,False,Metropolitan Statistical Area,439682.0,West South Central
+46180,168,0,114,114,True,True,False,Micropolitan Statistical Area,80817.0,East South Central
+46220,168,0,114,114,True,True,False,Metropolitan Statistical Area,104631.0,East South Central
+46300,168,0,114,114,True,True,False,Metropolitan Statistical Area,51083.0,Mountain
+46340,168,0,114,114,True,True,False,Metropolitan Statistical Area,105091.0,West South Central
+46380,168,0,114,114,True,True,False,Micropolitan Statistical Area,33248.0,Pacific
+46420,168,0,114,114,True,True,False,Micropolitan Statistical Area,8354.0,South Atlantic
+46460,168,0,114,114,True,True,False,Micropolitan Statistical Area,11082.0,East South Central
+46500,168,0,114,114,True,True,False,Micropolitan Statistical Area,11025.0,East North Central
+46520,168,0,114,114,True,True,False,Metropolitan Statistical Area,468071.0,Pacific
+46540,168,0,114,114,True,True,False,Metropolitan Statistical Area,124943.0,Middle Atlantic
+46620,168,0,114,114,True,True,False,Micropolitan Statistical Area,10299.0,West South Central
+46660,168,0,114,114,True,True,False,Metropolitan Statistical Area,55016.0,South Atlantic
+46700,168,0,114,114,True,True,False,Metropolitan Statistical Area,144567.0,Pacific
+46780,168,0,114,114,True,True,False,Micropolitan Statistical Area,11964.0,East North Central
+46820,168,0,114,114,True,True,False,Micropolitan Statistical Area,6160.0,West North Central
+46860,168,0,114,114,True,True,False,Micropolitan Statistical Area,13283.0,Mountain
+46900,168,0,114,114,True,True,False,Micropolitan Statistical Area,5911.0,West South Central
+46980,168,0,114,114,True,True,False,Micropolitan Statistical Area,19617.0,East South Central
+47020,168,0,114,114,True,True,False,Metropolitan Statistical Area,40515.0,West South Central
+47080,168,0,114,114,True,True,False,Micropolitan Statistical Area,13486.0,South Atlantic
+47180,168,0,114,114,True,True,False,Micropolitan Statistical Area,17488.0,East North Central
+47220,168,0,114,114,True,True,False,Metropolitan Statistical Area,60729.0,Middle Atlantic
+47240,168,0,114,114,True,True,False,Micropolitan Statistical Area,11018.0,New England
+47260,168,0,114,114,True,True,False,Metropolitan Statistical Area,774412.0,South Atlantic
+47300,168,0,114,114,True,True,False,Metropolitan Statistical Area,171574.0,Pacific
+47340,168,0,114,114,True,True,False,Micropolitan Statistical Area,12173.0,East North Central
+47380,168,0,114,114,True,True,False,Metropolitan Statistical Area,116648.0,West South Central
+47420,168,0,114,114,True,True,False,Micropolitan Statistical Area,9939.0,West North Central
+47460,168,0,114,114,True,True,False,Metropolitan Statistical Area,28618.0,Pacific
+47540,168,0,114,114,True,True,False,Micropolitan Statistical Area,22313.0,East North Central
+47580,168,0,114,114,True,True,False,Metropolitan Statistical Area,73337.0,South Atlantic
+47620,168,0,114,114,True,True,False,Micropolitan Statistical Area,14612.0,Middle Atlantic
+47660,168,0,114,114,True,True,False,Micropolitan Statistical Area,15655.0,West North Central
+47700,168,0,114,114,True,True,False,Micropolitan Statistical Area,39119.0,East North Central
+47780,168,0,114,114,True,True,False,Micropolitan Statistical Area,12433.0,East North Central
+47820,168,0,114,114,True,True,False,Micropolitan Statistical Area,15626.0,South Atlantic
+47900,168,0,114,114,True,True,False,Metropolitan Statistical Area,3223507.0,South Atlantic
+47920,168,0,114,114,True,True,False,Micropolitan Statistical Area,11188.0,East North Central
+47940,168,0,114,114,True,True,False,Metropolitan Statistical Area,88790.0,West North Central
+47980,168,0,114,114,True,True,False,Micropolitan Statistical Area,18675.0,West North Central
+48020,168,0,114,114,True,True,False,Micropolitan Statistical Area,34083.0,East North Central
+48060,168,0,114,114,True,True,False,Metropolitan Statistical Area,42354.0,Middle Atlantic
+48100,168,0,114,114,True,True,False,Micropolitan Statistical Area,6237.0,South Atlantic
+48140,168,0,114,114,True,True,False,Metropolitan Statistical Area,84325.0,East North Central
+48180,168,0,114,114,True,True,False,Micropolitan Statistical Area,20098.0,South Atlantic
+48220,168,0,114,114,True,True,False,Micropolitan Statistical Area,13202.0,West South Central
+48260,168,0,114,114,True,True,False,Metropolitan Statistical Area,38178.0,South Atlantic
+48300,168,0,114,114,True,True,False,Metropolitan Statistical Area,61796.0,Pacific
+48460,168,0,114,114,True,True,False,Micropolitan Statistical Area,15507.0,West North Central
+48500,168,0,114,114,True,True,False,Micropolitan Statistical Area,5333.0,East South Central
+48540,168,0,114,114,True,True,False,Metropolitan Statistical Area,64344.0,South Atlantic
+48580,168,0,114,114,True,True,False,Micropolitan Statistical Area,44256.0,East North Central
+48620,168,0,114,114,True,True,False,Metropolitan Statistical Area,298327.0,West North Central
+48660,168,0,114,114,True,True,False,Metropolitan Statistical Area,58541.0,West South Central
+48700,168,0,114,114,True,True,False,Metropolitan Statistical Area,51499.0,Middle Atlantic
+48780,168,0,114,114,True,True,False,Micropolitan Statistical Area,30249.0,West North Central
+48820,168,0,114,114,True,True,False,Micropolitan Statistical Area,24655.0,West North Central
+48900,168,0,114,114,True,True,False,Metropolitan Statistical Area,131332.0,South Atlantic
+48940,168,0,114,114,True,True,False,Micropolitan Statistical Area,18010.0,East North Central
+48980,168,0,114,114,True,True,False,Micropolitan Statistical Area,35993.0,South Atlantic
+49020,168,0,114,114,True,True,False,Metropolitan Statistical Area,62409.0,South Atlantic
+49060,168,0,114,114,True,True,False,Micropolitan Statistical Area,13394.0,West North Central
+49080,168,0,114,114,True,True,False,Micropolitan Statistical Area,7937.0,Mountain
+49100,168,0,114,114,True,True,False,Micropolitan Statistical Area,24398.0,West North Central
+49180,168,0,114,114,True,True,False,Metropolitan Statistical Area,265479.0,South Atlantic
+49220,168,0,114,114,True,True,False,Micropolitan Statistical Area,39789.0,East North Central
+49260,168,0,114,114,True,True,False,Micropolitan Statistical Area,10030.0,West South Central
+49300,168,0,114,114,True,True,False,Micropolitan Statistical Area,49215.0,East North Central
+49340,168,0,114,114,True,True,False,Metropolitan Statistical Area,396850.0,New England
+49380,168,0,114,114,True,True,False,Micropolitan Statistical Area,10635.0,West North Central
+49420,168,0,114,114,True,True,False,Metropolitan Statistical Area,127099.0,Pacific
+49460,168,0,114,114,True,True,False,Micropolitan Statistical Area,13260.0,West North Central
+49500,168,0,114,114,True,True,False,Metropolitan Statistical Area,13877.0,Puerto Rico
+49620,168,0,114,114,True,True,False,Metropolitan Statistical Area,180676.0,Middle Atlantic
+49660,168,0,114,114,True,True,False,Metropolitan Statistical Area,208862.0,East North Central
+49700,168,0,114,114,True,True,False,Metropolitan Statistical Area,52823.0,Pacific
+49740,168,0,114,114,True,True,False,Metropolitan Statistical Area,59557.0,Mountain
+49780,168,0,114,114,True,True,False,Micropolitan Statistical Area,33310.0,East North Central
+49820,168,0,114,114,True,True,False,Micropolitan Statistical Area,3462.0,West South Central

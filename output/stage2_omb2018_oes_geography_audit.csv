@@ -1,0 +1,937 @@
+cbsa_code,exact_oes_county_match,reason
+10100,False,absent or different geography; left missing
+10140,False,absent or different geography; left missing
+10180,True,exact county match
+10220,False,absent or different geography; left missing
+10300,False,absent or different geography; left missing
+10380,True,exact county match
+10420,True,exact county match
+10460,False,absent or different geography; left missing
+10500,False,absent or different geography; left missing
+10540,True,exact county match
+10580,True,exact county match
+10620,False,absent or different geography; left missing
+10660,False,absent or different geography; left missing
+10700,False,absent or different geography; left missing
+10740,True,exact county match
+10760,False,absent or different geography; left missing
+10780,True,exact county match
+10820,False,absent or different geography; left missing
+10860,False,absent or different geography; left missing
+10900,True,exact county match
+10940,False,absent or different geography; left missing
+10980,False,absent or different geography; left missing
+11020,True,exact county match
+11060,False,absent or different geography; left missing
+11100,True,exact county match
+11140,False,absent or different geography; left missing
+11180,False,absent or different geography; left missing
+11220,False,absent or different geography; left missing
+11260,True,exact county match
+11380,False,absent or different geography; left missing
+11420,False,absent or different geography; left missing
+11460,True,exact county match
+11500,True,exact county match
+11540,True,exact county match
+11580,False,absent or different geography; left missing
+11620,False,absent or different geography; left missing
+11640,True,exact county match
+11660,False,absent or different geography; left missing
+11700,True,exact county match
+11740,False,absent or different geography; left missing
+11780,False,absent or different geography; left missing
+11820,False,absent or different geography; left missing
+11860,False,absent or different geography; left missing
+11900,False,absent or different geography; left missing
+11940,False,absent or different geography; left missing
+11980,False,absent or different geography; left missing
+12020,True,exact county match
+12060,True,exact county match
+12100,True,exact county match
+12120,False,absent or different geography; left missing
+12140,False,absent or different geography; left missing
+12180,False,absent or different geography; left missing
+12220,True,exact county match
+12260,True,exact county match
+12300,False,absent or different geography; left missing
+12380,False,absent or different geography; left missing
+12420,True,exact county match
+12460,False,absent or different geography; left missing
+12540,True,exact county match
+12580,True,exact county match
+12620,False,absent or different geography; left missing
+12660,False,absent or different geography; left missing
+12680,False,absent or different geography; left missing
+12700,False,absent or different geography; left missing
+12740,False,absent or different geography; left missing
+12780,False,absent or different geography; left missing
+12860,False,absent or different geography; left missing
+12900,False,absent or different geography; left missing
+12940,False,absent or different geography; left missing
+12980,True,exact county match
+13020,True,exact county match
+13060,False,absent or different geography; left missing
+13100,False,absent or different geography; left missing
+13140,False,absent or different geography; left missing
+13180,False,absent or different geography; left missing
+13220,True,exact county match
+13260,False,absent or different geography; left missing
+13300,False,absent or different geography; left missing
+13340,False,absent or different geography; left missing
+13380,True,exact county match
+13420,False,absent or different geography; left missing
+13460,True,exact county match
+13500,False,absent or different geography; left missing
+13540,False,absent or different geography; left missing
+13620,False,absent or different geography; left missing
+13660,False,absent or different geography; left missing
+13700,False,absent or different geography; left missing
+13720,False,absent or different geography; left missing
+13740,False,absent or different geography; left missing
+13780,True,exact county match
+13820,False,absent or different geography; left missing
+13900,False,absent or different geography; left missing
+13940,False,absent or different geography; left missing
+13980,False,absent or different geography; left missing
+14010,False,absent or different geography; left missing
+14020,True,exact county match
+14100,True,exact county match
+14140,False,absent or different geography; left missing
+14180,False,absent or different geography; left missing
+14220,False,absent or different geography; left missing
+14260,True,exact county match
+14300,False,absent or different geography; left missing
+14380,False,absent or different geography; left missing
+14420,False,absent or different geography; left missing
+14460,False,absent or different geography; left missing
+14500,True,exact county match
+14540,True,exact county match
+14580,False,absent or different geography; left missing
+14620,False,absent or different geography; left missing
+14660,False,absent or different geography; left missing
+14700,False,absent or different geography; left missing
+14720,False,absent or different geography; left missing
+14740,True,exact county match
+14780,False,absent or different geography; left missing
+14820,False,absent or different geography; left missing
+14860,False,absent or different geography; left missing
+15020,False,absent or different geography; left missing
+15060,False,absent or different geography; left missing
+15100,False,absent or different geography; left missing
+15140,False,absent or different geography; left missing
+15180,True,exact county match
+15220,False,absent or different geography; left missing
+15260,True,exact county match
+15340,False,absent or different geography; left missing
+15380,True,exact county match
+15420,False,absent or different geography; left missing
+15460,False,absent or different geography; left missing
+15500,True,exact county match
+15540,False,absent or different geography; left missing
+15580,False,absent or different geography; left missing
+15620,False,absent or different geography; left missing
+15660,False,absent or different geography; left missing
+15680,True,exact county match
+15700,False,absent or different geography; left missing
+15740,False,absent or different geography; left missing
+15780,False,absent or different geography; left missing
+15820,False,absent or different geography; left missing
+15860,False,absent or different geography; left missing
+15940,True,exact county match
+15980,True,exact county match
+16020,True,exact county match
+16060,False,absent or different geography; left missing
+16100,False,absent or different geography; left missing
+16140,False,absent or different geography; left missing
+16180,True,exact county match
+16220,True,exact county match
+16260,False,absent or different geography; left missing
+16300,True,exact county match
+16340,False,absent or different geography; left missing
+16380,False,absent or different geography; left missing
+16420,False,absent or different geography; left missing
+16460,False,absent or different geography; left missing
+16500,False,absent or different geography; left missing
+16540,True,exact county match
+16580,False,absent or different geography; left missing
+16620,False,absent or different geography; left missing
+16660,False,absent or different geography; left missing
+16700,True,exact county match
+16740,False,absent or different geography; left missing
+16820,False,absent or different geography; left missing
+16860,True,exact county match
+16940,True,exact county match
+16980,True,exact county match
+17020,True,exact county match
+17060,False,absent or different geography; left missing
+17140,False,absent or different geography; left missing
+17220,False,absent or different geography; left missing
+17260,False,absent or different geography; left missing
+17300,False,absent or different geography; left missing
+17340,False,absent or different geography; left missing
+17380,False,absent or different geography; left missing
+17420,True,exact county match
+17460,True,exact county match
+17500,False,absent or different geography; left missing
+17540,False,absent or different geography; left missing
+17580,False,absent or different geography; left missing
+17620,False,absent or different geography; left missing
+17640,False,absent or different geography; left missing
+17660,True,exact county match
+17700,False,absent or different geography; left missing
+17740,False,absent or different geography; left missing
+17780,True,exact county match
+17820,True,exact county match
+17860,False,absent or different geography; left missing
+17900,True,exact county match
+17980,False,absent or different geography; left missing
+18020,True,exact county match
+18060,False,absent or different geography; left missing
+18100,False,absent or different geography; left missing
+18140,True,exact county match
+18180,False,absent or different geography; left missing
+18220,False,absent or different geography; left missing
+18260,False,absent or different geography; left missing
+18300,False,absent or different geography; left missing
+18380,False,absent or different geography; left missing
+18420,False,absent or different geography; left missing
+18460,False,absent or different geography; left missing
+18500,False,absent or different geography; left missing
+18580,False,absent or different geography; left missing
+18620,False,absent or different geography; left missing
+18660,False,absent or different geography; left missing
+18700,True,exact county match
+18740,False,absent or different geography; left missing
+18780,False,absent or different geography; left missing
+18820,False,absent or different geography; left missing
+18860,False,absent or different geography; left missing
+18880,True,exact county match
+18900,False,absent or different geography; left missing
+18980,False,absent or different geography; left missing
+19000,False,absent or different geography; left missing
+19060,True,exact county match
+19100,False,absent or different geography; left missing
+19140,True,exact county match
+19180,True,exact county match
+19220,False,absent or different geography; left missing
+19260,False,absent or different geography; left missing
+19300,True,exact county match
+19340,True,exact county match
+19420,False,absent or different geography; left missing
+19430,False,absent or different geography; left missing
+19460,True,exact county match
+19500,True,exact county match
+19540,False,absent or different geography; left missing
+19580,False,absent or different geography; left missing
+19620,False,absent or different geography; left missing
+19660,True,exact county match
+19700,False,absent or different geography; left missing
+19740,True,exact county match
+19760,False,absent or different geography; left missing
+19780,False,absent or different geography; left missing
+19820,True,exact county match
+19860,False,absent or different geography; left missing
+19940,False,absent or different geography; left missing
+19980,False,absent or different geography; left missing
+20020,True,exact county match
+20060,False,absent or different geography; left missing
+20100,True,exact county match
+20140,False,absent or different geography; left missing
+20180,False,absent or different geography; left missing
+20220,True,exact county match
+20260,False,absent or different geography; left missing
+20300,False,absent or different geography; left missing
+20340,False,absent or different geography; left missing
+20420,False,absent or different geography; left missing
+20460,False,absent or different geography; left missing
+20500,False,absent or different geography; left missing
+20540,False,absent or different geography; left missing
+20580,False,absent or different geography; left missing
+20660,False,absent or different geography; left missing
+20700,True,exact county match
+20740,True,exact county match
+20780,False,absent or different geography; left missing
+20820,False,absent or different geography; left missing
+20900,False,absent or different geography; left missing
+20940,True,exact county match
+20980,False,absent or different geography; left missing
+21020,False,absent or different geography; left missing
+21060,True,exact county match
+21120,False,absent or different geography; left missing
+21140,True,exact county match
+21180,False,absent or different geography; left missing
+21260,False,absent or different geography; left missing
+21300,True,exact county match
+21340,True,exact county match
+21380,False,absent or different geography; left missing
+21420,True,exact county match
+21460,False,absent or different geography; left missing
+21500,True,exact county match
+21540,False,absent or different geography; left missing
+21580,False,absent or different geography; left missing
+21640,False,absent or different geography; left missing
+21660,True,exact county match
+21700,False,absent or different geography; left missing
+21740,False,absent or different geography; left missing
+21780,True,exact county match
+21820,True,exact county match
+21840,False,absent or different geography; left missing
+21860,False,absent or different geography; left missing
+21900,False,absent or different geography; left missing
+21980,False,absent or different geography; left missing
+22020,True,exact county match
+22060,False,absent or different geography; left missing
+22100,False,absent or different geography; left missing
+22140,True,exact county match
+22180,False,absent or different geography; left missing
+22220,False,absent or different geography; left missing
+22260,False,absent or different geography; left missing
+22280,False,absent or different geography; left missing
+22300,False,absent or different geography; left missing
+22340,False,absent or different geography; left missing
+22380,True,exact county match
+22420,True,exact county match
+22500,True,exact county match
+22520,True,exact county match
+22540,True,exact county match
+22580,False,absent or different geography; left missing
+22620,False,absent or different geography; left missing
+22660,True,exact county match
+22700,False,absent or different geography; left missing
+22780,False,absent or different geography; left missing
+22800,False,absent or different geography; left missing
+22820,False,absent or different geography; left missing
+22840,False,absent or different geography; left missing
+22860,False,absent or different geography; left missing
+22900,False,absent or different geography; left missing
+23060,False,absent or different geography; left missing
+23140,False,absent or different geography; left missing
+23180,False,absent or different geography; left missing
+23240,False,absent or different geography; left missing
+23300,False,absent or different geography; left missing
+23340,False,absent or different geography; left missing
+23380,False,absent or different geography; left missing
+23420,True,exact county match
+23460,True,exact county match
+23500,False,absent or different geography; left missing
+23540,False,absent or different geography; left missing
+23580,True,exact county match
+23620,False,absent or different geography; left missing
+23660,False,absent or different geography; left missing
+23700,False,absent or different geography; left missing
+23780,False,absent or different geography; left missing
+23820,False,absent or different geography; left missing
+23860,False,absent or different geography; left missing
+23900,True,exact county match
+23940,False,absent or different geography; left missing
+23980,False,absent or different geography; left missing
+24020,True,exact county match
+24060,False,absent or different geography; left missing
+24100,False,absent or different geography; left missing
+24140,True,exact county match
+24180,False,absent or different geography; left missing
+24220,True,exact county match
+24260,False,absent or different geography; left missing
+24300,True,exact county match
+24330,False,absent or different geography; left missing
+24340,False,absent or different geography; left missing
+24380,False,absent or different geography; left missing
+24420,True,exact county match
+24460,False,absent or different geography; left missing
+24500,True,exact county match
+24540,True,exact county match
+24580,True,exact county match
+24620,False,absent or different geography; left missing
+24660,True,exact county match
+24700,False,absent or different geography; left missing
+24740,False,absent or different geography; left missing
+24780,True,exact county match
+24820,False,absent or different geography; left missing
+24860,True,exact county match
+24900,False,absent or different geography; left missing
+24940,False,absent or different geography; left missing
+24980,False,absent or different geography; left missing
+25020,True,exact county match
+25060,False,absent or different geography; left missing
+25100,False,absent or different geography; left missing
+25180,False,absent or different geography; left missing
+25200,False,absent or different geography; left missing
+25220,True,exact county match
+25260,True,exact county match
+25300,False,absent or different geography; left missing
+25420,True,exact county match
+25460,False,absent or different geography; left missing
+25500,True,exact county match
+25540,False,absent or different geography; left missing
+25580,False,absent or different geography; left missing
+25620,False,absent or different geography; left missing
+25700,False,absent or different geography; left missing
+25720,False,absent or different geography; left missing
+25740,False,absent or different geography; left missing
+25760,False,absent or different geography; left missing
+25780,False,absent or different geography; left missing
+25820,False,absent or different geography; left missing
+25840,False,absent or different geography; left missing
+25860,True,exact county match
+25880,False,absent or different geography; left missing
+25900,False,absent or different geography; left missing
+25940,True,exact county match
+25980,True,exact county match
+26020,False,absent or different geography; left missing
+26090,False,absent or different geography; left missing
+26140,True,exact county match
+26220,False,absent or different geography; left missing
+26260,False,absent or different geography; left missing
+26300,True,exact county match
+26340,False,absent or different geography; left missing
+26380,True,exact county match
+26420,True,exact county match
+26460,False,absent or different geography; left missing
+26500,False,absent or different geography; left missing
+26540,False,absent or different geography; left missing
+26580,False,absent or different geography; left missing
+26620,True,exact county match
+26660,False,absent or different geography; left missing
+26700,False,absent or different geography; left missing
+26740,False,absent or different geography; left missing
+26780,False,absent or different geography; left missing
+26820,True,exact county match
+26860,False,absent or different geography; left missing
+26900,True,exact county match
+26940,False,absent or different geography; left missing
+26980,True,exact county match
+27020,False,absent or different geography; left missing
+27060,True,exact county match
+27100,True,exact county match
+27140,False,absent or different geography; left missing
+27160,False,absent or different geography; left missing
+27180,False,absent or different geography; left missing
+27220,False,absent or different geography; left missing
+27260,True,exact county match
+27300,False,absent or different geography; left missing
+27340,True,exact county match
+27380,False,absent or different geography; left missing
+27420,False,absent or different geography; left missing
+27460,False,absent or different geography; left missing
+27500,True,exact county match
+27530,False,absent or different geography; left missing
+27540,False,absent or different geography; left missing
+27580,False,absent or different geography; left missing
+27600,False,absent or different geography; left missing
+27620,True,exact county match
+27660,False,absent or different geography; left missing
+27700,False,absent or different geography; left missing
+27740,True,exact county match
+27780,True,exact county match
+27860,True,exact county match
+27900,True,exact county match
+27940,False,absent or different geography; left missing
+27980,False,absent or different geography; left missing
+28020,False,absent or different geography; left missing
+28060,False,absent or different geography; left missing
+28100,True,exact county match
+28140,True,exact county match
+28180,False,absent or different geography; left missing
+28260,False,absent or different geography; left missing
+28300,False,absent or different geography; left missing
+28340,False,absent or different geography; left missing
+28380,False,absent or different geography; left missing
+28420,True,exact county match
+28500,False,absent or different geography; left missing
+28540,False,absent or different geography; left missing
+28580,False,absent or different geography; left missing
+28620,False,absent or different geography; left missing
+28660,True,exact county match
+28700,True,exact county match
+28740,True,exact county match
+28780,False,absent or different geography; left missing
+28820,False,absent or different geography; left missing
+28860,False,absent or different geography; left missing
+28900,False,absent or different geography; left missing
+28940,False,absent or different geography; left missing
+29020,True,exact county match
+29060,False,absent or different geography; left missing
+29100,True,exact county match
+29180,True,exact county match
+29200,False,absent or different geography; left missing
+29260,False,absent or different geography; left missing
+29300,False,absent or different geography; left missing
+29340,True,exact county match
+29380,False,absent or different geography; left missing
+29420,True,exact county match
+29460,True,exact county match
+29500,False,absent or different geography; left missing
+29540,True,exact county match
+29620,False,absent or different geography; left missing
+29660,False,absent or different geography; left missing
+29700,True,exact county match
+29740,True,exact county match
+29780,False,absent or different geography; left missing
+29820,True,exact county match
+29860,False,absent or different geography; left missing
+29900,False,absent or different geography; left missing
+29940,True,exact county match
+29980,False,absent or different geography; left missing
+30020,True,exact county match
+30060,False,absent or different geography; left missing
+30100,False,absent or different geography; left missing
+30140,True,exact county match
+30220,False,absent or different geography; left missing
+30260,False,absent or different geography; left missing
+30280,False,absent or different geography; left missing
+30300,True,exact county match
+30340,False,absent or different geography; left missing
+30380,False,absent or different geography; left missing
+30420,False,absent or different geography; left missing
+30460,True,exact county match
+30580,False,absent or different geography; left missing
+30620,True,exact county match
+30660,False,absent or different geography; left missing
+30700,True,exact county match
+30780,True,exact county match
+30820,False,absent or different geography; left missing
+30860,True,exact county match
+30900,False,absent or different geography; left missing
+30940,False,absent or different geography; left missing
+30980,False,absent or different geography; left missing
+31020,True,exact county match
+31060,False,absent or different geography; left missing
+31080,True,exact county match
+31140,False,absent or different geography; left missing
+31180,True,exact county match
+31220,False,absent or different geography; left missing
+31260,False,absent or different geography; left missing
+31300,False,absent or different geography; left missing
+31340,False,absent or different geography; left missing
+31380,False,absent or different geography; left missing
+31420,True,exact county match
+31460,True,exact county match
+31500,False,absent or different geography; left missing
+31540,True,exact county match
+31580,False,absent or different geography; left missing
+31620,False,absent or different geography; left missing
+31660,False,absent or different geography; left missing
+31680,False,absent or different geography; left missing
+31700,False,absent or different geography; left missing
+31740,False,absent or different geography; left missing
+31820,False,absent or different geography; left missing
+31860,True,exact county match
+31900,True,exact county match
+31930,False,absent or different geography; left missing
+31940,False,absent or different geography; left missing
+31980,False,absent or different geography; left missing
+32000,False,absent or different geography; left missing
+32020,False,absent or different geography; left missing
+32100,False,absent or different geography; left missing
+32140,False,absent or different geography; left missing
+32180,False,absent or different geography; left missing
+32260,False,absent or different geography; left missing
+32280,False,absent or different geography; left missing
+32300,False,absent or different geography; left missing
+32340,False,absent or different geography; left missing
+32380,False,absent or different geography; left missing
+32420,False,absent or different geography; left missing
+32460,False,absent or different geography; left missing
+32500,False,absent or different geography; left missing
+32540,False,absent or different geography; left missing
+32580,True,exact county match
+32620,False,absent or different geography; left missing
+32660,False,absent or different geography; left missing
+32700,False,absent or different geography; left missing
+32740,False,absent or different geography; left missing
+32780,True,exact county match
+32820,False,absent or different geography; left missing
+32860,False,absent or different geography; left missing
+32900,True,exact county match
+32940,False,absent or different geography; left missing
+33020,False,absent or different geography; left missing
+33060,False,absent or different geography; left missing
+33100,False,absent or different geography; left missing
+33140,True,exact county match
+33180,False,absent or different geography; left missing
+33220,True,exact county match
+33260,True,exact county match
+33300,False,absent or different geography; left missing
+33340,True,exact county match
+33380,False,absent or different geography; left missing
+33420,False,absent or different geography; left missing
+33460,False,absent or different geography; left missing
+33500,False,absent or different geography; left missing
+33540,True,exact county match
+33580,False,absent or different geography; left missing
+33620,False,absent or different geography; left missing
+33660,False,absent or different geography; left missing
+33700,True,exact county match
+33740,False,absent or different geography; left missing
+33780,True,exact county match
+33860,True,exact county match
+33940,False,absent or different geography; left missing
+33980,False,absent or different geography; left missing
+34020,False,absent or different geography; left missing
+34060,True,exact county match
+34100,False,absent or different geography; left missing
+34140,False,absent or different geography; left missing
+34180,False,absent or different geography; left missing
+34220,False,absent or different geography; left missing
+34260,False,absent or different geography; left missing
+34300,False,absent or different geography; left missing
+34340,False,absent or different geography; left missing
+34350,False,absent or different geography; left missing
+34380,False,absent or different geography; left missing
+34420,False,absent or different geography; left missing
+34460,False,absent or different geography; left missing
+34500,False,absent or different geography; left missing
+34540,False,absent or different geography; left missing
+34580,True,exact county match
+34620,True,exact county match
+34660,False,absent or different geography; left missing
+34700,False,absent or different geography; left missing
+34740,True,exact county match
+34780,False,absent or different geography; left missing
+34820,True,exact county match
+34860,False,absent or different geography; left missing
+34900,True,exact county match
+34940,True,exact county match
+34980,False,absent or different geography; left missing
+35020,False,absent or different geography; left missing
+35060,False,absent or different geography; left missing
+35100,True,exact county match
+35140,False,absent or different geography; left missing
+35220,False,absent or different geography; left missing
+35260,False,absent or different geography; left missing
+35300,False,absent or different geography; left missing
+35380,True,exact county match
+35420,False,absent or different geography; left missing
+35440,False,absent or different geography; left missing
+35460,False,absent or different geography; left missing
+35580,False,absent or different geography; left missing
+35620,False,absent or different geography; left missing
+35660,True,exact county match
+35700,False,absent or different geography; left missing
+35740,False,absent or different geography; left missing
+35820,False,absent or different geography; left missing
+35840,True,exact county match
+35860,False,absent or different geography; left missing
+35900,False,absent or different geography; left missing
+35940,False,absent or different geography; left missing
+35980,False,absent or different geography; left missing
+36020,False,absent or different geography; left missing
+36100,True,exact county match
+36140,True,exact county match
+36220,True,exact county match
+36260,True,exact county match
+36300,False,absent or different geography; left missing
+36340,False,absent or different geography; left missing
+36380,False,absent or different geography; left missing
+36420,True,exact county match
+36460,False,absent or different geography; left missing
+36500,True,exact county match
+36540,True,exact county match
+36580,False,absent or different geography; left missing
+36620,False,absent or different geography; left missing
+36660,False,absent or different geography; left missing
+36700,False,absent or different geography; left missing
+36740,True,exact county match
+36780,True,exact county match
+36820,False,absent or different geography; left missing
+36830,False,absent or different geography; left missing
+36837,False,absent or different geography; left missing
+36840,False,absent or different geography; left missing
+36900,False,absent or different geography; left missing
+36940,False,absent or different geography; left missing
+36980,True,exact county match
+37060,False,absent or different geography; left missing
+37100,True,exact county match
+37120,False,absent or different geography; left missing
+37140,False,absent or different geography; left missing
+37220,False,absent or different geography; left missing
+37260,False,absent or different geography; left missing
+37300,False,absent or different geography; left missing
+37340,True,exact county match
+37420,False,absent or different geography; left missing
+37460,False,absent or different geography; left missing
+37500,False,absent or different geography; left missing
+37540,False,absent or different geography; left missing
+37580,False,absent or different geography; left missing
+37620,True,exact county match
+37660,False,absent or different geography; left missing
+37740,False,absent or different geography; left missing
+37770,False,absent or different geography; left missing
+37800,False,absent or different geography; left missing
+37860,True,exact county match
+37900,False,absent or different geography; left missing
+37940,False,absent or different geography; left missing
+37980,True,exact county match
+38060,True,exact county match
+38100,False,absent or different geography; left missing
+38180,False,absent or different geography; left missing
+38220,True,exact county match
+38240,False,absent or different geography; left missing
+38260,False,absent or different geography; left missing
+38300,True,exact county match
+38340,False,absent or different geography; left missing
+38380,False,absent or different geography; left missing
+38420,False,absent or different geography; left missing
+38460,False,absent or different geography; left missing
+38500,False,absent or different geography; left missing
+38540,False,absent or different geography; left missing
+38580,False,absent or different geography; left missing
+38620,False,absent or different geography; left missing
+38660,False,absent or different geography; left missing
+38700,False,absent or different geography; left missing
+38740,False,absent or different geography; left missing
+38780,False,absent or different geography; left missing
+38820,False,absent or different geography; left missing
+38860,False,absent or different geography; left missing
+38900,True,exact county match
+38920,False,absent or different geography; left missing
+38940,True,exact county match
+39020,False,absent or different geography; left missing
+39060,False,absent or different geography; left missing
+39100,False,absent or different geography; left missing
+39150,False,absent or different geography; left missing
+39220,False,absent or different geography; left missing
+39260,False,absent or different geography; left missing
+39300,False,absent or different geography; left missing
+39340,True,exact county match
+39380,True,exact county match
+39420,False,absent or different geography; left missing
+39460,True,exact county match
+39500,False,absent or different geography; left missing
+39540,True,exact county match
+39580,True,exact county match
+39660,False,absent or different geography; left missing
+39700,False,absent or different geography; left missing
+39740,True,exact county match
+39780,False,absent or different geography; left missing
+39820,True,exact county match
+39860,False,absent or different geography; left missing
+39900,True,exact county match
+39940,False,absent or different geography; left missing
+39980,False,absent or different geography; left missing
+40060,False,absent or different geography; left missing
+40080,False,absent or different geography; left missing
+40100,False,absent or different geography; left missing
+40140,True,exact county match
+40180,False,absent or different geography; left missing
+40220,True,exact county match
+40260,False,absent or different geography; left missing
+40300,False,absent or different geography; left missing
+40340,True,exact county match
+40380,True,exact county match
+40420,True,exact county match
+40460,False,absent or different geography; left missing
+40530,False,absent or different geography; left missing
+40540,False,absent or different geography; left missing
+40580,True,exact county match
+40620,False,absent or different geography; left missing
+40660,True,exact county match
+40700,False,absent or different geography; left missing
+40740,False,absent or different geography; left missing
+40760,False,absent or different geography; left missing
+40780,False,absent or different geography; left missing
+40820,False,absent or different geography; left missing
+40860,False,absent or different geography; left missing
+40900,True,exact county match
+40940,False,absent or different geography; left missing
+40980,True,exact county match
+41060,True,exact county match
+41100,True,exact county match
+41140,True,exact county match
+41180,True,exact county match
+41220,False,absent or different geography; left missing
+41260,False,absent or different geography; left missing
+41400,False,absent or different geography; left missing
+41420,True,exact county match
+41460,False,absent or different geography; left missing
+41500,True,exact county match
+41540,True,exact county match
+41620,True,exact county match
+41660,False,absent or different geography; left missing
+41700,True,exact county match
+41740,True,exact county match
+41760,False,absent or different geography; left missing
+41780,False,absent or different geography; left missing
+41820,False,absent or different geography; left missing
+41860,True,exact county match
+41900,True,exact county match
+41940,True,exact county match
+41980,True,exact county match
+42020,True,exact county match
+42100,True,exact county match
+42140,True,exact county match
+42180,False,absent or different geography; left missing
+42200,True,exact county match
+42220,True,exact county match
+42300,False,absent or different geography; left missing
+42340,True,exact county match
+42380,False,absent or different geography; left missing
+42420,False,absent or different geography; left missing
+42460,False,absent or different geography; left missing
+42500,False,absent or different geography; left missing
+42540,True,exact county match
+42620,False,absent or different geography; left missing
+42660,True,exact county match
+42680,True,exact county match
+42700,True,exact county match
+42740,False,absent or different geography; left missing
+42780,False,absent or different geography; left missing
+42820,False,absent or different geography; left missing
+42860,False,absent or different geography; left missing
+42900,False,absent or different geography; left missing
+42940,False,absent or different geography; left missing
+42980,False,absent or different geography; left missing
+43020,False,absent or different geography; left missing
+43060,False,absent or different geography; left missing
+43100,True,exact county match
+43140,False,absent or different geography; left missing
+43180,False,absent or different geography; left missing
+43220,False,absent or different geography; left missing
+43260,False,absent or different geography; left missing
+43300,True,exact county match
+43320,False,absent or different geography; left missing
+43340,False,absent or different geography; left missing
+43380,False,absent or different geography; left missing
+43420,True,exact county match
+43460,False,absent or different geography; left missing
+43500,False,absent or different geography; left missing
+43580,False,absent or different geography; left missing
+43620,True,exact county match
+43660,False,absent or different geography; left missing
+43700,False,absent or different geography; left missing
+43740,False,absent or different geography; left missing
+43760,False,absent or different geography; left missing
+43780,True,exact county match
+43900,False,absent or different geography; left missing
+43940,False,absent or different geography; left missing
+43980,False,absent or different geography; left missing
+44020,False,absent or different geography; left missing
+44060,False,absent or different geography; left missing
+44100,True,exact county match
+44140,False,absent or different geography; left missing
+44180,True,exact county match
+44220,True,exact county match
+44260,False,absent or different geography; left missing
+44300,True,exact county match
+44340,False,absent or different geography; left missing
+44420,True,exact county match
+44460,False,absent or different geography; left missing
+44500,False,absent or different geography; left missing
+44540,False,absent or different geography; left missing
+44580,False,absent or different geography; left missing
+44620,False,absent or different geography; left missing
+44660,False,absent or different geography; left missing
+44700,True,exact county match
+44740,False,absent or different geography; left missing
+44780,False,absent or different geography; left missing
+44860,False,absent or different geography; left missing
+44900,False,absent or different geography; left missing
+44940,False,absent or different geography; left missing
+44980,False,absent or different geography; left missing
+45000,False,absent or different geography; left missing
+45020,False,absent or different geography; left missing
+45060,True,exact county match
+45140,False,absent or different geography; left missing
+45180,False,absent or different geography; left missing
+45220,True,exact county match
+45300,True,exact county match
+45340,False,absent or different geography; left missing
+45380,False,absent or different geography; left missing
+45460,False,absent or different geography; left missing
+45500,True,exact county match
+45520,False,absent or different geography; left missing
+45540,True,exact county match
+45580,False,absent or different geography; left missing
+45620,False,absent or different geography; left missing
+45660,False,absent or different geography; left missing
+45700,False,absent or different geography; left missing
+45740,False,absent or different geography; left missing
+45780,False,absent or different geography; left missing
+45820,True,exact county match
+45860,False,absent or different geography; left missing
+45900,False,absent or different geography; left missing
+45940,True,exact county match
+45980,False,absent or different geography; left missing
+46020,False,absent or different geography; left missing
+46060,True,exact county match
+46100,False,absent or different geography; left missing
+46140,True,exact county match
+46180,False,absent or different geography; left missing
+46220,False,absent or different geography; left missing
+46300,False,absent or different geography; left missing
+46340,True,exact county match
+46380,False,absent or different geography; left missing
+46420,False,absent or different geography; left missing
+46460,False,absent or different geography; left missing
+46500,False,absent or different geography; left missing
+46520,True,exact county match
+46540,True,exact county match
+46620,False,absent or different geography; left missing
+46660,True,exact county match
+46700,True,exact county match
+46780,False,absent or different geography; left missing
+46820,False,absent or different geography; left missing
+46860,False,absent or different geography; left missing
+46900,False,absent or different geography; left missing
+46980,False,absent or different geography; left missing
+47020,True,exact county match
+47080,False,absent or different geography; left missing
+47180,False,absent or different geography; left missing
+47220,True,exact county match
+47240,False,absent or different geography; left missing
+47260,False,absent or different geography; left missing
+47300,True,exact county match
+47340,False,absent or different geography; left missing
+47380,True,exact county match
+47420,False,absent or different geography; left missing
+47460,False,absent or different geography; left missing
+47540,False,absent or different geography; left missing
+47580,False,absent or different geography; left missing
+47620,False,absent or different geography; left missing
+47660,False,absent or different geography; left missing
+47700,False,absent or different geography; left missing
+47780,False,absent or different geography; left missing
+47820,False,absent or different geography; left missing
+47900,False,absent or different geography; left missing
+47920,False,absent or different geography; left missing
+47940,True,exact county match
+47980,False,absent or different geography; left missing
+48020,False,absent or different geography; left missing
+48060,True,exact county match
+48100,False,absent or different geography; left missing
+48140,False,absent or different geography; left missing
+48180,False,absent or different geography; left missing
+48220,False,absent or different geography; left missing
+48260,True,exact county match
+48300,True,exact county match
+48460,False,absent or different geography; left missing
+48500,False,absent or different geography; left missing
+48540,True,exact county match
+48580,False,absent or different geography; left missing
+48620,False,absent or different geography; left missing
+48660,True,exact county match
+48700,True,exact county match
+48780,False,absent or different geography; left missing
+48820,False,absent or different geography; left missing
+48900,True,exact county match
+48940,False,absent or different geography; left missing
+48980,False,absent or different geography; left missing
+49020,True,exact county match
+49060,False,absent or different geography; left missing
+49080,False,absent or different geography; left missing
+49100,False,absent or different geography; left missing
+49180,True,exact county match
+49220,False,absent or different geography; left missing
+49260,False,absent or different geography; left missing
+49300,False,absent or different geography; left missing
+49340,False,absent or different geography; left missing
+49380,False,absent or different geography; left missing
+49420,True,exact county match
+49460,False,absent or different geography; left missing
+49500,False,absent or different geography; left missing
+49620,True,exact county match
+49660,True,exact county match
+49700,True,exact county match
+49740,True,exact county match
+49780,False,absent or different geography; left missing
+49820,False,absent or different geography; left missing

@@ -1,0 +1,6 @@
+{
+  "status": "Dingel_Neiman_rule_recreation_archived_inputs",
+  "reason": "Published task rules applied to archived O*NET 24.1, weighted by May 2018 OES detailed occupations; exact geography only and >=90% coverage.",
+  "not_equivalent_to": "Authors published scores based on O*NET 24.2; measured actual remote work",
+  "post_cutoff_Dingel_Neiman_scores_downloaded": false
+}

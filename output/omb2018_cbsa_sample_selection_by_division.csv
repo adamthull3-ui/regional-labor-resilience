@@ -1,0 +1,23 @@
+audit_division,cbsa_type,pre_cutoff_eligible,full_history_included,n_cbsa,median_employment_june2019
+East North Central,Metropolitan Statistical Area,True,True,61,94387.0
+East North Central,Micropolitan Statistical Area,True,True,102,18443.5
+East South Central,Metropolitan Statistical Area,True,True,30,87344.0
+East South Central,Micropolitan Statistical Area,True,True,66,16118.5
+Middle Atlantic,Metropolitan Statistical Area,True,True,35,123574.0
+Middle Atlantic,Micropolitan Statistical Area,True,True,31,23285.0
+Mountain,Metropolitan Statistical Area,True,True,37,66500.0
+Mountain,Micropolitan Statistical Area,True,False,1,27406.0
+Mountain,Micropolitan Statistical Area,True,True,57,15653.0
+New England,Metropolitan Statistical Area,True,True,15,288274.0
+New England,Micropolitan Statistical Area,True,True,11,32012.0
+Pacific,Metropolitan Statistical Area,True,True,49,127099.0
+Pacific,Micropolitan Statistical Area,True,True,32,19502.0
+Puerto Rico,Metropolitan Statistical Area,True,True,8,33669.0
+Puerto Rico,Micropolitan Statistical Area,True,True,4,3400.5
+South Atlantic,Metropolitan Statistical Area,True,True,82,113424.0
+South Atlantic,Micropolitan Statistical Area,True,True,69,18806.0
+West North Central,Metropolitan Statistical Area,True,True,31,92232.0
+West North Central,Micropolitan Statistical Area,True,True,86,16022.5
+West South Central,Metropolitan Statistical Area,True,True,44,114639.0
+West South Central,Micropolitan Statistical Area,False,False,1,9818.0
+West South Central,Micropolitan Statistical Area,True,True,86,13486.0

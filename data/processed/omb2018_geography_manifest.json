@@ -10,9 +10,14 @@
   "county_csv": "data\\processed\\qcew_county_monthly_2010_2023.csv",
   "county_sha256": "a102a6f2d269241faf24c67f0cade0a5a4104375822c90be704bd2bc8dbd8ad2",
   "panel_csv": "data\\processed\\qcew_cbsa_monthly_2010_2023_omb2018.csv",
-  "panel_sha256": "a90ff1d9048a804f86a81f9140de9f5bea262640a5f7302a5b9f1e3823efa5e6",
+  "panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
   "n_cbsa": 936,
+  "eligible_with_pre_cutoff_complete_history": 937,
+  "excluded_only_due_to_post_cutoff_missingness": 1,
+  "sample_selection_audit_sha256": "ff7552a97b8eda1c0fab9b4300267d10d84e2a023115c4c4d69c1ac765d02d49",
+  "full_history_requirement_uses_post_cutoff_data": true,
+  "prior_panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
   "ct_cbsa_count_in_crosswalk": 6,
   "ct_cbsa_count_in_panel": 6,
-  "generated_utc": "2026-11-05T14:23:51.849914+00:00"
+  "generated_utc": "2026-11-12T17:45:33.430712+00:00"
 }

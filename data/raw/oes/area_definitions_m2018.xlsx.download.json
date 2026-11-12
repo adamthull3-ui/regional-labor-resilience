@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://www.bls.gov/oes/2018/may/area_definitions_m2018.xlsx",
+  "resolved_url": "https://www.bls.gov/oes/2018/may/area_definitions_m2018.xlsx",
+  "retrieved_utc": "2026-11-12T17:54:36.342891+00:00",
+  "bytes": 230785,
+  "sha256": "97188b737c609ef00d6a269f1b6d5175d43f307c870750fea3c51216b7aeab31",
+  "transport": "urllib with verified system TLS",
+  "historical_release_vintage_verified": false
+}

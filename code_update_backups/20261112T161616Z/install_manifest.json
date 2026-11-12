@@ -1,0 +1,42 @@
+{
+  "requirements.txt": {
+    "previous_sha256": "72c96fbd86bfb68feac495adb1a2be39888d9d5ba5901be904e604ebe89a5dca",
+    "new_sha256": "ead3395a7259e90f04949f4e05fec0c14b52a3138b2a5a4f0bac64a62118492d"
+  },
+  "RERUN_DESIGN_2020.md": {
+    "previous_sha256": null,
+    "new_sha256": "feb568989410086b00aac4c17e989db2ff311c9d200b6235c723a97ce583f62e"
+  },
+  "tests/test_design_2020.py": {
+    "previous_sha256": null,
+    "new_sha256": "421d3e0b6693af9aef39ddc5ca9e4baa52f007f5fda97dd3079a76e3b3b4716c"
+  },
+  "code/design_predictors.py": {
+    "previous_sha256": null,
+    "new_sha256": "fb4072c6c594e29f545358c8a9ddb52053d22361f937567f2ca75c97e01473e2"
+  },
+  "code/design_models.py": {
+    "previous_sha256": null,
+    "new_sha256": "33d2a504bd08ef72015829a1e18f888f5c1eb3cc8e792a16a6bcb50021792ef1"
+  },
+  "code/01_Stage1_Counterfactual_OMB2018.ipynb": {
+    "previous_sha256": "887d096b3ebf99358b37064445df807affaba17d5c7fa2786370135a171a2107",
+    "new_sha256": "8d69dbcb07a5e0038c4e127d81b5ffc052548be4382c7e4c76e23fc87b544e2b"
+  },
+  "code/02_Download_PreFeb2020_Predictors.ipynb": {
+    "previous_sha256": "ccaa100cff1ae0a671edaddd755085d68d1b28117346e2fee0ce2aaca364159c",
+    "new_sha256": "8f1d87dc893a22ef5f3c6f0be29339d1e1fae0e5ad26930d0e5767be0d86ce32"
+  },
+  "code/03_Stage2_Resilience_and_Initial_Prediction.ipynb": {
+    "previous_sha256": "db2b3e708dab206733d72d960944b084edaa855cd3689dfbab7e865731996ec2",
+    "new_sha256": "91bd2377370e0058cbe5f1d853e19eb2bad9f4e8f3ea6efb16fc70378fcd8082"
+  },
+  "code/04_Cumulative_Shortfall_Geographic_Validation.ipynb": {
+    "previous_sha256": "00f089e6719e5bf0b23026db1389354ded56486c77ea3f54a89a94713f5ac442",
+    "new_sha256": "12602903caeae19bff20a7316dbb81a47e76e415cb825007defc8e5490626129"
+  },
+  "code/05_Prior_Design_Sensitivities.ipynb": {
+    "previous_sha256": null,
+    "new_sha256": "c2e17eab92578b398109bebd059a7169b23ff2550584badbc280d4a9de1eb025"
+  }
+}

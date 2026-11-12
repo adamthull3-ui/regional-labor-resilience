@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://www.onetcenter.org/dl_files/database/db_24_1_text.zip",
+  "resolved_url": "https://www.onetcenter.org/dl_files/database/db_24_1_text.zip",
+  "retrieved_utc": "2026-11-12T17:55:00.816620+00:00",
+  "bytes": 13477457,
+  "sha256": "6cf27b39dcf805901a122a6bd7e1c078585dbda01490aa8be254afff36486f82",
+  "transport": "urllib with verified system TLS",
+  "historical_release_vintage_verified": false
+}

@@ -1,0 +1,22 @@
+{
+  "code/design_predictors.py": {
+    "new_sha256": "5c9dc6d5b63ab687d2e288be12098ea558f2fe6e533b5cde850ef0a020178cbd",
+    "previous_sha256": "1a37f6318165235a80590e4a00dafb745a6f0a7e4d6f446c383cc5ac69263f32"
+  },
+  "tests/test_download_recovery.py": {
+    "new_sha256": "ccc9a1527dd1f022ab81f107967b32ddce6f00556ed87b13c85767b21800da3a",
+    "previous_sha256": "409b278f9ffe0ed9aac3045186f51ab3cba922d5b0c4e7dc82ba30fdc6d22845"
+  },
+  "AUTOMATIC_DOWNLOADS.md": {
+    "new_sha256": "aabfdcf5cdd22cd672c600c0e948ee90898436fecc3a463a72b3279ab79a2745",
+    "previous_sha256": null
+  },
+  "DOWNLOAD_FIX.md": {
+    "new_sha256": "aabfdcf5cdd22cd672c600c0e948ee90898436fecc3a463a72b3279ab79a2745",
+    "previous_sha256": "39bad051b037c19621a3fbe5f804535c8d5a89798e9e6fe01ccffd84ac6ee047"
+  },
+  "RERUN_DESIGN_2020.md": {
+    "new_sha256": "a419bf1e5d36f10a17b69a2e4afe8945973306347fb919832d9cfd575cf14b20",
+    "previous_sha256": "feb568989410086b00aac4c17e989db2ff311c9d200b6235c723a97ce583f62e"
+  }
+}

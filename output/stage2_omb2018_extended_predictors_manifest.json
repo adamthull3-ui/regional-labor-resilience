@@ -1,0 +1,43 @@
+{
+  "schema": "released_by_20200229_v2",
+  "information_cutoff": "2020-02-29",
+  "sources": {
+    "acs": {
+      "url": "https://api.census.gov/data/2018/acs/acs5",
+      "available_by": "2019-12-19",
+      "reference": "2014-2018"
+    },
+    "laus": {
+      "url": "https://www.bls.gov/lau/laucnty18.xlsx",
+      "available_by": "2019-12-31",
+      "reference": "2018 annual average",
+      "note": "Conservative eligibility bound, not an asserted exact first-release date."
+    },
+    "oes": {
+      "url": "https://www.bls.gov/oes/special.requests/oesm18ma.zip",
+      "available_by": "2019-03-29",
+      "reference": "May 2018"
+    },
+    "oes_geography": {
+      "url": "https://www.bls.gov/oes/2018/may/area_definitions_m2018.xlsx",
+      "available_by": "2019-03-29",
+      "reference": "May 2018 area definitions"
+    },
+    "onet": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_24_1_text.zip",
+      "available_by": "2019-11-30",
+      "reference": "O*NET 24.1 November 2019"
+    }
+  },
+  "raw_sha256": {
+    "data\\raw\\acs\\acs2018_design_1156a740ac74.csv": "c6cba57ae041ca557b1bc6c9e387b63a805d170ce470fa92b087225e3ad7e620",
+    "data\\raw\\laus\\laucnty18.xlsx": "d354bb58f8726aca7d065922b8595edf0ad4c264c0dff61450f89bbcb22fadc5",
+    "data\\raw\\oes\\oesm18ma.zip": "4bbd692ab65c13cd2048a98f6cd2dccf5ecc58ba9e5ac2882c52cf2a1f2fc6b0",
+    "data\\raw\\oes\\area_definitions_m2018.xlsx": "97188b737c609ef00d6a269f1b6d5175d43f307c870750fea3c51216b7aeab31",
+    "data\\raw\\onet\\db_24_1_text.zip": "6cf27b39dcf805901a122a6bd7e1c078585dbda01490aa8be254afff36486f82"
+  },
+  "historical_revision_vintage_verified": false,
+  "income_method": "Linear within-bin median from aggregated county B19001 counts; approximate, 2018 dollars. Not average county medians.",
+  "telework_status": "archived-input task feasibility proxy; supplemental OES exact-match sample only",
+  "reference_categories": "Omit NAICS 81 and production/transport/material occupational share in primary regression."
+}
