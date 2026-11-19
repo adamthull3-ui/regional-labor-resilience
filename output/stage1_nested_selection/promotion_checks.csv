@@ -1,0 +1,4 @@
+rule,lower_c46_window_rmse_every_origin,no_higher_p90_placebo_every_origin,mean_rmse_9_54_pct
+pooled,True,False,5.254649661953645
+partially_pooled,False,False,6.086625898989747
+per_cbsa,False,False,6.144810491014986

@@ -1,4 +1,5 @@
 {
+  "feature_design": "broad_industry_acs_occupations_v1",
   "design_schema": "released_by_20200229_v2",
   "extended_predictors_manifest_sha256": "a8151aea7b64c48753e2c2058e595df70eef550eb2c244520c998bc79fcb1283",
   "geography_vintage": "2018-09",

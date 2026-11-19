@@ -1,0 +1,64 @@
+cbsa_type,feature,n,n_observed,coverage,previous_primary,primary
+all,qcew2019q2_covered_share_naics_72,936,619,0.6613247863247863,True,False
+all,qcew2019q2_covered_share_naics_31_33,936,824,0.8803418803418803,True,False
+all,qcew2019q2_covered_share_naics_62,936,103,0.11004273504273504,True,False
+all,qcew2019q2_covered_share_naics_54,936,400,0.42735042735042733,True,False
+all,acs2018_bachelors_plus_share,936,935,0.9989316239316239,True,True
+all,acs2018_log_grouped_median_household_income,936,935,0.9989316239316239,True,True
+all,acs2018_labor_force_participation_share,936,935,0.9989316239316239,True,True
+all,laus2018_unemployment_share,936,930,0.9935897435897436,True,True
+all,qcew2015to2018_annualized_log_growth,936,936,1.0,True,True
+all,log_qcew2018_annual_employment,936,936,1.0,True,True
+all,is_micropolitan,936,936,1.0,True,True
+all,qcew2019q2_industry_diversification,936,178,0.19017094017094016,True,False
+all,oes2018_pre2020_task_telework_proxy,936,76,0.0811965811965812,True,False
+all,qcew2019q2_private_goods_producing_share,936,924,0.9871794871794872,False,True
+all,qcew2019q2_private_share_all_covered,936,931,0.9946581196581197,False,True
+all,acs2018_broadband_subscription_share,936,935,0.9989316239316239,False,True
+all,acs2018_poverty_share,936,935,0.9989316239316239,False,True
+all,acs2018_occupation_share_management_business_science_arts,936,935,0.9989316239316239,False,True
+all,acs2018_occupation_share_service,936,935,0.9989316239316239,False,True
+all,acs2018_occupation_share_sales_office,936,935,0.9989316239316239,False,True
+all,acs2018_occupation_share_natural_resources_construction_maintenance,936,935,0.9989316239316239,False,True
+Metropolitan Statistical Area,qcew2019q2_covered_share_naics_72,392,214,0.5459183673469388,True,False
+Metropolitan Statistical Area,qcew2019q2_covered_share_naics_31_33,392,328,0.8367346938775511,True,False
+Metropolitan Statistical Area,qcew2019q2_covered_share_naics_62,392,35,0.08928571428571429,True,False
+Metropolitan Statistical Area,qcew2019q2_covered_share_naics_54,392,136,0.3469387755102041,True,False
+Metropolitan Statistical Area,acs2018_bachelors_plus_share,392,392,1.0,True,True
+Metropolitan Statistical Area,acs2018_log_grouped_median_household_income,392,392,1.0,True,True
+Metropolitan Statistical Area,acs2018_labor_force_participation_share,392,392,1.0,True,True
+Metropolitan Statistical Area,laus2018_unemployment_share,392,387,0.9872448979591837,True,True
+Metropolitan Statistical Area,qcew2015to2018_annualized_log_growth,392,392,1.0,True,True
+Metropolitan Statistical Area,log_qcew2018_annual_employment,392,392,1.0,True,True
+Metropolitan Statistical Area,is_micropolitan,392,392,1.0,True,True
+Metropolitan Statistical Area,qcew2019q2_industry_diversification,392,94,0.23979591836734693,True,False
+Metropolitan Statistical Area,oes2018_pre2020_task_telework_proxy,392,76,0.19387755102040816,True,False
+Metropolitan Statistical Area,qcew2019q2_private_goods_producing_share,392,389,0.9923469387755102,False,True
+Metropolitan Statistical Area,qcew2019q2_private_share_all_covered,392,390,0.9948979591836735,False,True
+Metropolitan Statistical Area,acs2018_broadband_subscription_share,392,392,1.0,False,True
+Metropolitan Statistical Area,acs2018_poverty_share,392,392,1.0,False,True
+Metropolitan Statistical Area,acs2018_occupation_share_management_business_science_arts,392,392,1.0,False,True
+Metropolitan Statistical Area,acs2018_occupation_share_service,392,392,1.0,False,True
+Metropolitan Statistical Area,acs2018_occupation_share_sales_office,392,392,1.0,False,True
+Metropolitan Statistical Area,acs2018_occupation_share_natural_resources_construction_maintenance,392,392,1.0,False,True
+Micropolitan Statistical Area,qcew2019q2_covered_share_naics_72,544,405,0.7444852941176471,True,False
+Micropolitan Statistical Area,qcew2019q2_covered_share_naics_31_33,544,496,0.9117647058823529,True,False
+Micropolitan Statistical Area,qcew2019q2_covered_share_naics_62,544,68,0.125,True,False
+Micropolitan Statistical Area,qcew2019q2_covered_share_naics_54,544,264,0.4852941176470588,True,False
+Micropolitan Statistical Area,acs2018_bachelors_plus_share,544,543,0.9981617647058824,True,True
+Micropolitan Statistical Area,acs2018_log_grouped_median_household_income,544,543,0.9981617647058824,True,True
+Micropolitan Statistical Area,acs2018_labor_force_participation_share,544,543,0.9981617647058824,True,True
+Micropolitan Statistical Area,laus2018_unemployment_share,544,543,0.9981617647058824,True,True
+Micropolitan Statistical Area,qcew2015to2018_annualized_log_growth,544,544,1.0,True,True
+Micropolitan Statistical Area,log_qcew2018_annual_employment,544,544,1.0,True,True
+Micropolitan Statistical Area,is_micropolitan,544,544,1.0,True,True
+Micropolitan Statistical Area,qcew2019q2_industry_diversification,544,84,0.15441176470588236,True,False
+Micropolitan Statistical Area,oes2018_pre2020_task_telework_proxy,544,0,0.0,True,False
+Micropolitan Statistical Area,qcew2019q2_private_goods_producing_share,544,535,0.9834558823529411,False,True
+Micropolitan Statistical Area,qcew2019q2_private_share_all_covered,544,541,0.9944852941176471,False,True
+Micropolitan Statistical Area,acs2018_broadband_subscription_share,544,543,0.9981617647058824,False,True
+Micropolitan Statistical Area,acs2018_poverty_share,544,543,0.9981617647058824,False,True
+Micropolitan Statistical Area,acs2018_occupation_share_management_business_science_arts,544,543,0.9981617647058824,False,True
+Micropolitan Statistical Area,acs2018_occupation_share_service,544,543,0.9981617647058824,False,True
+Micropolitan Statistical Area,acs2018_occupation_share_sales_office,544,543,0.9981617647058824,False,True
+Micropolitan Statistical Area,acs2018_occupation_share_natural_resources_construction_maintenance,544,543,0.9981617647058824,False,True

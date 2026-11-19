@@ -1,0 +1,59 @@
+{
+  "geography_vintage": "2018-09",
+  "start": "2001-01-01",
+  "end": "2019-06-01",
+  "base_n_cbsa": 936,
+  "base_sources": {
+    "data/processed/qcew_cbsa_monthly_2010_2023_omb2018.csv": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
+    "data/processed/county_cbsa_crosswalk_sep2018.csv": "70b01f13b4dfe2146d9b880799edf8884215adc4319b397058eef51cc3fecce0",
+    "data/processed/qcew_county_monthly_2010_2023.csv": "a102a6f2d269241faf24c67f0cade0a5a4104375822c90be704bd2bc8dbd8ad2"
+  },
+  "bls_archives": {
+    "2001": {
+      "url": "https://data.bls.gov/cew/data/files/2001/csv/2001_qtrly_by_area.zip",
+      "sha256": "4dfe0ec8047d22b37e1406e7edfd70dba0f22d2c5a48c34cc0af2e85d2a15d5a"
+    },
+    "2002": {
+      "url": "https://data.bls.gov/cew/data/files/2002/csv/2002_qtrly_by_area.zip",
+      "sha256": "54f4ece073e4ec97ee358c8d9c02d9602be44c9373b5620996c80bb5c4f4fa9a"
+    },
+    "2003": {
+      "url": "https://data.bls.gov/cew/data/files/2003/csv/2003_qtrly_by_area.zip",
+      "sha256": "1077ed7a7c5329932b799d242c1b2b1268561159995fa05940f5060f4d3e7444"
+    },
+    "2004": {
+      "url": "https://data.bls.gov/cew/data/files/2004/csv/2004_qtrly_by_area.zip",
+      "sha256": "f29db7a42f92ea79853a309a1daf8b68abca64019eeea683a184afeae7445bdf"
+    },
+    "2005": {
+      "url": "https://data.bls.gov/cew/data/files/2005/csv/2005_qtrly_by_area.zip",
+      "sha256": "e72c108d70addb332117d38b203461088a1d4b74f56662d8932dd71aef556997"
+    },
+    "2006": {
+      "url": "https://data.bls.gov/cew/data/files/2006/csv/2006_qtrly_by_area.zip",
+      "sha256": "c15324e35ca20d162e3af839b6b7d104b716c4739d6cd9edb9f56d7f7ffe3c50"
+    },
+    "2007": {
+      "url": "https://data.bls.gov/cew/data/files/2007/csv/2007_qtrly_by_area.zip",
+      "sha256": "66d2c0adce6f30fd7e76631f1e6fa4bfcc190a7e96331f4900b21a4136a37af3"
+    },
+    "2008": {
+      "url": "https://data.bls.gov/cew/data/files/2008/csv/2008_qtrly_by_area.zip",
+      "sha256": "39063ed4ce2d73ae6064237a4071049f0a57dd19dfb0f2046642ba93e8f79939"
+    },
+    "2009": {
+      "url": "https://data.bls.gov/cew/data/files/2009/csv/2009_qtrly_by_area.zip",
+      "sha256": "5e3a9fb9832bd1a5f37661aa2ca40b9bd2d54292705be63b40a839db0d03b139"
+    }
+  },
+  "county_change_sources": [
+    "https://www.census.gov/programs-surveys/geography/technical-documentation/county-changes.2000.html",
+    "https://www.census.gov/programs-surveys/geography/technical-documentation/county-changes.2010.html"
+  ],
+  "files": {
+    "cbsa_monthly_2001_2019_omb2018.csv": "1bc94f084b256cdf7f160098b56ec2d2d6d9a27b7f310e5913a8012817a718c1",
+    "county_geography_audit.csv": "59ecc2483a256d9062a17fe9f4b5d728aea889c7ac9065e81149059e70b9b4d2",
+    "cbsa_year_coverage.csv": "06d085717fa0fe7e7f81f70483df2c21e8de63135b3e44a98d62bfb1333a63c5",
+    "overlap_changes_from_base.csv": "44b398a621f0b1bf072e1256530ee306ef6b3e8ffc7b4e7f2717a087bf0e9995"
+  }
+}

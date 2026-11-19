@@ -1,0 +1,36 @@
+{
+  "historical_panel_sha256": "1bc94f084b256cdf7f160098b56ec2d2d6d9a27b7f310e5913a8012817a718c1",
+  "rules": [
+    "fixed_ensemble",
+    "pooled",
+    "partially_pooled",
+    "per_cbsa"
+  ],
+  "candidates": [
+    "fixed_ensemble",
+    "seasonal_naive",
+    "seasonal_drift",
+    "log_seasonal_trend",
+    "damped_log_seasonal_trend"
+  ],
+  "selection_error_leads": [
+    9,
+    54
+  ],
+  "outer_origins": [
+    "2012-12-01",
+    "2013-12-01",
+    "2014-12-01"
+  ],
+  "inner_offsets_months": [
+    78,
+    66,
+    54
+  ],
+  "local_override_min_improvement_fraction": 0.02,
+  "primary_policy": "fixed_ensemble",
+  "assignment_counts": {
+    "fixed_ensemble": 936
+  },
+  "deployment_forecast_sha256": "034c193f887975de6b36edf26dd0c745bb7d9052ae1c61f290bb1a7d45c26209"
+}

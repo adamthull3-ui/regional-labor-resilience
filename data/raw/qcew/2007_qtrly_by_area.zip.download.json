@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://data.bls.gov/cew/data/files/2007/csv/2007_qtrly_by_area.zip",
+  "resolved_url": "https://data.bls.gov/cew/data/files/2007/csv/2007_qtrly_by_area.zip",
+  "retrieved_utc": "2026-11-19T15:09:11.827491+00:00",
+  "bytes": 402178042,
+  "sha256": "66d2c0adce6f30fd7e76631f1e6fa4bfcc190a7e96331f4900b21a4136a37af3",
+  "transport": "urllib with verified system TLS",
+  "historical_release_vintage_verified": false
+}

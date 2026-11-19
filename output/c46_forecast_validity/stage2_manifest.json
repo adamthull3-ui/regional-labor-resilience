@@ -1,0 +1,20 @@
+{
+  "stage1_manifest_sha256": "81f3362f7f0af01ff94f3504c96c13732fc18d496999d0d4930da67b531c43eb",
+  "predictor_sha256": "ca6615b9fb37e2579079f027693946bf5d464ca9fb05ca3aa8689854e486f27f",
+  "omb_sha256": "22ba2e944ce1aa88b0bf0d09530d08f26c17a0bba7ae823290e7c4816316418c",
+  "included_existing_forecasts": true,
+  "existing_forecast_sha256": "bdb989a4305c6f68b41b294d625c16784ba9cd4fb57a314083df8c154fd65b91",
+  "geographic_model": "Ridge alpha=10, original-scale C46, leave-one-division-out",
+  "files": {
+    "c46_by_cbsa.csv": "e1113dfa5574c0d11350a235a01e4f488c2104c0a93f6723a49ae78f81ecd1f0",
+    "c46_by_model_family.csv": "a9ba87866bc12cae1310b8b64e73a9a9714d30fd12a84fc0a1d79c430c37bdec",
+    "c46_by_scenario.csv": "d4bdcb991525fb3953a296fda4d7bda02a5a8223dc71ddb24abb11601080bb1c",
+    "c46_extremes.csv": "af5e7d6847a28c6e48a4f138e692cf0cc1e7b10aabc12fd5a355c5d1ee24c7a1",
+    "named_cbsa_verification.csv": "4464608d1e17452f11f8772685ec1c064193b7850bf8d560417f462e3e001d19",
+    "growth_mechanical_association.csv": "fc14dce5ab198f860745081c7cefa3c6979ed235952809cdb0b84a09dfc258d9",
+    "historical_growth_placebo.csv": "8a2aa100a6fb60d882c3b1c4607bdc5056170ca20d440926b3a134a161f14dbe",
+    "geographic_predictions.csv": "0a1a2781d3b7ed207c8b8fec7375928ac1ccdf20977b487ce8a282131335f901",
+    "geographic_growth_ablation.csv": "42237b3efd3f131587a0d64702f8fc01fc95fc6b0d7de1435c81e55855c32805",
+    "archived_c46_residual_codes.csv": "660de349375f95f2397bf0fd9376e802dece611da51a3b54bddffed64c48de66"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
+  "n_cbsa": 936,
+  "training_end": "2019-06",
+  "forecast_start": "2019-07",
+  "outcome_start": "2020-03",
+  "horizons": [
+    12,
+    24,
+    36,
+    48,
+    54
+  ],
+  "reference_sensitivity": "fixed_ensemble",
+  "files": {
+    "forecasts.csv": "62abc39daa0cd9aea1e946e70e3b19395403bb9a491a0d0f0ee555783aa43636",
+    "historical_accuracy.csv": "d14b42f5f92a740ed52f7bde3c21217c90b367a693aa7e82b6ff30f74847c330",
+    "selection_scores.csv": "6d4480474a9a47bff11ab6d4a6ef706d6b8050c9eee3a66d8314314fd6cbe358",
+    "forecast_flags.csv": "b26523c7128b437ba9da2fa9ee3acf6254ef8fe96d000cf015ba825e74d09557",
+    "historical_summary.csv": "8069e1a5e3bcdf56c4cb927a510031285809f50e13dfedfc3169c5a87bc2294e"
+  }
+}

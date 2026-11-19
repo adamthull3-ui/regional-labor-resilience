@@ -1,0 +1,15 @@
+{
+  "input_manifest_sha256": "95df7c36d06f19fcf50e648e07b9cd286d393fa34f887f3ad592ae7f8b4a45d0",
+  "outer_horizon": 54,
+  "last_observed_month": "2019-06-01",
+  "placebo_leads": [
+    9,
+    54
+  ],
+  "files": {
+    "historical_backtest_summary.csv": "1d5ddc5bc014b65880022aed2920521bb41adb81592804bba0bff37bb2c50f9f",
+    "historical_backtest_detail.csv": "2579447f79da43b2cf7a675877cb36c0a91972c0daf2e84515d429dfbcd9c4ad",
+    "historical_paired_comparison.csv": "976eb01764044f84f491f90979e8ee0e67ba23cba3279848e114765936d24d87",
+    "historical_backtest_exclusions.csv": "627ab96a15e9421b3d0bdfbd5d8873ca833b725efc3de3cde3de4be3626a8f7c"
+  }
+}

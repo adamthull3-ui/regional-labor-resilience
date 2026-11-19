@@ -1,26 +1,39 @@
 {
   "design_schema": "released_by_20200229_v2",
-  "selection_metric": "mean_normalized_rmse_then_mae",
+  "counterfactual_design": "nested_54month_competition_v1",
   "geography_vintage": "2018-09",
   "input_panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
   "information_cutoff": "2020-02-29",
   "model_training_cutoff": "2019-06-01",
-  "rolling_validation_origins": [
-    "2015-12-01",
-    "2016-12-01",
-    "2017-12-01"
-  ],
-  "validation_horizon_months": 12,
-  "is_alternate_selection_design": false,
+  "training_window_months": 114,
   "forecast_window": "2019-07 through 2023-12",
   "outcome_window": "2020-03 through 2023-12",
-  "model_candidates": [
-    "ets",
-    "sarima",
-    "seasonal_drift",
-    "seasonal_naive",
-    "trend_seasonal"
+  "forecast_horizon_months": 54,
+  "primary_policy": "fixed_ensemble",
+  "per_cbsa_specification_selection": false,
+  "selection_metric": "normalized RMSE, forecast leads 9 through 54",
+  "validation_horizon_months": 54,
+  "candidate_specification_count": 5,
+  "competition_manifest_sha256": "28f3f27f3c4be24d0fbddb94e5b598dacbc5a186467522c029d1e4aa563e2e9c",
+  "historical_panel_sha256": "1bc94f084b256cdf7f160098b56ec2d2d6d9a27b7f310e5913a8012817a718c1",
+  "primary_assignment_counts": {
+    "fixed_ensemble": 936
+  },
+  "fixed_member_count": 3,
+  "fixed_member_weights": {
+    "seasonal_naive": 0.3333333333333333,
+    "seasonal_drift": 0.3333333333333333,
+    "damped_log_seasonal_trend": 0.3333333333333333
+  },
+  "guardrail_fallback": "Replace rejected member with seasonal naive at the same weight",
+  "diagnostic_comparison_horizons": [
+    12,
+    24,
+    36,
+    48,
+    54
   ],
+  "diagnostic_manifest_sha256": "81f3362f7f0af01ff94f3504c96c13732fc18d496999d0d4930da67b531c43eb",
   "long_horizon_backtest_completed": true,
   "historical_stress_paths_completed": true,
   "historical_stress_origins": [
@@ -28,45 +41,25 @@
     "2014_06",
     "2014_12"
   ],
-  "historical_stress_outcomes_sha256": "605ce9eff74d307e33c485eb9b0269c6a90bb1ef9ea4bc002f916a14ead7846e",
-  "historical_stress_monthly_sha256": "6b827b98039e00cd96af0072ef0306361664593cb80093cad8202c73b6e2c4e9",
-  "historical_backtest_monthly_sha256": "98dd78697eb87a8fa87464dcf9207b2fb5b77efa4809565ceccb5268a12c7149",
-  "historical_retro_selected_spec_evaluation": false,
-  "historical_stress_interpretation": "Illustrative, 3 overlapping origin paths; not calibrated uncertainty intervals",
-  "long_horizon_backtest_sha256": "8c17c3ddbc67346af13e2939448745b06705a22c4c0a92972e6b6cea7df4e095",
-  "log_mean_bias_adjustment_enabled": true,
-  "forecast_upper_multiple": 4.0,
-  "forecast_lower_multiple": 0.25,
+  "historical_stress_monthly_sha256": "367bd14b6d10ddbd12f9bc79b1dc9e789a8d4939ff335af7fe4afa54a026d57f",
+  "historical_stress_outcomes_sha256": "1692bc76f7329728a9154379da9e04b5a2697a97b5aad8a98f14254babd9b499",
+  "long_horizon_backtest_sha256": "abb4ff2db9e82fa4afdf26dd00fe56220d633d2180951899b3c17d7918507cca",
   "counterfactual_sensitivities": [
     "ensemble",
     "damped",
     "common_ets",
     "short_window"
   ],
-  "prepandemic_diagnostic_sha256": "fd1ea0cc6ff9d666f8b565d89b985a885108113eff242d402bc42faf4ce78500",
-  "candidate_specification_count": 24,
-  "ets_grid": "standard",
-  "sarima_grid": "standard",
-  "sarima_maxiter": 80,
+  "counterfactual_sensitivity_definitions": {
+    "ensemble": "Equal blend of the restricted 54-month-selection sensitivity and seasonal naive",
+    "damped": "Damped log seasonal trend with seasonal-naive guardrail fallback",
+    "common_ets": "Fixed damped additive Holt-Winters, missing on rejection",
+    "short_window": "Primary fixed ensemble using the last 78 training months"
+  },
   "cbsa_count": 936,
   "all_regions_included": true,
-  "selected_model_count": 936,
-  "total_validation_rows": 57590,
-  "total_failed_fit_attempts": 9904,
-  "selected_model_families": {
-    "ets": 420,
-    "sarima": 293,
-    "trend_seasonal": 94,
-    "seasonal_drift": 78,
-    "seasonal_naive": 51
-  },
-  "historical_release_vintage_verified": false,
-  "note": "QCEW historical downloads may contain revisions after the real-time information cutoff. Model selection is CBSA-specific, and candidate-level cross-validation scores are not independent accuracy estimates.",
-  "selected_models_sha256": "f68128ef6794a300dbb144e998ab168af900b20c35553f5911c6b4960166d98d",
-  "candidate_scores_sha256": "5fe60211ee4edc69610af91a8fb336527dc30f86a0d580cf16f13f96cb5a7c27",
-  "outcomes_sha256": "40275b0baef9a469a7b00f9b32641ceb299225346eb576e770b96cf1927ceb27",
-  "counterfactual_forecasts_sha256": "73e1be74bcd6b9836ad159f344b81961e0d050f712ae6ca591029d3bf54964c7",
-  "completed_utc": "2026-11-12T17:53:02.295333+00:00",
-  "python_version": "3.12.10",
-  "pandas_version": "3.0.6"
+  "selected_models_sha256": "89a15331b7e06c502e43cff0d4fe5175f255b45c9ff28c9102a38534f47fd71d",
+  "outcomes_sha256": "8e6f9c4162e8280293ccb9ab1c17a60347e02b23f0eb3eed7f7161119c3427bf",
+  "counterfactual_forecasts_sha256": "bdb989a4305c6f68b41b294d625c16784ba9cd4fb57a314083df8c154fd65b91",
+  "completed_utc": "2026-11-19T16:58:29.996000+00:00"
 }

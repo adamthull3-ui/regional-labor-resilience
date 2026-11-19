@@ -27,7 +27,7 @@ import sklearn
 
 SCHEMA='released_by_20200229_v2'
 SEED=2026
-PRIMARY_FEATURES=[
+PREVIOUS_FEATURES=[
  'qcew2019q2_covered_share_naics_72','qcew2019q2_covered_share_naics_31_33',
  'qcew2019q2_covered_share_naics_62','qcew2019q2_covered_share_naics_54',
  'acs2018_bachelors_plus_share','acs2018_log_grouped_median_household_income',
@@ -35,6 +35,31 @@ PRIMARY_FEATURES=[
  'qcew2015to2018_annualized_log_growth','log_qcew2018_annual_employment',
  'is_micropolitan','qcew2019q2_industry_diversification',
  'oes2018_pre2020_task_telework_proxy']
+FEATURE_DESIGN = 'broad_industry_acs_occupations_v1'
+PRIMARY_FEATURES=[
+    'qcew2019q2_private_goods_producing_share', 'qcew2019q2_private_share_all_covered',
+    'acs2018_bachelors_plus_share', 'acs2018_log_grouped_median_household_income',
+    'acs2018_labor_force_participation_share', 'laus2018_unemployment_share',
+    'acs2018_broadband_subscription_share', 'acs2018_poverty_share',
+    'qcew2015to2018_annualized_log_growth', 'log_qcew2018_annual_employment', 'is_micropolitan',
+    'acs2018_occupation_share_management_business_science_arts',
+    'acs2018_occupation_share_service', 'acs2018_occupation_share_sales_office',
+    'acs2018_occupation_share_natural_resources_construction_maintenance',
+]
+
+
+def write_coverage_audit(frame, path):
+    rows = []
+    for label, data in [('all', frame), *frame.groupby('cbsa_type')]:
+        for feature in dict.fromkeys(PREVIOUS_FEATURES + PRIMARY_FEATURES):
+            if feature in data:
+                n = pd.to_numeric(data[feature], errors='coerce').replace([np.inf, -np.inf], np.nan).notna().sum()
+                rows.append({'cbsa_type': label, 'feature': feature, 'n': len(data),
+                             'n_observed': n, 'coverage': n / len(data),
+                             'previous_primary': feature in PREVIOUS_FEATURES, 'primary': feature in PRIMARY_FEATURES})
+    pd.DataFrame(rows).to_csv(path, index=False)
+
+
 PRIMARY_TARGETS={
  'resistance':'resistance_peak_shortfall_pct_aprjun2020',
  'recovery12':'recovery_fraction_closed_12',
@@ -108,7 +133,7 @@ def feature_sets(pred):
     occupations=sorted(c for c in pred if c.startswith('acs2018_occupation_share_')
                        and not c.endswith('production_transport_material'))
     oes=sorted(c for c in pred if c.startswith('oes2018_share_soc_') and not c.endswith('_53'))
-    return {'primary':PRIMARY_FEATURES,
+    return {'primary':PRIMARY_FEATURES, 'previous_primary':PREVIOUS_FEATURES,
             'expanded':list(dict.fromkeys(PRIMARY_FEATURES+industry+occupations)),
             'occupation_supplement':list(dict.fromkeys(PRIMARY_FEATURES+occupations+oes))}
 
@@ -161,7 +186,7 @@ def geographic_partition(frame):
     mask=frame.geographic_group.isin(held).to_numpy()
     return np.flatnonzero(~mask),np.flatnonzero(mask)
 
-def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True):
+def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True, learner_names=None):
     """Development outer CV then one revised holdout assessment, never called untouched."""
     groups=frame.geographic_group.astype(str)
     required_groups=6 if final_holdout else 5
@@ -172,7 +197,7 @@ def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True):
     membership=frame[['cbsa_code','geographic_group','cbsa_type']].copy()
     membership['partition']=np.where(membership.cbsa_code.isin(final.cbsa_code),'revised_final_holdout','development')
     membership.to_csv(out/'design2020_geographic_partitions.csv',index=False)
-    rows=[]; decisions=[]; coeffs=[]; importance=[]; failures=[]
+    rows=[]; decisions=[]; coeffs=[]; importance=[]; failures=[]; feature_audit=[]
     phases=[('development',development,LeaveOneGroupOut().split(development,groups=development.geographic_group))]
     if final_holdout:
         both=pd.concat([development,final],ignore_index=True)
@@ -189,6 +214,8 @@ def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True):
                 inner=GroupKFold(n_splits=min(4,tr.geographic_group.nunique()))
                 winners=[]
                 for name,est,grid in candidates():
+                    if learner_names is not None and name not in learner_names:
+                        continue
                     fit=GridSearchCV(est,grid,cv=inner,scoring=partial(original_scale_rmse,nonnegative=not key.startswith('recovery')),
                                       n_jobs=n_jobs,error_score='raise',refit=True)
                     try:
@@ -214,6 +241,12 @@ def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True):
                     if name not in ('mean','median'):
                         pipe=fit.best_estimator_
                         prep=pipe.named_steps['prepare']; model=pipe.named_steps['model']
+                        if name == 'elasticnet':
+                            feature_audit.extend({'phase':phase,'fold':fold,'target':key,'feature':feature,
+                                                  'train_coverage':xtr[feature].notna().mean(),
+                                                  'test_coverage':xte[feature].notna().mean(),
+                                                  'retained':feature in prep.columns_}
+                                                 for feature in features)
                         if hasattr(model,'coef_'):
                             coeffs += [{'phase':phase,'fold':fold,'target':key,'model':name,'feature':f,'coefficient':float(v)}
                                        for f,v in zip(prep.get_feature_names_out(),np.ravel(model.coef_))]
@@ -232,6 +265,7 @@ def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True):
     predictions=pd.DataFrame(rows)
     predictions.to_csv(out/'design2020_predictions.csv',index=False)
     pd.DataFrame(decisions).to_csv(out/'design2020_inner_decisions.csv',index=False)
+    pd.DataFrame(feature_audit).to_csv(out/'design2020_fold_feature_coverage.csv',index=False)
     pd.DataFrame(coeffs).to_csv(out/'design2020_standardized_coefficients.csv',index=False)
     pd.DataFrame(importance).to_csv(out/'design2020_heldout_permutation_importance.csv',index=False)
     pooled=[]; folds=[]
@@ -265,7 +299,9 @@ def evaluate(frame, targets, features, out, *, n_jobs=2, final_holdout=True):
 
 def run(root):
     root=Path(root); proc=root/'data/processed'; out=root/'output'
-    manifest=json.loads((out/'stage2_omb2018_modeling_manifest.json').read_text())
+    stage2_path = out/'stage2_omb2018_modeling_manifest.json'
+    manifest=json.loads(stage2_path.read_text())
+    if manifest.get('feature_design') != FEATURE_DESIGN: raise ValueError('Rerun updated 02 and 03')
     if manifest.get('design_schema')!=SCHEMA: raise ValueError('Rerun revised notebooks 01--03 before revised 04')
     for filename,key in [('stage2_omb2018_pre2020_predictors.csv','predictors_sha256'),
                          ('stage2_omb2018_resilience_outcomes.csv','resilience_outcomes_sha256')]:
@@ -277,6 +313,7 @@ def run(root):
     sets=feature_sets(pred)
     for c in set(sum(sets.values(),[])):
         frame[c]=pd.to_numeric(frame[c],errors='coerce').replace([np.inf,-np.inf],np.nan)
+    write_coverage_audit(frame, out/'design2020_feature_coverage_comparison.csv')
     coverage=pd.DataFrame({'feature':sets['primary'],'coverage':frame[sets['primary']].notna().mean().values})
     coverage.to_csv(out/'design2020_primary_feature_coverage.csv',index=False)
     print('Primary feature coverage (actual exclusion is learned inside each fold):')
@@ -285,6 +322,7 @@ def run(root):
     metadata={'design_schema':SCHEMA,'information_cutoff':'2020-02-29','geography_vintage':'2018-09',
         'primary_targets':PRIMARY_TARGETS,'feature_sets':sets,'primary_model':'elasticnet',
         'inner_selection':'RMSE','preprocessing_min_coverage':.8,
+        'feature_design':FEATURE_DESIGN,'stage2_manifest_sha256':hashlib.sha256(stage2_path.read_bytes()).hexdigest(),
         'final_holdout_note':'Revised holdout; original data and earlier CV results have already been inspected. Not an untouched confirmation set.',
         'spatial_groups':'nine Census divisions plus Puerto Rico, assigned by largest pre-cutoff county employment',
         'spatial_design_amendment':'Uses fixed state-division blocks; operational principal county is largest Q2 2019 county employment, not a purported official OMB principal-county designation.',
@@ -305,14 +343,17 @@ def run_sensitivities(root):
     """Separately labeled experiments; never choose primary design by their scores."""
     root=Path(root); proc=root/'data/processed'; out=root/'output/design2020_sensitivities'
     main=json.loads((root/'output/design2020_manifest.json').read_text())
-    if main.get('design_schema')!=SCHEMA: raise ValueError('Run revised notebook 04 first')
+    stage2_path = root/'output/stage2_omb2018_modeling_manifest.json'
+    if (main.get('design_schema')!=SCHEMA or main.get('feature_design') != FEATURE_DESIGN
+            or main.get('stage2_manifest_sha256') != hashlib.sha256(stage2_path.read_bytes()).hexdigest()):
+        raise ValueError('Run revised notebook 04 first using the current outcomes and predictors')
     pred=pd.read_csv(proc/'stage2_omb2018_pre2020_predictors.csv',dtype={'cbsa_code':'string'})
     outcomes=pd.read_csv(proc/'stage2_omb2018_resilience_outcomes.csv',dtype={'cbsa_code':'string'})
     frame=outcomes.merge(pred,on='cbsa_code',validate='one_to_one')
     sets=feature_sets(pred)
     experiments={
       'expanded_predictors':({'c46':PRIMARY_TARGETS['c46']},sets['expanded']),
-      'occupation_supplement':({'c46':PRIMARY_TARGETS['c46']},sets['occupation_supplement']),
+      'previous_primary':({'c46':PRIMARY_TARGETS['c46']},sets['previous_primary']),
       'without_growth':({'c46':PRIMARY_TARGETS['c46']},[c for c in sets['primary'] if c!='qcew2015to2018_annualized_log_growth']),
       'counterfactuals':({name:f'cumulative_shortfall_46_pp_months_{name}' for name in ('ensemble','damped','common_ets','short_window')},sets['primary']),
       'historical_stress':({c.removeprefix('cumulative_shortfall_46_pp_months_'):c for c in frame
@@ -323,6 +364,22 @@ def run_sensitivities(root):
             raise ValueError(f'Missing sensitivity outcomes: {name}; rerun revised 01--03')
         print('Sensitivity:',name,flush=True)
         evaluate(frame,targets,features,dest,n_jobs=int(os.getenv('RL_N_JOBS','2')))
+    # Compare core and supplemented fits on identical observed subsets and divisions.
+    support = []
+    for name, feature in (('oes', 'oes2018_pre2020_task_telework_proxy'),
+                          ('diversification', 'qcew2019q2_industry_diversification')):
+        sample = frame.dropna(subset=[feature, PRIMARY_TARGETS['c46']]).copy()
+        sample = sample[sample.groupby('geographic_group').cbsa_code.transform('size').ge(2)]
+        eligible = len(sample) >= 40 and sample.geographic_group.nunique() >= 6
+        support.append({'analysis':name, 'feature':feature, 'n_cbsa':len(sample),
+                        'n_geographic_groups':sample.geographic_group.nunique(), 'executed':eligible})
+        if eligible:
+            for label, inputs in [('core', sets['primary']), ('supplemented', sets['primary'] + [feature])]:
+                dest = out / f'{name}_matched_{label}'
+                dest.mkdir(parents=True, exist_ok=True)
+                evaluate(sample, {'c46':PRIMARY_TARGETS['c46']}, inputs, dest,
+                         n_jobs=int(os.getenv('RL_N_JOBS','2')), learner_names=('mean','median','elasticnet'))
+    pd.DataFrame(support).to_csv(out/'sparse_feature_matched_samples.csv', index=False)
     # Alternative state block assignment; principal county remains fixed.
     # Merge Census divisions into four Census-region-like contiguous state blocks,
     # leaving Puerto Rico separate. Five groups permit nested development CV only.

@@ -1,0 +1,22 @@
+phase,fold,target,model,inner_rmse,params
+development,0,c46,mean,94.21037830252985,{}
+development,0,c46,median,89.36578786220723,{}
+development,0,c46,elasticnet,73.82269299587057,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
+development,1,c46,mean,89.1818564761854,{}
+development,1,c46,median,85.08311643777381,{}
+development,1,c46,elasticnet,63.655122804863865,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.9}"
+development,2,c46,mean,94.93069003313892,{}
+development,2,c46,median,96.09770720036653,{}
+development,2,c46,elasticnet,77.74937712167491,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
+development,3,c46,mean,107.4554892692415,{}
+development,3,c46,median,109.33457644809258,{}
+development,3,c46,elasticnet,75.93711428845431,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
+development,4,c46,mean,102.24848782771826,{}
+development,4,c46,median,103.63911626808103,{}
+development,4,c46,elasticnet,75.30080987537626,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.9}"
+development,5,c46,mean,102.33727685891684,{}
+development,5,c46,median,103.260243716263,{}
+development,5,c46,elasticnet,75.81050468183159,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.5}"
+revised_final_holdout,0,c46,mean,98.11567533443387,{}
+revised_final_holdout,0,c46,median,98.88992993698935,{}
+revised_final_holdout,0,c46,elasticnet,72.85569421870633,"{""model__alpha"": 1.0, ""model__l1_ratio"": 0.9}"

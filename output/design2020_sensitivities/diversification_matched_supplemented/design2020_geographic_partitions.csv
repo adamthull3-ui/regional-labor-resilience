@@ -1,0 +1,179 @@
+cbsa_code,geographic_group,cbsa_type,partition
+10220,West South Central,Micropolitan Statistical Area,development
+10300,East North Central,Micropolitan Statistical Area,revised_final_holdout
+10460,Mountain,Micropolitan Statistical Area,development
+10540,Pacific,Metropolitan Statistical Area,development
+11020,Middle Atlantic,Metropolitan Statistical Area,development
+11260,Pacific,Metropolitan Statistical Area,development
+11460,East North Central,Metropolitan Statistical Area,revised_final_holdout
+11780,East North Central,Micropolitan Statistical Area,revised_final_holdout
+11980,West South Central,Micropolitan Statistical Area,development
+12100,Middle Atlantic,Metropolitan Statistical Area,development
+12120,East South Central,Micropolitan Statistical Area,development
+12540,Pacific,Metropolitan Statistical Area,development
+12740,New England,Micropolitan Statistical Area,development
+12860,Middle Atlantic,Micropolitan Statistical Area,development
+13460,Pacific,Metropolitan Statistical Area,development
+13940,Mountain,Micropolitan Statistical Area,development
+14500,Mountain,Metropolitan Statistical Area,development
+14620,Middle Atlantic,Micropolitan Statistical Area,development
+14860,New England,Metropolitan Statistical Area,development
+15180,West South Central,Metropolitan Statistical Area,development
+15740,East North Central,Micropolitan Statistical Area,revised_final_holdout
+15860,Mountain,Micropolitan Statistical Area,development
+15980,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+16100,Mountain,Micropolitan Statistical Area,development
+16220,Mountain,Metropolitan Statistical Area,development
+16260,Mountain,Micropolitan Statistical Area,development
+16500,Pacific,Micropolitan Statistical Area,development
+16540,Middle Atlantic,Metropolitan Statistical Area,development
+16940,Mountain,Metropolitan Statistical Area,development
+17020,Pacific,Metropolitan Statistical Area,development
+17260,East South Central,Micropolitan Statistical Area,development
+17340,Pacific,Micropolitan Statistical Area,development
+17580,Mountain,Micropolitan Statistical Area,development
+17660,Mountain,Metropolitan Statistical Area,development
+17740,East North Central,Micropolitan Statistical Area,revised_final_holdout
+18180,New England,Micropolitan Statistical Area,development
+18300,Pacific,Micropolitan Statistical Area,development
+18420,East South Central,Micropolitan Statistical Area,development
+18500,Middle Atlantic,Micropolitan Statistical Area,development
+18580,West South Central,Metropolitan Statistical Area,development
+19300,East South Central,Metropolitan Statistical Area,development
+20180,Middle Atlantic,Micropolitan Statistical Area,development
+20420,Mountain,Micropolitan Statistical Area,development
+20460,West South Central,Micropolitan Statistical Area,development
+20700,Middle Atlantic,Metropolitan Statistical Area,development
+20780,Mountain,Micropolitan Statistical Area,development
+20900,West South Central,Micropolitan Statistical Area,development
+20940,Pacific,Metropolitan Statistical Area,development
+20980,West South Central,Micropolitan Statistical Area,development
+21140,East North Central,Metropolitan Statistical Area,revised_final_holdout
+21500,Middle Atlantic,Metropolitan Statistical Area,development
+21660,Pacific,Metropolitan Statistical Area,development
+21740,Mountain,Micropolitan Statistical Area,development
+21820,Pacific,Metropolitan Statistical Area,development
+21860,West North Central,Micropolitan Statistical Area,development
+21980,Mountain,Micropolitan Statistical Area,development
+22100,West North Central,Micropolitan Statistical Area,development
+22140,Mountain,Metropolitan Statistical Area,development
+22300,East North Central,Micropolitan Statistical Area,revised_final_holdout
+22380,Mountain,Metropolitan Statistical Area,development
+22500,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+22660,Mountain,Metropolitan Statistical Area,development
+23420,Pacific,Metropolitan Statistical Area,development
+24300,Mountain,Metropolitan Statistical Area,development
+24540,Mountain,Metropolitan Statistical Area,development
+25220,West South Central,Metropolitan Statistical Area,development
+26020,Mountain,Micropolitan Statistical Area,development
+26090,East North Central,Micropolitan Statistical Area,revised_final_holdout
+26140,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+26220,Pacific,Micropolitan Statistical Area,development
+26300,West South Central,Metropolitan Statistical Area,development
+26380,West South Central,Metropolitan Statistical Area,development
+26860,Middle Atlantic,Micropolitan Statistical Area,development
+27460,Middle Atlantic,Micropolitan Statistical Area,development
+27660,West South Central,Micropolitan Statistical Area,development
+27780,Middle Atlantic,Metropolitan Statistical Area,development
+29060,New England,Micropolitan Statistical Area,development
+29420,Mountain,Metropolitan Statistical Area,development
+29460,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+29540,Middle Atlantic,Metropolitan Statistical Area,development
+29700,West South Central,Metropolitan Statistical Area,development
+29740,Mountain,Metropolitan Statistical Area,development
+29820,Mountain,Metropolitan Statistical Area,development
+29940,West North Central,Metropolitan Statistical Area,development
+31080,Pacific,Metropolitan Statistical Area,development
+31260,West South Central,Micropolitan Statistical Area,development
+31300,South Atlantic,Micropolitan Statistical Area,revised_final_holdout
+31700,New England,Metropolitan Statistical Area,development
+31930,East North Central,Micropolitan Statistical Area,revised_final_holdout
+32580,West South Central,Metropolitan Statistical Area,development
+32620,East South Central,Micropolitan Statistical Area,development
+32740,Middle Atlantic,Micropolitan Statistical Area,development
+32780,Pacific,Metropolitan Statistical Area,development
+33100,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+34020,West South Central,Micropolitan Statistical Area,development
+34300,Mountain,Micropolitan Statistical Area,development
+34500,East North Central,Micropolitan Statistical Area,revised_final_holdout
+34540,East North Central,Micropolitan Statistical Area,revised_final_holdout
+34580,Pacific,Metropolitan Statistical Area,development
+34700,West North Central,Micropolitan Statistical Area,development
+34780,West South Central,Micropolitan Statistical Area,development
+34860,West South Central,Micropolitan Statistical Area,development
+34940,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+35260,Middle Atlantic,Micropolitan Statistical Area,development
+35300,New England,Metropolitan Statistical Area,development
+35420,East North Central,Micropolitan Statistical Area,revised_final_holdout
+35980,New England,Metropolitan Statistical Area,development
+36100,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+36140,Middle Atlantic,Metropolitan Statistical Area,development
+36220,West South Central,Metropolitan Statistical Area,development
+36300,Middle Atlantic,Micropolitan Statistical Area,development
+36340,Middle Atlantic,Micropolitan Statistical Area,development
+36460,Middle Atlantic,Micropolitan Statistical Area,development
+36500,Pacific,Metropolitan Statistical Area,development
+36660,West South Central,Micropolitan Statistical Area,development
+36740,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+37060,East South Central,Micropolitan Statistical Area,development
+37100,Pacific,Metropolitan Statistical Area,development
+37300,West South Central,Micropolitan Statistical Area,development
+37340,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+37460,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+37580,West South Central,Micropolitan Statistical Area,development
+38060,Mountain,Metropolitan Statistical Area,development
+38300,Middle Atlantic,Metropolitan Statistical Area,development
+38340,New England,Metropolitan Statistical Area,development
+39060,Middle Atlantic,Micropolitan Statistical Area,development
+39150,Mountain,Metropolitan Statistical Area,development
+39460,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+39740,Middle Atlantic,Metropolitan Statistical Area,development
+39980,East North Central,Micropolitan Statistical Area,revised_final_holdout
+40140,Pacific,Metropolitan Statistical Area,development
+40180,Mountain,Micropolitan Statistical Area,development
+40460,South Atlantic,Micropolitan Statistical Area,revised_final_holdout
+40700,Pacific,Micropolitan Statistical Area,development
+40740,Mountain,Micropolitan Statistical Area,development
+40820,West South Central,Micropolitan Statistical Area,development
+41100,Mountain,Metropolitan Statistical Area,development
+41500,Pacific,Metropolitan Statistical Area,development
+41740,Pacific,Metropolitan Statistical Area,development
+42100,Pacific,Metropolitan Statistical Area,development
+42140,Mountain,Metropolitan Statistical Area,development
+42200,Pacific,Metropolitan Statistical Area,development
+42220,Pacific,Metropolitan Statistical Area,development
+42380,Middle Atlantic,Micropolitan Statistical Area,development
+42660,Pacific,Metropolitan Statistical Area,development
+42680,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+43300,West South Central,Metropolitan Statistical Area,development
+43320,Mountain,Micropolitan Statistical Area,development
+43420,Mountain,Metropolitan Statistical Area,development
+43740,Middle Atlantic,Micropolitan Statistical Area,development
+43900,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+44300,Middle Atlantic,Metropolitan Statistical Area,development
+44460,Mountain,Micropolitan Statistical Area,development
+44540,Mountain,Micropolitan Statistical Area,development
+44660,West South Central,Micropolitan Statistical Area,development
+44700,Pacific,Metropolitan Statistical Area,development
+45140,West South Central,Micropolitan Statistical Area,development
+45540,South Atlantic,Metropolitan Statistical Area,revised_final_holdout
+45700,South Atlantic,Micropolitan Statistical Area,revised_final_holdout
+45860,New England,Micropolitan Statistical Area,development
+45940,Middle Atlantic,Metropolitan Statistical Area,development
+46060,Mountain,Metropolitan Statistical Area,development
+46340,West South Central,Metropolitan Statistical Area,development
+46520,Pacific,Metropolitan Statistical Area,development
+46540,Middle Atlantic,Metropolitan Statistical Area,development
+46700,Pacific,Metropolitan Statistical Area,development
+46980,East South Central,Micropolitan Statistical Area,development
+47180,East North Central,Micropolitan Statistical Area,revised_final_holdout
+47620,Middle Atlantic,Micropolitan Statistical Area,development
+48060,Middle Atlantic,Metropolitan Statistical Area,development
+48700,Middle Atlantic,Metropolitan Statistical Area,development
+49220,East North Central,Micropolitan Statistical Area,revised_final_holdout
+49300,East North Central,Micropolitan Statistical Area,revised_final_holdout
+49420,Pacific,Metropolitan Statistical Area,development
+49620,Middle Atlantic,Metropolitan Statistical Area,development
+49660,East North Central,Metropolitan Statistical Area,revised_final_holdout
+49740,Mountain,Metropolitan Statistical Area,development
+49780,East North Central,Micropolitan Statistical Area,revised_final_holdout
