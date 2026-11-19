@@ -1,8 +1,8 @@
 phase,target,model,point_mae_improvement,p2_5,p97_5,n_groups,interpretation
-development,c46,elasticnet,0.7040964923323226,-6.276699974878325,11.179915607202313,8,descriptive; conditional on estimated counterfactual and fitted outer models
-development,c46,gradient_boosting,-0.18379168604543142,-7.756052155974764,10.834247528060587,8,descriptive; conditional on estimated counterfactual and fitted outer models
-development,c46,inner_selected,0.7040964923323226,-6.323898039314873,11.177104542705695,8,descriptive; conditional on estimated counterfactual and fitted outer models
-development,c46,mean,-3.5047203907064532,-11.089914270943565,6.8380362901297875,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,elasticnet,0.7061971473982687,-6.263928581925893,11.161244971877348,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,gradient_boosting,0.06935318760785705,-7.817169600633094,11.528927643445996,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,inner_selected,0.7061971473982687,-6.314635478628121,11.158570318880658,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,mean,-3.499388816813538,-11.075385640132856,6.833000806352436,8,descriptive; conditional on estimated counterfactual and fitted outer models
 development,c46,median,0.0,0.0,0.0,8,descriptive; conditional on estimated counterfactual and fitted outer models
-development,c46,ols,1.4821761596584044,-5.355319021492987,12.068537014000285,8,descriptive; conditional on estimated counterfactual and fitted outer models
-development,c46,random_forest,-1.373524792258595,-8.74842473487317,7.865670458960737,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,ols,1.486788213582971,-5.342627631773043,12.056056779849097,8,descriptive; conditional on estimated counterfactual and fitted outer models
+development,c46,random_forest,-1.2820172325609474,-8.564365696306272,8.062893643990398,8,descriptive; conditional on estimated counterfactual and fitted outer models

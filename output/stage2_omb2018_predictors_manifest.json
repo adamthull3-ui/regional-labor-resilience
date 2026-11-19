@@ -12,7 +12,7 @@
   ],
   "predictors_file": "data\\processed\\stage2_omb2018_pre2020_predictors.csv",
   "predictors_sha256": "ca6615b9fb37e2579079f027693946bf5d464ca9fb05ca3aa8689854e486f27f",
-  "geography_panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
+  "geography_panel_sha256": "0eb6beeca21cbb39d60bf4b53c0f584d6c6e815c07a5c072c58214739c554d85",
   "qcew_industry_ownership": "5 (private-sector NAICS composition)",
   "absent_private_sector_rows_treated_as_zero": true,
   "suppressed_N_rows_treated_as_missing": true,

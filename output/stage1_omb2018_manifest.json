@@ -2,7 +2,7 @@
   "design_schema": "released_by_20200229_v2",
   "counterfactual_design": "nested_54month_competition_v1",
   "geography_vintage": "2018-09",
-  "input_panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
+  "input_panel_sha256": "0eb6beeca21cbb39d60bf4b53c0f584d6c6e815c07a5c072c58214739c554d85",
   "information_cutoff": "2020-02-29",
   "model_training_cutoff": "2019-06-01",
   "training_window_months": 114,
@@ -14,7 +14,7 @@
   "selection_metric": "normalized RMSE, forecast leads 9 through 54",
   "validation_horizon_months": 54,
   "candidate_specification_count": 5,
-  "competition_manifest_sha256": "28f3f27f3c4be24d0fbddb94e5b598dacbc5a186467522c029d1e4aa563e2e9c",
+  "competition_manifest_sha256": "686a8ba0bfe52d50991112152bf504bc34aa328bf0afc8ad51f89a682297f9e4",
   "historical_panel_sha256": "1bc94f084b256cdf7f160098b56ec2d2d6d9a27b7f310e5913a8012817a718c1",
   "primary_assignment_counts": {
     "fixed_ensemble": 936
@@ -33,7 +33,7 @@
     48,
     54
   ],
-  "diagnostic_manifest_sha256": "81f3362f7f0af01ff94f3504c96c13732fc18d496999d0d4930da67b531c43eb",
+  "diagnostic_manifest_sha256": "b2ea373210bb175074ee627d8e7a5302fbb871df6e5c9b8931da959b6ebde567",
   "long_horizon_backtest_completed": true,
   "historical_stress_paths_completed": true,
   "historical_stress_origins": [
@@ -41,9 +41,9 @@
     "2014_06",
     "2014_12"
   ],
-  "historical_stress_monthly_sha256": "367bd14b6d10ddbd12f9bc79b1dc9e789a8d4939ff335af7fe4afa54a026d57f",
-  "historical_stress_outcomes_sha256": "1692bc76f7329728a9154379da9e04b5a2697a97b5aad8a98f14254babd9b499",
-  "long_horizon_backtest_sha256": "abb4ff2db9e82fa4afdf26dd00fe56220d633d2180951899b3c17d7918507cca",
+  "historical_stress_monthly_sha256": "04539e3d26f4d492ce5e29ac783be636b2f05a3ab2e0bc802f9aca7460f4a2b7",
+  "historical_stress_outcomes_sha256": "218441b13b0bc5d895f36ff9a7aaa316509e66480ecf6fa6528cb5629fcd5be5",
+  "long_horizon_backtest_sha256": "8cf8ba5f5eecadb440d62bb4a4fd2b885af07fe2ed8809e55116c0297aea7c0c",
   "counterfactual_sensitivities": [
     "ensemble",
     "damped",
@@ -59,7 +59,7 @@
   "cbsa_count": 936,
   "all_regions_included": true,
   "selected_models_sha256": "89a15331b7e06c502e43cff0d4fe5175f255b45c9ff28c9102a38534f47fd71d",
-  "outcomes_sha256": "8e6f9c4162e8280293ccb9ab1c17a60347e02b23f0eb3eed7f7161119c3427bf",
-  "counterfactual_forecasts_sha256": "bdb989a4305c6f68b41b294d625c16784ba9cd4fb57a314083df8c154fd65b91",
-  "completed_utc": "2026-11-19T16:58:29.996000+00:00"
+  "outcomes_sha256": "88e7811a8de57a871a39425a3d78e985591b72a10ba38a8b6c6d032fa35e60be",
+  "counterfactual_forecasts_sha256": "4d7ce338c64a50401ee5e70591ecca7f1c8c5144f21f0a52b6d64d5510bd07c5",
+  "completed_utc": "2026-11-19T19:33:54.072402+00:00"
 }

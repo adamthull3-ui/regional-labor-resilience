@@ -10,7 +10,7 @@
   "county_csv": "data\\processed\\qcew_county_monthly_2010_2023.csv",
   "county_sha256": "a102a6f2d269241faf24c67f0cade0a5a4104375822c90be704bd2bc8dbd8ad2",
   "panel_csv": "data\\processed\\qcew_cbsa_monthly_2010_2023_omb2018.csv",
-  "panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
+  "panel_sha256": "0eb6beeca21cbb39d60bf4b53c0f584d6c6e815c07a5c072c58214739c554d85",
   "n_cbsa": 936,
   "eligible_with_pre_cutoff_complete_history": 937,
   "excluded_only_due_to_post_cutoff_missingness": 1,
@@ -19,5 +19,5 @@
   "prior_panel_sha256": "997d0a3918ef9bd658e1c954c965bcf4ea46b0ec0f9eb32902eb2fd766dbfbfb",
   "ct_cbsa_count_in_crosswalk": 6,
   "ct_cbsa_count_in_panel": 6,
-  "generated_utc": "2026-11-19T16:57:12.882899+00:00"
+  "generated_utc": "2026-11-19T19:26:02.038404+00:00"
 }
